@@ -1,2 +1,2 @@
 # smoitzheim.github.io
-backup of my blog
+Archive of https://smoitzheim.online.
