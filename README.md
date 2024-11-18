@@ -1,2 +1,2 @@
 # smoitzheim.github.io
-Archive of https://smoitzheim.online.
+archive/backup of https://smoitzheim.online.
