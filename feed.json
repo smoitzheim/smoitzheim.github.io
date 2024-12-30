@@ -7,6 +7,24 @@
 	"items": [
 		
 			{
+				"id": "http://smoitzheim.micro.blog/2024/12/30/a-happy-normal-workday-to.html",
+				
+				"content_html": "<p>a happy normal work-day to all</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "a happy normal work-day to all\n\n<img src=\"uploads/2024/1de670695c.jpg\" width=\"600\" height=\"354\" alt=\"\">\n",
+				"date_published": "2024-12-30T17:16:54+01:00",
+				"url": "https://smoitzheim.online/2024/12/30/a-happy-normal-workday-to.html",
+				"tags": ["photo","english","micro"]
+			},
+			{
+				"id": "http://smoitzheim.micro.blog/2024/12/24/wusstet-ihr-dass-viggo-mortensen.html",
+				
+				"content_html": "<p>Wusstet ihr dass Viggo Mortensen sich als er gegen den Helm tritt zwei Zehen gebrochen hat? Ja, die Figur „Aragorn“ kommt im Buch gar nicht vor und sollte auch nicht im Film sein, Viggo ist einfach ins Bild gelaufen und hat angefangen gegen Sachen zu treten und aus Angst, wegen der Verletzung verklagt zu werden, haben die Produzenten eine Figur für ihn erfunden.</p>\n",
+				"content_text": "Wusstet ihr dass Viggo Mortensen sich als er gegen den Helm tritt zwei Zehen gebrochen hat? Ja, die Figur „Aragorn“ kommt im Buch gar nicht vor und sollte auch nicht im Film sein, Viggo ist einfach ins Bild gelaufen und hat angefangen gegen Sachen zu treten und aus Angst, wegen der Verletzung verklagt zu werden, haben die Produzenten eine Figur für ihn erfunden.\n",
+				"date_published": "2024-12-24T15:17:11+01:00",
+				"url": "https://smoitzheim.online/2024/12/24/wusstet-ihr-dass-viggo-mortensen.html",
+				"tags": ["deutsch","micro"]
+			},
+			{
 				"id": "http://smoitzheim.micro.blog/2024/12/24/mental-health-is-so-important.html",
 				
 				"content_html": "<p>mental health is so important</p>\n<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n",
@@ -36,8 +54,8 @@
 			{
 				"id": "http://smoitzheim.micro.blog/2024/12/08/does-anybody-have.html",
 				
-				"content_html": "<p>does anybody have any advice reddit wasn&rsquo;t much help</p>\n<p><img src=\"https://smoitzheim.online/uploads/2024/699b5da773.jpg\" alt=\"\"></p>\n",
-				"content_text": "does anybody have any advice reddit wasn't much help\n\n![](https://smoitzheim.online/uploads/2024/699b5da773.jpg)\n",
+				"content_html": "<p>does anybody have any advice reddit wasn&rsquo;t much help</p>\n<p><img src=\"https://cdn.uploads.micro.blog/174668/2024/699b5da773.jpg\" alt=\"\"></p>\n",
+				"content_text": "does anybody have any advice reddit wasn't much help\n\n![](https://cdn.uploads.micro.blog/174668/2024/699b5da773.jpg)\n",
 				"date_published": "2024-12-08T18:08:57+01:00",
 				"url": "https://smoitzheim.online/2024/12/08/does-anybody-have.html",
 				"tags": ["english","micro"]
@@ -91,7 +109,7 @@
 				"id": "http://smoitzheim.micro.blog/2024/10/05/interessantlustig-aber-nicht.html",
 				
 				"content_html": "<p>📚Interessant/lustig, aber nicht überraschend, wie wenige <a href=\"https://micro.blog/books/9780374602642\">Intermezzo</a>-Rezensionen auf die mögliche Neurodivergenz einer Hauptfigur eingehen. Viele zitieren diese Stelle, kaum jemand geht darauf ein, ob diese Perspektive nicht helfen kann, die Figur zu verstehen. „You can, if he actually is.“</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "📚Interessant/lustig, aber nicht überraschend, wie wenige [Intermezzo](https://micro.blog/books/9780374602642)-Rezensionen auf die mögliche Neurodivergenz einer Hauptfigur eingehen. Viele zitieren diese Stelle, kaum jemand geht darauf ein, ob diese Perspektive nicht helfen kann, die Figur zu verstehen. „You can, if he actually is.“\n\n<img src=\"uploads/2024/image.jpg\" width=\"600\" height=\"229\" alt=\"\">\n",
+				"content_text": "📚Interessant/lustig, aber nicht überraschend, wie wenige [Intermezzo](https://micro.blog/books/9780374602642)-Rezensionen auf die mögliche Neurodivergenz einer Hauptfigur eingehen. Viele zitieren diese Stelle, kaum jemand geht darauf ein, ob diese Perspektive nicht helfen kann, die Figur zu verstehen. „You can, if he actually is.“\n\n<img src=\"https://cdn.uploads.micro.blog/174668/2024/image.jpg\" width=\"600\" height=\"229\" alt=\"\">\n",
 				"date_published": "2024-10-05T05:01:52+01:00",
 				"url": "https://smoitzheim.online/2024/10/05/interessantlustig-aber-nicht.html",
 				"tags": ["text","photo","deutsch"]
