@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+	
+	<url>
+		<loc>https://journal.000000076.xyz/11ty-journal/blog/firstpost/</loc>
+		<lastmod>2025-01-01</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://journal.000000076.xyz/11ty-journal/blog/secondpost/</loc>
+		<lastmod>2025-01-02</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://journal.000000076.xyz/11ty-journal/blog/thirdpost/</loc>
+		<lastmod>2025-01-02</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://journal.000000076.xyz/11ty-journal/blog/black-cat/</loc>
+		<lastmod>2025-01-04</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://journal.000000076.xyz/11ty-journal/blog/acknolwedgements/</loc>
+		<lastmod>2025-01-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://journal.000000076.xyz/11ty-journal/</loc>
+		<lastmod>2025-01-22</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://journal.000000076.xyz/11ty-journal/about/</loc>
+		<lastmod>2025-01-22</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://journal.000000076.xyz/11ty-journal/blog/</loc>
+		<lastmod>2025-01-22</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://journal.000000076.xyz/11ty-journal/contact/</loc>
+		<lastmod>2025-01-22</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://journal.000000076.xyz/11ty-journal/search/</loc>
+		<lastmod>2025-01-22</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://journal.000000076.xyz/11ty-journal/tags/</loc>
+		<lastmod>2025-01-22</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://journal.000000076.xyz/11ty-journal/feed/feed.xml</loc>
+		<lastmod>2025-01-22</lastmod>
+	</url>
+</urlset>

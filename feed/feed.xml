@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="pretty-atom-feed.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <title>Blog Title</title>
+  <subtitle>This is a longer description about your blog.</subtitle>
+  <link href="https://example.com/11ty-journal/feed/feed.xml" rel="self" />
+  <link href="https://example.com/11ty-journal/" />
+  <updated>2025-01-06T00:00:00Z</updated>
+  <id>https://example.com/11ty-journal/</id>
+  <author>
+    <name>Your Name</name>
+  </author>
+  <entry>
+    <title>Acknowledgements</title>
+    <link href="https://example.com/11ty-journal/blog/acknolwedgements/" />
+    <updated>2025-01-06T00:00:00Z</updated>
+    <id>https://example.com/11ty-journal/blog/acknolwedgements/</id>
+    <content type="html">&lt;p&gt;This theme is a port of &lt;a href=&quot;https://templatedeck.com/brook-html-template.html&quot;&gt;11ty Brook Dev by Template Deck&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I admire their theme and work. I tried to use Brooke but I ran into complications with the Table of Contents and footnotes not working as well as the theme not working with 11ty Version 3.0.0. Should anyone wind up using this theme please give credit and gratitude to&lt;br&gt;
+Holger Könemann and Template Deck for their creative use of the bootstrap template and for making such a lightweight and useful theme for blogging.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/holger1411/brook-dev&quot;&gt;Original Github Repo&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Black Cats</title>
+    <link href="https://example.com/11ty-journal/blog/black-cat/" />
+    <updated>2025-01-04T00:00:00Z</updated>
+    <id>https://example.com/11ty-journal/blog/black-cat/</id>
+    <content type="html">&lt;h2 id=&quot;sometimes-the-void-blinks-back&quot; tabindex=&quot;-1&quot;&gt;Sometimes the void blinks back. &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/11ty-journal/blog/black-cat/#sometimes-the-void-blinks-back&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum odor amet, consectetuer adipiscing elit. Sapien id feugiat habitasse ligula, habitasse lobortis lobortis. Feugiat nec ipsum potenti sociosqu maximus lorem amet? Commodo tristique sagittis hac tellus ac lobortis eu. Taciti mollis praesent etiam volutpat posuere; lorem augue varius taciti. Ornare suspendisse magnis nec tortor per habitant. Consequat sociosqu tortor vel tempus dui? Vivamus mollis adipiscing penatibus placerat tempor odio.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://example.com/11ty-journal/blog/black-cat/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Feugiat at natoque tempor faucibus; commodo duis nam. Cursus mi tellus rutrum ipsum viverra ullamcorper. Aenean sociosqu at augue penatibus vulputate proin maximus cras. Dolor vehicula senectus dignissim, a luctus vitae arcu felis. Nostra porttitor non mi integer conubia scelerisque torquent aliquam. Tortor varius inceptos per potenti dictum libero lacinia massa. Et phasellus vivamus maximus pharetra parturient condimentum congue.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://example.com/11ty-journal/blog/black-cat/#fn2&quot; id=&quot;fnref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Habitant nec tristique maximus senectus molestie placerat malesuada. Tempus imperdiet pretium parturient amet rhoncus torquent mollis. In consequat sapien nibh enim egestas maximus. Laoreet bibendum facilisi condimentum pharetra vehicula interdum. Ullamcorper cursus mattis felis auctor praesent gravida feugiat. Pellentesque rutrum tempor phasellus turpis faucibus?&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://example.com/11ty-journal/blog/black-cat/#fn3&quot; id=&quot;fnref3&quot;&gt;[3]&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Ornare praesent dis erat urna integer id odio duis. Platea himenaeos ultrices fames parturient litora vitae eleifend. Quam gravida suspendisse purus aliquet potenti. Leo quam conubia nostra nascetur natoque, phasellus commodo justo. Integer natoque egestas morbi a porttitor. At auctor porttitor turpis sit tempor lobortis. Nisi commodo ullamcorper, mauris praesent pharetra sed at. Pulvinar pellentesque inceptos curabitur ultricies sit; proin platea senectus. Dapibus ipsum lectus senectus porta primis quisque at. Arcu consectetur praesent consectetur luctus sociosqu consectetur.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://example.com/11ty-journal/blog/black-cat/#fn4&quot; id=&quot;fnref4&quot;&gt;[4]&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Nascetur himenaeos euismod maecenas aenean etiam ex scelerisque congue. Sodales orci et maecenas praesent ligula ante volutpat lacus libero. Finibus felis ligula inceptos fringilla mi lorem. Fames arcu cursus consectetur viverra viverra hac. Litora quam potenti luctus cras donec pharetra. Blandit sit massa mattis erat enim aliquam parturient. Pharetra litora odio per massa vivamus montes. Vestibulum aenean inceptos cras nec montes senectus turpis.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://example.com/11ty-journal/blog/black-cat/#fn5&quot; id=&quot;fnref5&quot;&gt;[5]&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h2 id=&quot;references&quot; tabindex=&quot;-1&quot;&gt;References &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/11ty-journal/blog/black-cat/#references&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;hr class=&quot;footnotes-sep&quot;&gt;
+&lt;section class=&quot;footnotes&quot;&gt;
+&lt;ol class=&quot;footnotes-list&quot;&gt;
+&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Batman needs a hug. &lt;a href=&quot;https://example.com/11ty-journal/blog/black-cat/#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn2&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Robin suffers from PTSD. &lt;a href=&quot;https://example.com/11ty-journal/blog/black-cat/#fnref2&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn3&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Superman is goated with the sauce. &lt;a href=&quot;https://example.com/11ty-journal/blog/black-cat/#fnref3&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn4&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Catwoman is underrated. &lt;a href=&quot;https://example.com/11ty-journal/blog/black-cat/#fnref4&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn5&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Black Cats are cool. &lt;a href=&quot;https://example.com/11ty-journal/blog/black-cat/#fnref5&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</content>
+  </entry>
+  <entry>
+    <title>This is my third post.</title>
+    <link href="https://example.com/11ty-journal/blog/thirdpost/" />
+    <updated>2025-01-02T00:00:00Z</updated>
+    <id>https://example.com/11ty-journal/blog/thirdpost/</id>
+    <content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
+&lt;h2 id=&quot;code&quot; tabindex=&quot;-1&quot;&gt;Code &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/11ty-journal/blog/thirdpost/#code&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;this-is-a-very-long-heading-that-i-want-to-wrap-this-is-a-very-long-heading-that-i-want-to-wrap-this-is-a-very-long-heading-that-i-want-to-wrap-this-is-a-very-long-heading-that-i-want-to-wrap&quot; tabindex=&quot;-1&quot;&gt;This is a very long heading that I want to wrap This is a very long heading that I want to wrap This is a very long heading that I want to wrap This is a very long heading that I want to wrap &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/11ty-journal/blog/thirdpost/#this-is-a-very-long-heading-that-i-want-to-wrap-this-is-a-very-long-heading-that-i-want-to-wrap-this-is-a-very-long-heading-that-i-want-to-wrap-this-is-a-very-long-heading-that-i-want-to-wrap&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
+&lt;pre class=&quot;language-js&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// this is a command&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;myCommand&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; counter &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	counter&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// Test with a line break above this line.&lt;/span&gt;
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;Test&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;heading-with-a-link&quot; tabindex=&quot;-1&quot;&gt;Heading with a &lt;a href=&quot;https://example.com/11ty-journal/blog/thirdpost/#code&quot;&gt;link&lt;/a&gt; &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/11ty-journal/blog/thirdpost/#heading-with-a-link&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;// this is a command
+function myCommand() {
+	let counter = 0;
+	counter++;
+}
+
+// Test with a line break above this line.
+console.log(&#39;Test&#39;);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;section-header&quot; tabindex=&quot;-1&quot;&gt;Section Header &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/11ty-journal/blog/thirdpost/#section-header&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>This is my second post with a much longer title.</title>
+    <link href="https://example.com/11ty-journal/blog/secondpost/" />
+    <updated>2025-01-02T00:00:00Z</updated>
+    <id>https://example.com/11ty-journal/blog/secondpost/</id>
+    <content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
+&lt;h2 id=&quot;section-header&quot; tabindex=&quot;-1&quot;&gt;Section Header &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/11ty-journal/blog/secondpost/#section-header&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://example.com/11ty-journal/blog/firstpost/&quot;&gt;First post&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;https://example.com/11ty-journal/blog/thirdpost/&quot;&gt;Third post&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
+&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>This is my first post.</title>
+    <link href="https://example.com/11ty-journal/blog/firstpost/" />
+    <updated>2025-01-01T00:00:00Z</updated>
+    <id>https://example.com/11ty-journal/blog/firstpost/</id>
+    <content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
+&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
+&lt;h2 id=&quot;section-header&quot; tabindex=&quot;-1&quot;&gt;Section Header &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/11ty-journal/blog/firstpost/#section-header&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
+&lt;pre class=&quot;language-diff-js&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-diff-js&quot;&gt;&lt;span class=&quot;token unchanged language-js&quot;&gt;&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;// this is a command&lt;/span&gt;
+&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;myCommand&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;span class=&quot;token inserted-sign inserted language-js&quot;&gt;&lt;span class=&quot;token prefix inserted&quot;&gt;+&lt;/span&gt;  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; counter &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;span class=&quot;token deleted-sign deleted language-js&quot;&gt;&lt;span class=&quot;token prefix deleted&quot;&gt;-&lt;/span&gt;  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; counter &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;span class=&quot;token unchanged language-js&quot;&gt;&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;  counter&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/span&gt;
+&lt;span class=&quot;token unchanged language-js&quot;&gt;&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;// Test with a line break above this line.&lt;/span&gt;
+&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;Test&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+</content>
+  </entry>
+</feed>
