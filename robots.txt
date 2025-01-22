@@ -4,4 +4,4 @@ User-agent: *
 Allow: /
 
 
-Sitemap: https://journal.000000076.xyz/sitemap.xml
+Sitemap: https://smoitzheim.github.io/sitemap.xml
