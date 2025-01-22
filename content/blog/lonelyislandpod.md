@@ -1,6 +1,7 @@
 ---
 
 title:  "Worüber The Lonely Island und Seth Meyers in ihrem Podcast reden – und worüber nicht"
+date: 2024-12-07
 
 ---
 
@@ -37,5 +38,3 @@ Die Frage, die sich hier aufdrängt, ist: Ist diese Korrelation Zufall, oder beg
 Aber solche Fragen stellt Mulaney nicht. Und nicht nur er: Auch Dokus über verstorbene SNL-Stars wie I Am Chris Farley von 2015 konfrontieren sie nicht.
 
 Im Podcast von The Lonely Island und Seth Meyers geht es, natürlich, nicht um Drogenmissbrauch – aber so *ganz* ausblenden kann man das Thema beim Hören, wenn man einigermaßen Bescheid weiß, dann auch wieder nicht: Es ist irgendwie doch präsent, in den Anekdoten über lange Nächte und Last-Minute-Ideen, und eben in den Anspielungen auf Michaels’ Führungsstil. So ist es halt immer, wenn über SNL gesprochen wird: Die hässlicheren Seiten des Jobs sind immer präsent, immer direkt unter der Oberfläche, aber sie brechen nie durch, werden nie direkt thematisiert. Und so lange Lorne Michaels am Leben ist, braucht man sich wohl keine Hoffnungen zu machen auf einen wirklich ehrlichen Blick hinter die Kulissen der Show.
-
- #blog #archiv #text #comedy #lonelyisland #2024

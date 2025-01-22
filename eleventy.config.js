@@ -84,8 +84,8 @@ eleventyConfig.addPlugin(pluginSyntaxHighlight, {
 	eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
     eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
 	eleventyConfig.addPlugin(feedPlugin, {
-		type: "atom", // or "rss", "json"
-		outputPath: "/feed/feed.xml",
+		type: "atom" // or "rss", "json"
+		outputPath: "/feed.xml",
 		stylesheet: "pretty-atom-feed.xsl",
 		templateData: {
 			eleventyNavigation: {

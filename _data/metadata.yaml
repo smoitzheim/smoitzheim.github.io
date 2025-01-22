@@ -1,11 +1,11 @@
-title: "📓 11ty Journal"
-description: "A 📓 11ty Journal a minimalist boostrap theme"
-language: "en"
+title: "Sebastian Moitzheim's Weblog"
+description:
+language: "de"
 image: /logo.svg
 favicon: /logo.svg
 url: "https://smoitzheim.github.io"
 #url: "http://localhost:8080/"
-locale: en_US
+locale: de_DE
 
 metasocial: 
  - facebook: "https://www.facebook.com/"
@@ -16,7 +16,7 @@ formspree_id: "https://formspree.io/f/"
 toc_widget_title: On This Page
 
 nav_logo:
- title: 📓 11ty Journal
+ title: "Sebastian Moitzheim's Weblog"
 
 navbar: 
  - nav: About
@@ -41,6 +41,6 @@ footer:
  text4_url: https://templatedeck.com/brook-html-template.html
 
 author: 
- name: "Jane Doe"
- email: "info@example.com"
- url: "/about/"
+ name: "Sebastian Moitzheim"
+ email: "mail@smoitzheim.online"
+ url: "https://smoitzheim.omg.lol"
