@@ -30,7 +30,7 @@ permalink: "blog/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber
 {%- for item in pagination.items %}
 <article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
 <h2 class="h4 lh-1 mb-0"><a class='text-decoration-none' href="{{item.url}}">{{ item.data.title }}</a></h2>
-<time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+<time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
 </article>
 {% endfor -%}
 </div>
