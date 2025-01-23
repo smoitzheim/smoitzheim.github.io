@@ -17,10 +17,10 @@ layout: base.njk
 <div class="row border-bottom">
 {%- for post in collections.posts| reverse | limit(5) -%}
 <article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-{%- if title -%}
-<h2 class="h4 lh-1 mb-0"><a class='text-decoration-none' href="{{post.url}}">{{ post.data.title }}</a></h2>
+{%- if title == "" -%}
+<a class='text-decoration-none' href="{{post.url}}">{{ post.content }}</a>
 {%- else -%}
-{{content}}
+<h2 class="h4 lh-1 mb-0"><a class='text-decoration-none' href="{{post.url}}">{{ post.data.title }}</a></h2>
 {%- endif -%}
 <time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
 </article>
