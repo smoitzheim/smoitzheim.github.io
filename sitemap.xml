@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	
 	<url>
+		<loc>https://smoitzheim.github.io/blog/lonelyislandpod/</loc>
+		<lastmod>2024-12-07</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://smoitzheim.github.io/blog/firstpost/</loc>
 		<lastmod>2025-01-01</lastmod>
 	</url>
@@ -27,42 +32,37 @@
 	</url>
 	
 	<url>
-		<loc>https://smoitzheim.github.io/blog/lonelyislandpod/</loc>
-		<lastmod>2025-01-22</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://smoitzheim.github.io/</loc>
-		<lastmod>2025-01-22</lastmod>
+		<lastmod>2025-01-23</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://smoitzheim.github.io/about/</loc>
-		<lastmod>2025-01-22</lastmod>
+		<lastmod>2025-01-23</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://smoitzheim.github.io/blog/</loc>
-		<lastmod>2025-01-22</lastmod>
+		<lastmod>2025-01-23</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://smoitzheim.github.io/contact/</loc>
-		<lastmod>2025-01-22</lastmod>
+		<lastmod>2025-01-23</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://smoitzheim.github.io/search/</loc>
-		<lastmod>2025-01-22</lastmod>
+		<lastmod>2025-01-23</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://smoitzheim.github.io/tags/</loc>
-		<lastmod>2025-01-22</lastmod>
+		<lastmod>2025-01-23</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://smoitzheim.github.io/feed/feed.xml</loc>
-		<lastmod>2025-01-22</lastmod>
+		<loc>https://smoitzheim.github.io/feed.xml</loc>
+		<lastmod>2025-01-23</lastmod>
 	</url>
 </urlset>
