@@ -107,7 +107,12 @@ eleventyConfig.addPlugin(pluginSyntaxHighlight, {
 			}
 		}
 	});
+	const excerpt = require('eleventy-plugin-excerpt');
 
+	module.exports = function(eleventyConfig) {
+  	eleventyConfig.addPlugin(excerpt);
+	};
+	
 	eleventyConfig.addPlugin(pluginFilters);
 	eleventyConfig.addPlugin(IdAttributePlugin, {
 	});
