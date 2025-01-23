@@ -6,7 +6,11 @@ layout: base.njk
 <div class="container py-vh-5">
 <div class="row d-flex justify-content-center text-center">
 <div class="col-12 col-lg-10">
+{%- if title -%}
 <h1 class="display-huge mb-3">{{title}}</h1>
+{%- else -%}
+{{content}}
+{%- endif -%}
 </div>
 </div>
 </div>
