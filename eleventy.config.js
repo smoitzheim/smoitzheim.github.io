@@ -24,10 +24,10 @@ export default async function(eleventyConfig) {
 		.addPassthroughCopy({
 			"./public/": "/"
 		})
-		.addPassthroughCopy("./content/feed/pretty-atom-feed.xsl");
 		.addPassthroughCopy({
-			"_includes/styles/styling.css": "styles/styling.css"
+			"_includes/styles/styling.css": "/styles/styling.css"
 		})
+		.addPassthroughCopy("./content/feed/pretty-atom-feed.xsl");
 	eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg}");
 	eleventyConfig.addBundle("css", {
 		toFileDirectory: "dist",
