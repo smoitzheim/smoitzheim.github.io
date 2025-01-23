@@ -1,1 +1,4 @@
+---
+micro: true
+---
 Micro test
