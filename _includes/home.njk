@@ -6,11 +6,7 @@ layout: base.njk
 <div class="container py-vh-5">
 <div class="row d-flex justify-content-center text-center">
 <div class="col-12 col-lg-10">
-{%- if title -%}
 <h1 class="display-huge mb-3">{{title}}</h1>
-{%- else -%}
-{{content}}
-{%- endif -%}
 </div>
 </div>
 </div>
@@ -21,7 +17,11 @@ layout: base.njk
 <div class="row border-bottom">
 {%- for post in collections.posts| reverse | limit(5) -%}
 <article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
+{%- if title -%}
 <h2 class="h4 lh-1 mb-0"><a class='text-decoration-none' href="{{post.url}}">{{ post.data.title }}</a></h2>
+{%- else -%}
+{{content}}
+{%- endif -%}
 <time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
 </article>
 {%- endfor -%}
