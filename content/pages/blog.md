@@ -33,7 +33,7 @@ permalink: "blog/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber
 {%- if item.data.title|length -%}
 <h2 class="h4 lh-1 mb-0"><a class='text-decoration-none' href="{{item.url}}">{{ item.data.title }}</a></h2>
 {%- else -%}
-<a class='text-decoration-none' href="{{item.url}}">{{ item.templateContent | striptags(true) | truncate(280) }}</a>
+<a class='text-decoration-none' href="{{item.url}}">{{ item.templateContent | safe | truncate(280) }}</a>
 {%- endif -%}
 </div>
 <time datetime="{{ item.date | htmlDateString }}">{{ item.date | readableDate }}</time>
