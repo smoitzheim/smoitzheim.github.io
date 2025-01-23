@@ -106,7 +106,13 @@ eleventyConfig.addPlugin(pluginSyntaxHighlight, {
 				name: "Your Name"
 			}
 		}
-	});	
+	});
+	const excerpt = require('eleventy-plugin-excerpt');
+
+	module.exports = function(eleventyConfig) {
+  	eleventyConfig.addPlugin(excerpt);
+	};
+	
 	eleventyConfig.addPlugin(pluginFilters);
 	eleventyConfig.addPlugin(IdAttributePlugin, {
 	});
