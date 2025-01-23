@@ -29,8 +29,8 @@ navbar:
    url: /search/
 
 nav_contact:
- text: Download
- url: https://github.com/adamdjbrett/11ty-journal
+ text: Socials & Kontakt
+ url: https://smoitzheim.omg.lol
 
 footer: 
  text1: Built with
