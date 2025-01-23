@@ -29,11 +29,13 @@ permalink: "blog/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber
 <div class="row border-bottom">
 {%- for item in pagination.items %}
 <article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
+<div class="list-left">
 {%- if item.data.title|length -%}
 <h2 class="h4 lh-1 mb-0"><a class='text-decoration-none' href="{{item.url}}">{{ item.data.title }}</a></h2>
 {%- else -%}
 <a class='text-decoration-none' href="{{item.url}}">{{ item.templateContent | striptags(true) | truncate(280) }}</a>
 {%- endif -%}
+</div>
 <time datetime="{{ item.date | htmlDateString }}">{{ item.date | readableDate }}</time>
 </article>
 {% endfor -%}
