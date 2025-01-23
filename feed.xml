@@ -5,7 +5,7 @@
   <subtitle>This is a longer description about your blog.</subtitle>
   <link href="https://example.com/feed.xml" rel="self" />
   <link href="https://example.com/" />
-  <updated>2025-01-23T01:38:02Z</updated>
+  <updated>2025-01-23T01:42:57Z</updated>
   <id>https://example.com/</id>
   <author>
     <name>Your Name</name>
@@ -13,7 +13,7 @@
   <entry>
     <title></title>
     <link href="https://example.com/blog/title%20micro/" />
-    <updated>2025-01-23T01:38:02Z</updated>
+    <updated>2025-01-23T01:42:57Z</updated>
     <id>https://example.com/blog/title%20micro/</id>
     <content type="html">&lt;p&gt;Micro test&lt;/p&gt;
 </content>
