@@ -1,4 +1,0 @@
----
-micro: true
----
-Micro test
