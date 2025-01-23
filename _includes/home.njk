@@ -20,7 +20,7 @@ layout: base.njk
 {%- if post.data.title|length -%}
 <h2 class="h4 lh-1 mb-0"><a class='text-decoration-none' href="{{post.url}}">{{ post.data.title }}</a></h2>
 {%- else -%}
-<a class='text-decoration-none' href="{{post.url}}>{{ post.templateContent | striptags(true) | truncate(280) }}</a>
+<a class='text-decoration-none' href="{{post.url}}"">{{ post.templateContent | striptags(true) | truncate(280) }}</a>
 {%- endif -%}
 <time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
 </article>
