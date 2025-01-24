@@ -5,6 +5,6 @@ description:
 show_button: true
 button: 
  text: weitere Posts
- url: /blog/
+ url: /archive/
 ---
 
