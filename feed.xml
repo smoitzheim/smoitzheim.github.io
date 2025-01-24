@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-  <title>My Blog about Boats</title>
-  <subtitle>I am writing about my experiences as a naval navel-gazer.</subtitle>
+<?xml-stylesheet href="pretty-atom-feed.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="de">
+  <title>Sebastian Moitzheim&#39;s Weblog</title>
+  <subtitle>neue Texte und Shitposts von Sebastian Moitzheim.</subtitle>
   <link href="https://smoitzheim.online/feed.xml" rel="self" />
   <link href="https://smoitzheim.online/" />
   <updated>2024-12-07T00:00:00Z</updated>
   <id>https://smoitzheim.online/</id>
   <author>
-    <name>Boaty McBoatFace</name>
+    <name>Sebastian Moitzheim</name>
   </author>
   <entry>
     <title>Worüber The Lonely Island und Seth Meyers in ihrem Podcast reden – und worüber nicht</title>
