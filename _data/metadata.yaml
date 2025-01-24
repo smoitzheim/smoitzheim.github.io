@@ -19,13 +19,11 @@ nav_logo:
  title: "Sebastian Moitzheim's Weblog"
 
 navbar: 
- - nav: About
+ - nav: Über mich
    url: /about/
- - nav: Blog
-   url: /blog/
- - nav: Contact
-   url: /contact/
- - nav: Search
+ - nav: Archiv
+   url: /archive/
+ - nav: Suche
    url: /search/
 
 nav_contact:

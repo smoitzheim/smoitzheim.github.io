@@ -1,5 +1,5 @@
 ---
-title: Search
+title: Suche
 description: "Search my post page"
 permalink: /search/
 ---

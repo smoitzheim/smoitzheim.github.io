@@ -1,8 +1,8 @@
 ---
-title: About Us
+title: Über mich
 description: This is about description
 permalink: /about/
 ---
-### About Me
+### Über mich
 
 I am a person that writes stuff.

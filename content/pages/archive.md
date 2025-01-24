@@ -1,6 +1,6 @@
 ---
 layout: "base.njk"
-title: Blog
+title: Archiv
 description: "Update from my blog posts"
 pagination:
   data: collections.posts
@@ -11,7 +11,7 @@ testdata:
  - item2
  - item3
  - item4
-permalink: "blog/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
+permalink: "archive/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
 ---
 <main><heading-anchor>
 <div class="w-100 overflow-hidden position-relative" id="top">
