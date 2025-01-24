@@ -87,8 +87,7 @@ eleventyConfig.addPlugin(pluginSyntaxHighlight, {
 	eleventyConfig.addPlugin(HtmlBasePlugin);
 	eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
     eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
-	eleventyConfig.addPlugin(pluginRss);
-;
+		eleventyConfig.addPlugin(pluginRss);
 
 	eleventyConfig.addPlugin(pluginFilters);
 	eleventyConfig.addPlugin(IdAttributePlugin, {
