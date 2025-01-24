@@ -2,6 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	
 	<url>
+		<loc>https://smoitzheim.github.io/blog/alienromulus/</loc>
+		<lastmod>2024-09-07</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://smoitzheim.github.io/blog/trap/</loc>
+		<lastmod>2024-09-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://smoitzheim.github.io/blog/megalopolis/</loc>
+		<lastmod>2024-09-29</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://smoitzheim.github.io/blog/friendlyfire/</loc>
+		<lastmod>2024-10-24</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://smoitzheim.github.io/blog/lonelyislandpod/</loc>
 		<lastmod>2024-12-07</lastmod>
 	</url>

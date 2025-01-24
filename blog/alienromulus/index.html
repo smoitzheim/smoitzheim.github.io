@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sebastian Moitzheim’s Weblog</title>
-<meta content="Sebastian Moitzheim’s Weblog" property="og:title">
-<meta content="Sebastian Moitzheim’s Weblog" name="twitter:title">
-<meta content="Sebastian Moitzheim’s Weblog" name="title">
-<meta content="Sebastian Moitzheim’s Weblog" property="og:site_name">
+<title>Alien: Romulus ist interessanter als erwartet</title>
+<meta content="Alien: Romulus ist interessanter als erwartet" property="og:title">
+<meta content="Alien: Romulus ist interessanter als erwartet" name="twitter:title">
+<meta content="Alien: Romulus ist interessanter als erwartet" name="title">
+<meta content="Alien: Romulus ist interessanter als erwartet" property="og:site_name">
 <meta content="" name="description">
 <meta content="" property="facebook:description">
 <meta content="" property="og:description">
@@ -25,15 +25,183 @@
 <meta content="" property="twitter:author">
 <meta content="" name="twitter:site">
 <meta property="og:type" content="website">
-<link rel="canonical" href="https://smoitzheim.github.io/">
+<link rel="canonical" href="https://smoitzheim.github.io/blog/alienromulus/">
 <link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Sebastian Moitzheim&#39;s Weblog">
 <meta name="language" content="de">
 <meta name="locale" content="de_DE">
 <meta property="og:locale" content="de_DE">
 <meta name="generator" content="Eleventy v3.0.0"> 
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","description":"","headline":"Sebastian Moitzheim&#39;s Weblog - ","name":"Sebastian Moitzheim&#39;s Weblog","url":"https://smoitzheim.github.io/"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","description":"","headline":"Sebastian Moitzheim&#39;s Weblog - ","name":"Sebastian Moitzheim&#39;s Weblog","url":"https://smoitzheim.github.io/blog/alienromulus/"}</script>
 <link rel="manifest" href="/manifest.json" crossorigin="use-credentials">
-<style>/*!
+<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+/*!
    * Bootstrap  v5.2.0 (https://getbootstrap.com/)
    * Copyright 2011-2022 The Bootstrap Authors
    * Copyright 2011-2022 Twitter, Inc.
@@ -56,40 +224,58 @@
 </div>
 </nav>
 
-<main><heading-anchor>
-<div class="w-100 overflow-hidden position-relative" id="top">
-<div class="container py-vh-5">
+
+<style>h1,h2,h3,h4,h5{font-family:Sentient,'New York',Georgia,serif!important}body,html{font-family:Sentient,'New York',Georgia,serif!important}.mt-3{margin-top:30px}</style>
+
+<main class="container py-vh-3"><heading-anchor>
 <div class="row d-flex justify-content-center text-center">
-<div class="col-12 col-lg-10">
-<h1 class="display-huge mb-3" id="sebastian-moitzheim-s-weblog">Sebastian Moitzheim’s Weblog</h1>
+<div class="col-12 col-lg-10 col-xl-6">
+<small class="text-muted">By <a href="https://smoitzheim.omg.lol">Sebastian Moitzheim</a> On <time datetime="2024-09-07">07 September 2024</time></small>
+<h1 class="display-huge" id="alien-romulus-ist-interessanter-als-erwartet">Alien: Romulus ist interessanter als erwartet</h1>
+<p class="lead pt-2 py-vh-2"></p>
+<small class="text-muted">
+</small>
+</div>
+<div class="row">
+<div class="col-12">
+
 </div>
 </div>
+<div class="row d-flex justify-content-center text-start">
+<div class="col-12 col-lg-10 col-xl-6 py-vh-2">
+
+<p>In vielen Aspekten ist Alien: Romulus genau der Film, den ich erwartet habe: Es ist ein weiteres <em>Legacyquel</em>, das <em>zurück zu den Wurzeln</em> der Alien-Reihe gehen will. Das bedeutet einerseits, dass der Film sich bei Liebhabern der klassischen Filme anbiedern will, mit unangenehmem Fanservice, der von unpassenden Zitaten von One-Linern aus Aliens bis zu einer geschmacklosen CGI-Wiederbelebung eines verstorbenen Darstellers aus Alien reicht. Es bedeutet andererseits aber auch eine tatsächliche Rückbesinnung auf alte Stärken der Reihe. Regisseur Fede Alvarez arbeitet, so weit es geht, mit physischen Sets, praktischen Effekten und Monstern, die von Menschen in unbequemen Anzügen gespielt werden, und strukturiert seinen Film als eine Art Crash-Kurs über die klassische Alien-Reihe: Der Film beginnt als Creature-Feature, das die gruseligsten Sequenzen enthält, die die Alien-Reihe seit dem Original zu bieten hatte, nimmt im Mittelteil ein Bisschen von James Camerons Aliens inspirierte Action mit, und lässt sich für sein Finale von den besseren/bizarreren Ideen von Alien: Resurrection inspirieren. Es hat ein Bisschen was von Malen-nach-Zahlen, vom Abhaken einer Checklist, aber es <em>funktioniert</em>. Alvarez remixt effektiv ikonische Sequenzen des Originals, und bringt ein paar inspirierte Ideen für eigene Set-Pieces mit, etwa eine Sequenz, in der die Figuren in der Schwerelosigkeit dem ätzenden Blut getöteter Xenomorphs ausweichen müssen.</p>
+<p>Wo Romulus aber von meinen Erwartungen abweicht, ist in seiner Figurenkonstellation, seinem Grundkonflikt, und das ist auch, was dem Film eine eigene Identität gibt, ihn zu mehr als bloßer Nachlassverwaltung macht. Der emotionale Kern des Films ist die Beziehung der jungen Rain (Cailee Spaney) zu ihrem »Bruder«, einem Androiden namens Andy (David Jonsson). Rain lebt als Minenarbeiterin in einer vom Weyland-Yutani-Konzern verwalteten Kolonie (Tageslichtstunden: 0), allein mit Andy, nachdem ihre Eltern an durch die harte Arbeit verursachten Krankheiten gestorben sind. Andy ist ein Auslaufmodell, von Rains Vater, wie später eine Figur formuliert, »im Müll gefunden«. Nachdem Rains Arbeitsvertrag von Weyland-Yutani unilateral um einige Jahre verlängert wird, schließen die beiden sich einer Gruppe an, die plant, die Cryostasis-Kammern eines verlassenen, im All treibenden Schiffes zu bergen, was ihnen ermöglichen würde, im Cryo-Schlaf in eine lebenswertere Existenz auf einem anderen Planeten zu fliehen. Schnell stellen sie allerdings fest, <em>warum</em> das Schiff menschenleer im All treibt: Die Crew fiel den Xenomorphs zum Opfer, die noch immer in jeder Ecke des Schiffes lauern.</p>
+<p>Damit die Gruppe sich frei auf dem Schiff bewegen kann, setzt Rain Andy ein Modul eines halb-zerstörten Androiden ein, den sie auf dem Schiff findet. Das gibt Andy Zugang zum gesamten Schiff, hat aber auch einige unbeabsichtigte Nebenwirkungen: Das neuere Modul bringt ein »Upgrade« mit, das Andy einerseits bessere Kontrolle über seinen mechanischen Körper gibt, aber auch seine Persönlichkeit verändert, und ihm eine neue Direktive gibt – anstatt in Rains handelt er nun im Interesse von Wayland-Yutani.</p>
+<p>Alvarez und sein Co-Autor Rodo Sayagues spielen hier mit so interessanten wie potenziell problematischen Ideen: Vor dem Update bewegt sich Andy langsam und zuckend, stottert, ist auf Rains Unterstützung angewiesen. Alvarez und Sayagues arbeiten hier mit Coding: der veralterte Android als behinderter Mensch. Das läuft Gefahr, in das <em>Othering</em> behinderter Menschen, das Bild von ihnen als nicht ganz menschlich hineinzuspielen. Hier hat es für mich aber gut funktioniert: Zwar erleben wir den Großteil der Geschichte durch Rains Augen, aber Alvarez und Sayagues lassen von Anfang an Raum für Andys Perspektive. Es besteht, auch dank Jonssons starker Performance, kein Zweifel daran, dass Andy ein Innenleben hat, das nicht weniger reichhaltig ist, als das der anderen, menschlichen Figuren. Wenn er keine vollwertige Person, »nicht ganz menschlich« ist, dann nicht, weil ihm etwas fehlt, sondern weil Vorurteile gegen <em>synthetics</em> ihm die Eigenständigkeit und Möglichkeit zur Entfaltung nehmen – er ist nicht als Automat geboren, sondern wird <a href="https://54books.de/wir-werden-nicht-als-automaten-geboren-wir-werden-zu-ihnen-gemacht-kazuo-ishiguros-klara-und-die-sonne-aus-autistischer-perspektive/">zu einem gemacht</a>. Das »Upgrade«, das Andy besser »funktionieren« lässt, kommt von Weyland-Yutani, ist also nur eine andere Facette derselben kapitalistischen Unterdrückung, die Rain zu weiteren Jahren Minenarbeit zwingt. Es verändert Andys Persönlichkeit, macht ihn effizienter, aber auch kühler, kalkurierter – weniger menschlich. Am Ende, nachdem Andys ursprüngliche Persönlichkeit wiederhergestellt wurde, muss Rain sich sogar eingestehen, dass auch ihre Beziehung zu Andy etwas kontrollierendes hatte, und sie gesteht ihm letztlich Autonomie zu, macht ihn zum gleichberechtigten Partner in der Beziehung.</p>
+<p>Nicht nur Andy, auch Rain und die anderen Mitglieder der Gruppe kämpfen letztlich darum, inmitten einer ausbeuterischen, menschlichen Situation ihre Menschlichkeit zu bewahren. Das ist keine brandneue Idee, weder für das Sci-Fi-Genre, noch für das Alien-Franchise, aber wie Alvarez und Sayagues sich Konzepten aus der gesamten Franchise-Geschichte bedienen, um diese Idee zu dramatisieren, ist durchaus bemerkenswert. Sie übernehmen Elemente nicht nur aus der Kern-Alien-Reihe, sondern auch aus Ridley Scotts polarisierendem Prequel Prometheus, und verbinden alles überraschend elegant und kohärent. Es erinnert ein kleines Bisschen daran, wie auch Rian Johnson in The Last Jedi Ideen der gesamten Star-Wars-Reihe, inklusive der unbeliebten Prequels, aufgreift und auffrischt – wenn auch Johnson deutlich mehr kreative Freiheit hatte, sein Film daher ein eigenständigeres, weniger fan-service-lastiges Werk ist.<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></p>
+<p>Die offensichtlichste Idee von Prometheus, die Romulus aufgreift, ist das außerirdische Serum, mit dem damals der Androide David an den menschlichen Figuren experimentierte. Hier plant Weyland-Yutani, mit Hilfe des Serums die nächste Evolution der Menschheit einzuleiten – auch wir Menschen sind für den Konzern nur veraltete Maschinen, die dringend ein Update benötigen.</p>
+<p>Romulus knüpft allerdings noch auf eine interessantere, subtilere, vielleicht gar nicht so intendierte Art an Prometheus an. Eine beliebte Kritik an Prometheus lautet ja, dass die Figuren, allesamt Wissenschaftler, irrationale, »dumme« Entscheidungen treffen. Lassen wir mal dahingestellt, wie interessant diese Kritik ist: Was stimmt, ist dass Prometheus damit in Kontrast zu Alien steht. Im Original trifft Ridley zunächst die rationale, um nicht zu sagen kaltherzige Entscheidung, den Quarantäne-Vorschriften zu folgen und ihre Crew-Mitglieder nicht wieder an Bord zu lassen, nachdem Kane von einem Facehugger befallen wurde. Bliebe es bei dieser Entscheidung, würde das die ganze Katastrophe des Films verhindern, doch der Androide Ash revidiert sie.</p>
+<p>In Romulus ist es der »gepatchte« Andy, der an einer Stelle eine ähnlich kühle, rationale Entscheidung wie Ripley im Original trifft. Hauptfigur Rain derweil lassen Alvarez und Sayagues immer wieder »irrational« handeln – aber bewusst, mit Methode. Rain entscheidet sich immer wieder bewusst dagegen, sich selbst zu schützen, den sichersten Ausweg zu nehmen, um ihre Freunde und ihren »Bruder« zu retten. »Rationales«, i.e. kühl-kalkulierendes Handeln ist hier vor allem die Methode des Konzerns, wer sich seine Menschlichkeit bewahren will muss dagegen manchmal Emotionen über kühlen Intellekt stellen. Alien: Romulus ist so auch eine Absage an eine Strömung der Science-Fiction: die Science-Fiction von Astounding-Chefredakteur und <a href="https://locusmag.com/2019/11/cory-doctorow-jeannette-ng-was-right-john-w-campbell-was-a-fascist/">Faschist</a> John W. Campbell, die Science-Fiction der <a href="https://locusmag.com/2014/03/cory-doctorow-cold-equations-and-moral-hazard/"><em>Kalten Gleichungen</em></a>, der selbst das originale Meisterwerk der Reihe ein Stück weit anhing. Dass Romulus so interessant mit Klassikern des Genres und dem Ursprung der Alien-Reihe in Dialog tritt, hätte ich so nicht erwartet.</p>
+<p>Schade, dass die interessanteren Aspekte des Films unterminiert werden von den Franchise-Verpflichtungen, die er abarbeiten muss – vor allem natürlich von der Entscheidung, Ian Holm per CGI wiederzubeleben. Laut Ridley Scott kam die Entscheidung von Scotts und Alvarez’ gemeinsamer Liebe für die Figur Ash und Bedauern darüber, dass sie nach dem Original nie wieder aufgetaucht war. Die Wiederbelebung erfolgte in Absprache mit Holms Witwe. Das mag stimmen, aber es ist gerade diese Normalisierung, die ich bedenklich finde: Scott bedauerte es also, Ash nie zurückgebracht zu haben, und möchte das jetzt nachholen – sollte es wirklich ein rein technisches Problem sein, dass der Darsteller dieser Figur verstorben ist? Wie routiniert mittlerweile verstorbene Schauspieler so wiederbelebt werden, wie wenig Rechtfertigung es für solche Entscheidungen braucht, finde ich schon einigermaßen erschreckend.</p>
+<p>Man muss also ein ganzes Stück guten Willen mitbringen und über die unangenehmeren Aspekte hinwegsehen, die es 2024 offenbar einfach mit sich bringt, wenn man in einem etablierten Franchise arbeitet. Aber ich finde, dass Romulus diese Mühe wert ist: Es ist ein interessanterer Film, als ihm viele Kritiker zugestehen, einer, der bei allem pflichtgerechten Abarbeiten der Franchise-Checklist eine eigene Identität bewahrt.</p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>Eine Meta-Lesart von Alien: Romulus als Film über seine eigene Entstehung – darüber, wie schwierig es ist, innerhalb der Disney-Maschinerie (zu der Fox und damit Alien ja mittlerweile gehören) interessante Filme zu machen – ist wohl auch nicht allzu weit hergeholt. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+
 </div>
+
 </div>
-<div class="container">
-<div class="row d-flex justify-content-center">
-<div class="col-11 col-lg-10 col-xl-6">
-<div class="row border-bottom"><article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="worueber-the-lonely-island-und-seth-meyers-in-ihrem-podcast-reden-und-worueber-nicht"><a class="text-decoration-none" href="/blog/lonelyislandpod/">Worüber The Lonely Island und Seth Meyers in ihrem Podcast reden – und worüber nicht</a></h2></div>
-<time datetime="2024-12-07">07 December 2024</time>
-</article><article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="megalopolis-verspricht-david-graeber-und-liefert-elon-musk"><a class="text-decoration-none" href="/blog/friendlyfire/">Megalopolis verspricht David Graeber und liefert Elon Musk</a></h2></div>
-<time datetime="2024-10-24">24 October 2024</time>
-</article><article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="megalopolis-verspricht-david-graeber-und-liefert-elon-musk-2"><a class="text-decoration-none" href="/blog/megalopolis/">Megalopolis verspricht David Graeber und liefert Elon Musk</a></h2></div>
-<time datetime="2024-09-29">29 September 2024</time>
-</article><article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="m-night-shyamalans-trap-und-warum-plotholes-manchmal-doch-nicht-egal-sind"><a class="text-decoration-none" href="/blog/trap/">M. Night Shyamalans Trap und warum Plotholes manchmal doch nicht egal sind</a></h2></div>
-<time datetime="2024-09-17">17 September 2024</time>
-</article><article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="alien-romulus-ist-interessanter-als-erwartet"><a class="text-decoration-none" href="/blog/alienromulus/">Alien: Romulus ist interessanter als erwartet</a></h2></div>
-<time datetime="2024-09-07">07 September 2024</time>
-</article></div>
-</div>
-</div>
-<div class="container"><div class="row py-4"><div class="col-11 col-lg-10 col-xl-6 text-center mx-auto"><a href="/archive/" class="btn btn-primary btn-xl shadow">weitere Posts</a></div></div></div>
 </div>
 </heading-anchor></main>
+<div class="container">
+<div class="row">
+<div class="col border-top border-end py-vh-3 col-lg-6 col-xl-6 col-12 align-items-center"></div>
+<div class="col border-top text-end py-vh-3 col-lg-6 col-xl-6 ol-12 align-items-center justify-content-end"><a class="ms-2 display-6" href="/blog/trap/">M. Night Shyamalans Trap und warum Plotholes manchmal doch nicht egal sind</a><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+</svg>
+</div>
+</div>
+</div>
 
 <footer>
 <div class="container text-center small py-vh-3">
