@@ -101,12 +101,12 @@ eleventyConfig.addPlugin(pluginSyntaxHighlight, {
 			limit: 10,
 		},
 		metadata: {
-			language: "en",
-			title: "Blog Title",
-			subtitle: "This is a longer description about your blog.",
-			base: "https://example.com/",
+			language: "de",
+			title: "Sebastian Moitzheim's Weblog",
+			subtitle: "Neue Texte und Shitposts von Sebastian Moitzheim.",
+			base: "https://smoitzheim.online/",
 			author: {
-				name: "Your Name"
+				name: "Sebastian Moitzheim"
 			}
 		}
 	});
