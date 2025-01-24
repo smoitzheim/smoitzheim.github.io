@@ -1,6 +1,6 @@
 ---
 
-title:  Megalopolis verspricht David Graeber und liefert Elon Musk
+title:  "Paul Rousseaus Friendly Fire: A Fractured Memoir: Ein potenzieller Klassiker in der Literatur über Trauma und Behinderung"
 date: 2024-10-24
 
 ---
