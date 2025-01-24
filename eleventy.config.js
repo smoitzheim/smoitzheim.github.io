@@ -27,7 +27,8 @@ export default async function(eleventyConfig) {
 		.addPassthroughCopy({
 			"_includes/styles/styling.css": "css/styling.css"
 		})
-		.addPassthroughCopy("./content/feed/pretty-atom-feed.xsl");
+		.addPassthroughCopy("./content/feed/pretty-atom-feed.xsl")
+		.addPassthroughCopy("CNAME.txt");
 	eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg}");
 	eleventyConfig.addBundle("css", {
 		toFileDirectory: "dist",
