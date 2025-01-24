@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Blog about Boats</title>
+<meta content="My Blog about Boats" property="og:title">
+<meta content="My Blog about Boats" name="twitter:title">
+<meta content="My Blog about Boats" name="title">
+<meta content="My Blog about Boats" property="og:site_name">
+<meta content="I am writing about my experiences as a naval navel-gazer." name="description">
+<meta content="I am writing about my experiences as a naval navel-gazer." property="facebook:description">
+<meta content="I am writing about my experiences as a naval navel-gazer." property="og:description">
+<meta content="I am writing about my experiences as a naval navel-gazer." name="twitter:description">
+<meta property="twitter:card" content="summary_large_image">
+<meta content="" name="twitter:image">
+<meta content="" name="facebook:image">
+<meta content="" name="og:image">
+<!-- inlined SVG favicon -->
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>📓</text></svg>" />
+<link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>📓</text></svg>" />
+<!-- <link href="/logo.svg" rel="icon" type="image/x-icon"> -->
+<!-- <link rel="apple-touch-icon" href="/logo.svg"> -->
+<meta content="" property="facebook:author">
+<meta content="" property="twitter:author">
+<meta content="" name="twitter:site">
+<meta property="og:type" content="website">
+<link rel="canonical" href="https://smoitzheim.github.io/feed.xml">
+<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="My Blog about Boats">
+<meta name="language" content="en">
+<meta name="locale" content="de_DE">
+<meta property="og:locale" content="de_DE">
+<meta name="generator" content="Eleventy v3.0.0"> 
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","description":"I am writing about my experiences as a naval navel-gazer.","headline":"My Blog about Boats - I am writing about my experiences as a naval navel-gazer.","name":"My Blog about Boats","url":"https://smoitzheim.github.io/feed.xml"}</script>
+<link rel="manifest" href="/manifest.json" crossorigin="use-credentials"/>
+<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+/*!
+   * Bootstrap  v5.2.0 (https://getbootstrap.com/)
+   * Copyright 2011-2022 The Bootstrap Authors
+   * Copyright 2011-2022 Twitter, Inc.
+   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+   */:root{--bs-blue:#1717e5;--bs-indigo:#6610f2;--bs-purple:#6f42c1;--bs-pink:#d63384;--bs-red:#dc3545;--bs-orange:#fd7e14;--bs-yellow:#ffc107;--bs-green:#198754;--bs-teal:#20c997;--bs-cyan:#0dcaf0;--bs-white:#fff;--bs-gray:#6c757d;--bs-gray-dark:#343a40;--bs-gray-100:#f8f9fa;--bs-gray-200:#e9ecef;--bs-gray-300:#dee2e6;--bs-gray-400:#ced4da;--bs-gray-500:#adb5bd;--bs-gray-600:#6c757d;--bs-gray-700:#495057;--bs-gray-800:#343a40;--bs-gray-900:#212529;--bs-primary:#151515;--bs-secondary:#6c757d;--bs-success:#198754;--bs-info:#0dcaf0;--bs-warning:#fd7e14;--bs-danger:#dc3545;--bs-light:#f8f9fa;--bs-dark:#343a40;--bs-primary-rgb:21,21,21;--bs-secondary-rgb:108,117,125;--bs-success-rgb:25,135,84;--bs-info-rgb:13,202,240;--bs-warning-rgb:253,126,20;--bs-danger-rgb:220,53,69;--bs-light-rgb:248,249,250;--bs-dark-rgb:52,58,64;--bs-white-rgb:255,255,255;--bs-black-rgb:21,21,21;--bs-body-color-rgb:33,37,41;--bs-body-bg-rgb:255,255,255;--bs-font-sans-serif:Sentient,'New York',Georgia,serif;--bs-font-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;--bs-gradient:linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));--bs-body-font-family:var(--bs-font-sans-serif);--bs-body-font-size:1.1rem;--bs-body-font-weight:400;--bs-body-line-height:1.5;--bs-body-color:#212529;--bs-body-bg:#fff;--bs-border-width:1px;--bs-border-style:solid;--bs-border-color:#dee2e6;--bs-border-color-translucent:rgba(21, 21, 21, 0.175);--bs-border-radius:0px;--bs-border-radius-sm:0.25rem;--bs-border-radius-lg:0.5rem;--bs-border-radius-xl:1rem;--bs-border-radius-2xl:2rem;--bs-border-radius-pill:50rem;--bs-link-color:#151515;--bs-link-hover-color:#111111;--bs-code-color:#d63384;--bs-highlight-bg:#fff3cd}*,::after,::before{box-sizing:border-box}@media (prefers-reduced-motion:no-preference){:root{scroll-behavior:smooth}}body{margin:0;font-family:var(--bs-body-font-family);font-size:var(--bs-body-font-size);font-weight:var(--bs-body-font-weight);line-height:var(--bs-body-line-height);color:var(--bs-body-color);text-align:var(--bs-body-text-align);background-color:var(--bs-body-bg);-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:rgba(21,21,21,0)}.h1,.h2,.h4,h1,h2,h4{margin-top:0;margin-bottom:.5rem;font-weight:500;line-height:1.2}.h1,h1{font-size:calc(1.4rem + 1.8vw)}@media (min-width:1200px){.h1,h1{font-size:2.75rem}}.h2,h2{font-size:calc(1.345rem + 1.14vw)}@media (min-width:1200px){.h2,h2{font-size:2.2rem}}.h4,h4{font-size:calc(1.29rem + .48vw)}@media (min-width:1200px){.h4,h4{font-size:1.65rem}}p{margin-top:0;margin-bottom:1rem}ul{padding-left:2rem}ul{margin-top:0;margin-bottom:1rem}ul ul{margin-bottom:0}.small,small{font-size:.875em}a{color:var(--bs-link-color);text-decoration:underline}a:hover{color:var(--bs-link-hover-color)}a:not([href]):not([class]),a:not([href]):not([class]):hover{color:inherit;text-decoration:none}img,svg{vertical-align:middle}::-moz-focus-inner{padding:0;border-style:none}::-webkit-datetime-edit-day-field,::-webkit-datetime-edit-fields-wrapper,::-webkit-datetime-edit-hour-field,::-webkit-datetime-edit-minute,::-webkit-datetime-edit-month-field,::-webkit-datetime-edit-text,::-webkit-datetime-edit-year-field{padding:0}::-webkit-inner-spin-button{height:auto}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-color-swatch-wrapper{padding:0}::file-selector-button{font:inherit;-webkit-appearance:button}.lead{font-size:calc(1.2713rem + .2556vw);font-weight:400}@media (min-width:1200px){.lead{font-size:1.463rem}}.display-4{font-size:calc(1.475rem + 2.7vw);font-weight:300;line-height:1.2}@media (min-width:1200px){.display-4{font-size:3.5rem}}.display-6{font-size:calc(1.375rem + 1.5vw);font-weight:300;line-height:1.2}@media (min-width:1200px){.display-6{font-size:2.5rem}}.img-fluid{max-width:100%;height:auto}.container,.container-fluid{--bs-gutter-x:3vw;--bs-gutter-y:0;width:100%;padding-right:calc(var(--bs-gutter-x) * .5);padding-left:calc(var(--bs-gutter-x) * .5);margin-right:auto;margin-left:auto}@media (min-width:576px){.container{max-width:540px}}@media (min-width:768px){.container{max-width:720px}}@media (min-width:992px){.container{max-width:960px}}@media (min-width:1200px){.container{max-width:1140px}}@media (min-width:1680px){.container{max-width:1600px}}.row{--bs-gutter-x:3vw;--bs-gutter-y:0;display:flex;flex-wrap:wrap;margin-top:calc(-1 * var(--bs-gutter-y));margin-right:calc(-.5 * var(--bs-gutter-x));margin-left:calc(-.5 * var(--bs-gutter-x))}.row>*{flex-shrink:0;width:100%;max-width:100%;padding-right:calc(var(--bs-gutter-x) * .5);padding-left:calc(var(--bs-gutter-x) * .5);margin-top:var(--bs-gutter-y)}.col{flex:1 0 0%}.col-auto{flex:0 0 auto;width:auto}.col-11{flex:0 0 auto;width:91.66667%}.col-12{flex:0 0 auto;width:100%}@media (min-width:768px){.col-md-auto{flex:0 0 auto;width:auto}}@media (min-width:992px){.col-lg-10{flex:0 0 auto;width:83.33333%}}@media (min-width:1200px){.col-xl-6{flex:0 0 auto;width:70%}}.btn{--bs-btn-padding-x:0.75rem;--bs-btn-padding-y:0.375rem;--bs-btn-font-size:1.1rem;--bs-btn-font-weight:400;--bs-btn-line-height:1.5;--bs-btn-color:#212529;--bs-btn-bg:transparent;--bs-btn-border-width:1px;--bs-btn-border-color:transparent;--bs-btn-border-radius:99rem;--bs-btn-box-shadow:inset 0 1px 0 rgba(255, 255, 255, 0.15),0 1px 1px rgba(21, 21, 21, 0.075);--bs-btn-disabled-opacity:0.65;--bs-btn-focus-box-shadow:0 0 0 0.25rem rgba(var(--bs-btn-focus-shadow-rgb), .5);display:inline-block;padding:var(--bs-btn-padding-y) var(--bs-btn-padding-x);font-family:var(--bs-btn-font-family);font-size:var(--bs-btn-font-size);font-weight:var(--bs-btn-font-weight);line-height:var(--bs-btn-line-height);color:var(--bs-btn-color);text-align:center;text-decoration:none;vertical-align:middle;cursor:pointer;user-select:none;border:var(--bs-btn-border-width) solid var(--bs-btn-border-color);border-radius:var(--bs-btn-border-radius);background-color:var(--bs-btn-bg);transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out}@media (prefers-reduced-motion:reduce){.btn{transition:none}}.btn:hover{color:var(--bs-btn-hover-color);background-color:var(--bs-btn-hover-bg);border-color:var(--bs-btn-hover-border-color)}.btn:focus{color:var(--bs-btn-hover-color);background-color:var(--bs-btn-hover-bg);border-color:var(--bs-btn-hover-border-color);outline:0;box-shadow:var(--bs-btn-focus-box-shadow)}.btn.active,.btn.show,.btn:active{color:var(--bs-btn-active-color);background-color:var(--bs-btn-active-bg);border-color:var(--bs-btn-active-border-color)}.btn.active:focus,.btn.show:focus,.btn:active:focus{box-shadow:var(--bs-btn-focus-box-shadow)}.btn:disabled{color:var(--bs-btn-disabled-color);pointer-events:none;background-color:var(--bs-btn-disabled-bg);border-color:var(--bs-btn-disabled-border-color);opacity:var(--bs-btn-disabled-opacity)}.btn-primary{--bs-btn-color:#fff;--bs-btn-bg:#151515;--bs-btn-border-color:#151515;--bs-btn-hover-color:#fff;--bs-btn-hover-bg:#121212;--bs-btn-hover-border-color:#111111;--bs-btn-focus-shadow-rgb:56,56,56;--bs-btn-active-color:#fff;--bs-btn-active-bg:#111111;--bs-btn-active-border-color:#101010;--bs-btn-active-shadow:inset 0 3px 5px rgba(21, 21, 21, 0.125);--bs-btn-disabled-color:#fff;--bs-btn-disabled-bg:#151515;--bs-btn-disabled-border-color:#151515}.collapse:not(.show){display:none}.collapsing{height:0;overflow:hidden;transition:height .35s ease}@media (prefers-reduced-motion:reduce){.collapsing{transition:none}}.nav{--bs-nav-link-padding-x:1rem;--bs-nav-link-padding-y:0.5rem;--bs-nav-link-color:var(--bs-link-color);--bs-nav-link-hover-color:var(--bs-link-hover-color);--bs-nav-link-disabled-color:#6c757d;display:flex;flex-wrap:wrap;padding-left:0;margin-bottom:0;list-style:none}.nav-link{display:block;padding:var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);font-size:var(--bs-nav-link-font-size);font-weight:var(--bs-nav-link-font-weight);color:var(--bs-nav-link-color);text-decoration:none;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out}@media (prefers-reduced-motion:reduce){.nav-link{transition:none}}.nav-link:focus,.nav-link:hover{color:var(--bs-nav-link-hover-color)}.navbar{--bs-navbar-padding-x:0;--bs-navbar-padding-y:0.5rem;--bs-navbar-color:rgba(21, 21, 21, 0.7);--bs-navbar-hover-color:rgba(21, 21, 21, 0.8);--bs-navbar-disabled-color:rgba(21, 21, 21, 0.3);--bs-navbar-active-color:rgba(21, 21, 21, 0.9);--bs-navbar-brand-padding-y:0.29375rem;--bs-navbar-brand-margin-end:1rem;--bs-navbar-brand-font-size:1.375rem;--bs-navbar-brand-color:rgba(21, 21, 21, 0.9);--bs-navbar-brand-hover-color:rgba(21, 21, 21, 0.9);--bs-navbar-nav-link-padding-x:0.5rem;--bs-navbar-toggler-padding-y:0.25rem;--bs-navbar-toggler-padding-x:0.75rem;--bs-navbar-toggler-font-size:1.375rem;--bs-navbar-toggler-icon-bg:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2821, 21, 21, 0.7%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");--bs-navbar-toggler-border-color:rgba(21, 21, 21, 0.1);--bs-navbar-toggler-border-radius:99rem;--bs-navbar-toggler-focus-width:0.25rem;--bs-navbar-toggler-transition:box-shadow 0.15s ease-in-out;position:relative;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;padding:var(--bs-navbar-padding-y) var(--bs-navbar-padding-x)}.navbar>.container,.navbar>.container-fluid{display:flex;flex-wrap:inherit;align-items:center;justify-content:space-between}.navbar-brand{padding-top:var(--bs-navbar-brand-padding-y);padding-bottom:var(--bs-navbar-brand-padding-y);margin-right:var(--bs-navbar-brand-margin-end);font-size:var(--bs-navbar-brand-font-size);color:var(--bs-navbar-brand-color);text-decoration:none;white-space:nowrap}.navbar-brand:focus,.navbar-brand:hover{color:var(--bs-navbar-brand-hover-color)}.navbar-nav{--bs-nav-link-padding-x:0;--bs-nav-link-padding-y:0.5rem;--bs-nav-link-color:var(--bs-navbar-color);--bs-nav-link-hover-color:var(--bs-navbar-hover-color);--bs-nav-link-disabled-color:var(--bs-navbar-disabled-color);display:flex;flex-direction:column;padding-left:0;margin-bottom:0;list-style:none}.navbar-nav .nav-link.active,.navbar-nav .show>.nav-link{color:var(--bs-navbar-active-color)}@keyframes progress-bar-stripes{0%{background-position-x:1rem}}.list-group{--bs-list-group-color:#212529;--bs-list-group-bg:#fff;--bs-list-group-border-color:rgba(21, 21, 21, 0.125);--bs-list-group-border-width:1px;--bs-list-group-border-radius:0px;--bs-list-group-item-padding-x:1rem;--bs-list-group-item-padding-y:0.5rem;--bs-list-group-action-color:#495057;--bs-list-group-action-hover-color:#495057;--bs-list-group-action-hover-bg:#f8f9fa;--bs-list-group-action-active-color:#212529;--bs-list-group-action-active-bg:#e9ecef;--bs-list-group-disabled-color:#6c757d;--bs-list-group-disabled-bg:#fff;--bs-list-group-active-color:#fff;--bs-list-group-active-bg:#151515;--bs-list-group-active-border-color:#151515;display:flex;flex-direction:column;padding-left:0;margin-bottom:0;border-radius:var(--bs-list-group-border-radius)}.list-group-horizontal{flex-direction:row}@keyframes spinner-border{to{transform:rotate(360deg)}}@keyframes spinner-grow{0%{transform:scale(0)}50%{opacity:1;transform:none}}@keyframes placeholder-glow{50%{opacity:.2}}@keyframes placeholder-wave{100%{mask-position:-200% 0}}.opacity-25{opacity:.25!important}.overflow-hidden{overflow:hidden!important}.d-flex{display:flex!important}.shadow{box-shadow:0 3rem 4rem rgba(21,21,21,.15)!important}.position-relative{position:relative!important}.border-top{border-top:var(--bs-border-width) var(--bs-border-style) var(--bs-border-color)!important}.border-end{border-right:var(--bs-border-width) var(--bs-border-style) var(--bs-border-color)!important}.border-bottom{border-bottom:var(--bs-border-width) var(--bs-border-style) var(--bs-border-color)!important}.w-100{width:100%!important}.h-100{height:100%!important}.justify-content-end{justify-content:flex-end!important}.justify-content-center{justify-content:center!important}.justify-content-between{justify-content:space-between!important}.align-items-center{align-items:center!important}.mx-auto{margin-right:auto!important;margin-left:auto!important}.mt-1{margin-top:.25rem!important}.me-2{margin-right:.5rem!important}.mb-0{margin-bottom:0!important}.mb-1{margin-bottom:.25rem!important}.mb-2{margin-bottom:.5rem!important}.mb-3{margin-bottom:1rem!important}.ms-2{margin-left:.5rem!important}.p-0{padding:0!important}.px-0{padding-right:0!important;padding-left:0!important}.py-4{padding-top:1.5rem!important;padding-bottom:1.5rem!important}.pt-2{padding-top:.5rem!important}.pb-0{padding-bottom:0!important}.fs-4{font-size:calc(1.29rem + .48vw)!important}.fs-5{font-size:calc(1.2625rem + .15vw)!important}.fs-6{font-size:1.1rem!important}.fw-bolder{font-weight:bolder!important}.lh-1{line-height:1!important}.text-start{text-align:left!important}.text-end{text-align:right!important}.text-center{text-align:center!important}.text-decoration-none{text-decoration:none!important}.text-muted{--bs-text-opacity:1;color:#6c757d!important}@media (min-width:768px){.me-md-5{margin-right:3rem!important}.ms-md-1{margin-left:.25rem!important}.pe-md-4{padding-right:1.5rem!important}}@media (min-width:992px){.mb-lg-0{margin-bottom:0!important}}@media (min-width:1200px){.fs-4{font-size:1.65rem!important}.fs-5{font-size:1.375rem!important}}html{scroll-behavior:smooth}.btn,.nav-link.collapsed,.navbar,.navbar-light a.nav-link,.shadow,a,img{transition:all .5s ease-in-out 0s}.navbar{padding-top:32px;padding-bottom:32px}.link-fancy{color:#151515;text-decoration:none;display:inline-block;position:relative}.link-fancy:hover{color:#6c757d}.link-fancy:before{content:'';display:block;height:1px;width:100%;transform-origin:left;position:absolute;left:0;bottom:0;background-image:linear-gradient(90deg,#151515 0,#151515 25%,transparent 0,transparent 50%,#151515 0,#151515 75%,transparent 0,transparent);background-repeat:no-repeat;background-position:0;background-size:400% 1px;transition:background-position .8s ease-in-out}.link-fancy:hover:before{background-position:100%}.display-huge{font-size:calc(2.5rem + 1.5vw);font-weight:700;letter-spacing:-.02rem}.navbar-light a.nav-link{color:#151515;border-bottom:2px solid transparent;margin:0 1rem;font-size:1.33rem}.navbar-light a.nav-link:hover{border-bottom:2px solid #151515}.btn-xl{--bs-btn-padding-y:calc(.75rem + .5vh);--bs-btn-padding-x:calc(1rem + 2vw);--bs-btn-font-size:1.1rem;--bs-btn-border-radius:99rem}.py-vh-1{padding-top:1.5vh;padding-bottom:1.5vh}.py-vh-2{padding-top:3vh;padding-bottom:3vh}.py-vh-3{padding-top:6vh;padding-bottom:6vh}.py-vh-5{padding-top:12vh;padding-bottom:12vh}.px-vw-5{padding-left:3vw;padding-right:3vw}</style>
+
+<link href="/css/styling.css" rel="stylesheet">
+<link href="https://api.fontshare.com/v2/css?f[]=sentient@400,401,700,701&display=swap" rel="stylesheet">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navScroll">
+<nav id="navScroll" class="navbar navbar-light py-vh-3 pb-0 px-vw-5" tabindex="0">
+<div class="container-fluid">
+<a class='navbar-brand pe-md-4 fs-4 col-12 col-md-auto text-center' href='/'>
+<span class="ms-md-1 mt-1 fw-bolder me-md-5">Sebastian Moitzheim&#39;s Weblog</span>
+</a>
+<ul class="navbar-nav mx-auto mb-2 mb-lg-0 list-group list-group-horizontal">
+<li class="nav-item"><a aria-label='Über mich' class='nav-link fs-5' href='/about/'>Über mich</a></li><li class="nav-item"><a aria-label='Archiv' class='nav-link fs-5' href='/archive/'>Archiv</a></li><li class="nav-item"><a aria-label='Suche' class='nav-link fs-5' href='/search/'>Suche</a></li>
+</ul>
+<a href="https://smoitzheim.omg.lol" aria-label="Socials &amp; Kontakt" class="fs-6 link-fancy">Socials &amp; Kontakt</a>
+</div>
+</nav>
+
+
+<style>h1,h2,h3,h4,h5{font-family:Sentient,'New York',Georgia,serif!important}body,html{font-family:Sentient,'New York',Georgia,serif!important}.mt-3{margin-top:30px}</style>
+
+<main><heading-anchor>
+<div class="container">
+<div class="row d-flex justify-content-center">
+<div class="col-12 text-center py-vh-5">
+<h1></h1>
+</div>
+<div class="row">
+<div class="col-12">
+
+</div>
+</div>
+<div class="col-11 col-lg-10 col-xl-6 border-bottom border-top py-vh-3">
+<div class="row">
+<p class="lead"></p>
+
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <title>My Blog about Boats</title>
+  <subtitle>I am writing about my experiences as a naval navel-gazer.</subtitle>
+  <link href="https://smoitzheim.online/feed.xml" rel="self" />
+  <link href="https://smoitzheim.online/" />
+  <updated>2024-12-07T00:00:00Z</updated>
+  <id>https://smoitzheim.online/</id>
+  <author>
+    <name>Boaty McBoatFace</name>
+  </author>
+  <entry>
+    <title>Worüber The Lonely Island und Seth Meyers in ihrem Podcast reden – und worüber nicht</title>
+    <link href="https://smoitzheim.online/blog/lonelyislandpod/" />
+    <updated>2024-12-07T00:00:00Z</updated>
+    <id>https://smoitzheim.online/blog/lonelyislandpod/</id>
+    <content type="html">&lt;p&gt;Ich binge gerade den Podcast von The Lonely Island und Seth Meyers, und habe dabei immer wieder einen Gedanken, der mir oft kommt, wenn ich Ex-Castmitglieder oder -Autoren über Saturday Night Live sprechen höre: Ich kann es kaum abwarten, dass Lorne Michaels endlich stirbt. Also, nach langem, erfüllten Leben und an natürlichen Ursachen, falls Michaels’ Anwälte mitlesen.&lt;/p&gt;
+&lt;p&gt;Der Podcast selbst ist eine unterhaltsame Rückschau auf das Werk von The Lonely Island. Andy Samberg, Jorma Taccone und Akiva Schaeffer erinnern sich, angeleitet von Meyers, an die Inspirationen und Produktion ihrer Digital Shorts. Einen &lt;em&gt;Blick hinter die Kulissen&lt;/em&gt; von Saturday Night Live hat ja schon so manche Dokumentation, manches Buch, mancher Spielfilm geworfen, aber The Lonely Island haben eine interessante, weniger verbrauchte Perspektive: Die Konzeption und Produktion ihrer Digital Shorts lief oft einigermaßen getrennt von der Arbeit an der Live-Show ab, und es ist durchaus spannend, nachzuvollziehen, wie die Gruppe das neue Format innerhalb der oft einigermaßen festgefahren wirkenden Show etabliert haben.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://smoitzheim.online/blog/lonelyislandpod/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;The Lonely Island sind neben Tim Robinson und John Mulaney wohl das beste, was SNL in diesem Jahrtausend hervorgebracht hat, und anders als viele andere Stars der Show haben die drei Mitglieder nach ihrer Zeit bei SNL nichts an Relevanz verloren. Der Podcast liefert auch dafür eine gute Erklärung: weil sie nie so &lt;em&gt;richtig&lt;/em&gt; Teil von SNL geworden waren. Nach ein paar mittelmäßig erfolgreichen Versuchen, Live-Sketche zur Show beizutragen, konzentrierten Samberg, Taccone and Schaeffer sich fast ausschließlich auf die Produktion ihrer Shorts. Anders als die Live-Sketche durchliefen die Shorts nicht die üblichen Aussiebe- und Überarbeitungs-Phasen – Pitch, Table-Read, Proben und schließlich eine Generalprobe vor Publikum –, sondern wurden von The Lonely Island weitgehend allein produziert und dann dem restlichen Team in fertiger Form vorgestellt. Während reguläre Castmitglieder und Autoren also ihre eigene Stimme der der Show unterordnen müssen – und dabei oft an Ecken und Kanten verlieren –, konnten The Lonely Island sich einigermaßen frei entfalten. Gleichzeitig schafften sie es, sich für die Show unersetzlich zu machen, was keine Selbstverständlichkeit ist: Andere Castmitglieder mit ähnlich spezifischem Humor, etwa Kyle Mooney oder Tim Robinson, haben oft Schwierigkeiten, in der Show Fuß zu fassen, und ihre Arbeit wird oft entweder ganz aus der Show geschnitten oder nimmt bestenfalls den „10 to 1“-Slot ein, wird also als letzter Sketch der Show gezeigt, zu einer Zeit, zu der, so die Theorie, ein großer Teil des Publikums bereits abgeschaltet hat.&lt;/p&gt;
+&lt;p&gt;Dass The Lonely Island ein anderes Schicksal hatten, ist zu einem guten Teil einfach glücklichem Timing geschuldet: Ihre Anfangszeit bei SNL fiel zusammen mit dem Aufkommen von YouTube. Die dort – von Fans, nicht SNL oder NBC selbst – hochgeladenen Digital Shorts gehörten zu den frühesten viralen Videos. Der Humor von The Lonely Island war die richtige Art von seltsam für das Internet der 00er Jahre, und so halfen ihre Shorts der Show, den Sprung ins Internet zu schaffen.&lt;/p&gt;
+&lt;p&gt;Auch hilft der Podcast, den Humor der Gruppe besser zu verstehen und einzuordnen, gerade im Vergleich mit anderen, zeitgleich erfolgreichen Filmemachern. Anders als etwa Judd Apatow oder Adam McKay begannen die Mitglieder von The Lonely Island nicht auf der Bühne, mit Live-Improv etwa bei Second City oder UCB. Ihr Weg ging stattdessen über Channel 101, die von Dan Harmon und Rob Schrab ins Leben gerufene Kurzfilm-Reihe/-Website. The Lonely Island waren also von Anfang an auch &lt;em&gt;Filmemacher&lt;/em&gt;, und das sieht man in ihrem Ansatz bis heute. Wo Apatows und McKays oft mit langen, statischen Einstellungen arbeiten und eine Szene im Zweifelsfall eher länger laufen zu lassen, um ihren Schauspielern möglichst viel Raum für Improvisation zu geben, entsteht der Lonely-Island-Humor zu einem großen Teil auch im Schnitt. Einstellungen und Szenen sind kürzer, das Tempo höher – beide Filme von The Lonely Island, Hot Rod und Popstar, sind um die 90 Minuten kurz. Neben dem Drehbuch und der Improvisation der Darsteller wird auch mit filmischen Mitteln Comedy geschaffen, etwa in der „Cool beans“-Szene in Hot Rod, in der ein relativ belangloser Dialog zu einem Song umgeschnitten und so zu einem der absurdesten und witzigsten Momente des Films wurde.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=TOUrLn1FFCA&quot;&gt;https://www.youtube.com/watch?v=TOUrLn1FFCA&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Aber so interessant all das ist: Vielleicht noch aufschlussreicher ist, worüber The Lonely Island und Seth Meyers &lt;em&gt;nicht&lt;/em&gt; reden, oder nur in Anspielungen und Bits. Regelmäßig spielt die Gruppe auf den Druck an, den SNL-Erfinder und -immer-noch-Produzent Lorne Michaels auf seinen Cast und seine Autoren ausübt – geht dann aber nicht näher darauf ein, wie ernstgemeint oder überzeichnet diese Bemerkungen sind. Solche scheinbar ironischen Anspielungen auf Michaels’, nun ja, &lt;em&gt;altmodischen&lt;/em&gt; Führungsstil hört man fast immer, wenn irgendein Ex-Castmitglied oder -Autor einigermaßen ausführlich über seine Zeit bei SNL spricht. Aber dank den wenigen Cast- und Crewmitgliedern, die mal etwas offener, ohne Ironisieren, über Michaels und das Arbeitsklima bei SNL geredet haben, &lt;a href=&quot;https://longreads.com/2023/08/17/lorne-michaels-saturday-night-live/?ref=humorism.xyz&quot;&gt;wissen wir&lt;/a&gt;, dass solche Witzeleien einen wahren Kern haben: Michaels kreiert mittels seltsamen Mindgames systematisch ein Arbeitsumfeld geprägt von Paranoia und Unsicherheit, bestraft kleinste (angebliche) „Fehltritte“ seiner Untergebenen – ein Sketch, der nicht funktioniert, ein Auftritt in einem nicht von Michaels produzierten Film, ein ungünstiger Kommentar in der Presse –, indem er ihre Sketche streicht oder sie gleich entlässt, und verschließt gleichzeitig die Augen vor &lt;em&gt;wirklich&lt;/em&gt; problematischem Verhalten, etwa Horatio Santz’ angeblichem Grooming von Minderjährigen auf SNL-Afterpartys.&lt;/p&gt;
+&lt;p&gt;Mit diesem Wissen im Hinterkopf ist es schwer zu ertragen, Ex-SNL-Cast und -Autoren über Michaels reden zu hören, ohne dass sie &lt;em&gt;wirklich&lt;/em&gt; darüber reden. Die Anspielungen sind Beleg dafür, dass Meyers und The Lonely Island (oder wer auch immer gerade über SNL spricht) Bescheid wissen über Michaels’ toxisches Verhalten – wie könnten sie das auch nicht? Aber die Anspielungen qualifizieren sicher nicht als eine echte Konfrontation des Themas. Das führt zu einer ablenkenden kognitiven Dissonanz beim Hören: Um einigermaßen Spaß am Podcast zu haben, muss man aktiv verdrängen, was hier bewusst nicht ausgeführt wird.&lt;/p&gt;
+&lt;p&gt;Comedy-Kritiker Seth Simons &lt;a href=&quot;https://sethsimons.substack.com/p/lorne-is-really-mad-about-this&quot;&gt;bemerkte&lt;/a&gt; 2020 ähnliches über das Bild von Michaels, das der aktuelle SNL-Chefautor Colin Jost in seinem Buch A Very Punchable Face zeichnet. Das Buch ist offenbar voll von Episoden, die Michaels’ toxischen Führungsstil offenlegen, aber präsentiert sind als amüsante Anekdoten. „If this is what Lorne Michaels does to people who thrive under his leadership“, schreibt Simons, „you have to wonder what he does to people who don’t.“&lt;/p&gt;
+&lt;p&gt;Jost ist noch immer Chefautor bei SNL, also direkt von Michaels angestellt. Warum aber schützen Meyers und The Lonely Island, die SNL schon lange verlassen haben, Michaels noch immer so? Sicher spielt einfach Loyalität mit rein, Dankbarkeit für die Chancen, die SNL ihnen geboten hat. Eine Rolle spielt aber sicher auch, dass die Karrieren der Gruppe, wie die der meisten Ex-SNL-Stars, auch Jahre nach dem Ende ihrer Zeit bei der Show scheinbar untrennbar mit ihrem alten Chef verknüpft sind. Michaels steht als Produzent in den Credits vieler Projekte ehemaliger SNL-Stars und -Autoren, darunter auch Seth Meyers’ Late-Night-Show, die von Jorma Taccone mitverantwortete MacGruber-Serie und das von The Lonely Island co-produzierte I Think You Should Leave. Ob und zu welchem Grade Michaels tatsächlich aktiv in diese Projekte involviert ist, ob etablierte Stars wie The Lonely Island Michaels tatsächlich noch &lt;em&gt;brauchen&lt;/em&gt;, ist nebensächlich: Michaels’ Name öffnet Türen, und, davon muss man ausgehen, könnte sie auch wieder schließen. Eine Comedy-Karriere in Hollywood ist vielleicht nicht &lt;em&gt;unmöglich&lt;/em&gt; ohne Michaels’ Unterstützung, aber wer sich mit ihm gutstellt, hat es zweifelsohne einfacher.&lt;/p&gt;
+&lt;p&gt;Nur offenbart der Unwille, über das toxische Verhalten ihres alten Chefs zu reden bzw. es ernstzunehmen, Seth Meyers und The Lonely Island halt als Heuchler. Meyers kommentiert in seiner Late-Night-Show die News aus einer links-liberalen Perspektive, solidarisierte sich in Strike Force Five, seinem gemeinsamen Podcast mit den anderen großen Late-Night-Hosts, mit streikenden Autoren; Samberg war acht Jahre lang Hauptdarsteller und ein Produzent von Brooklyn Nine-Nine, einer Show, die ebenfalls ein ausgeprägtes soziales Gewissen hatte, auch einige Geschichten über schlechte Chefs und toxische Arbeitsbedingungen erzählte. Dass die beiden das toxische Verhalten ihres alten Chefs verharmlosen, passt nicht zu den Werten, die sie in ihrer Arbeit zu vertreten behaupten.&lt;/p&gt;
+&lt;p&gt;Es gibt übrigens noch einen anderen sprichwörtlichen &lt;em&gt;Elefanten im Zimmer&lt;/em&gt;, wenn über SNL geredet wird, der mir etwa den Spaß an John Mulaneys letztem Special Baby J ein Stück weit verdorben hat. Mulaney verarbeitet darin seine Drogensucht, die vor einigen Jahren zu einer Intervention durch befreundete Comedians und einem Aufenthalt in einer Entzugsklinik führte. Diese Geschichte hat mehrere Berührungspunkte mit SNL: Einige seiner Ex-Kollegen sind Teil seiner &lt;em&gt;star-studded&lt;/em&gt; Intervention, Pete Davidson ruft ihn in der Drogenklinik an, und in einer Anekdote setzt sich Mulaney im Kokainrausch in die SNL-Maske (als er schon lange nicht mehr dort arbeitet) und verlangt einen Haarschnitt.&lt;/p&gt;
+&lt;p&gt;Eine Verbindung zwischen seinem Beruf und seiner Suchterkrankung stellt Mulaney aber nicht her. Er erzählt seine Geschichte als eine seiner persönlichen Verfehlungen, und dass er für SNL arbeitet bzw. gearbeitet hat, ist demnach eher ein Zufall. Aber ist das wirklich so? Gibt es nicht vielmehr eine erkennbare Korrelation zwischen Arbeit bei SNL und Drogenproblemen? SNL-Legenden wie Chris Farley und John Belushi erlagen ihrer Suchtkrankheit, viele andere hatten Perioden von Drogenmissbrauch.&lt;/p&gt;
+&lt;p&gt;Die Frage, die sich hier aufdrängt, ist: Ist diese Korrelation Zufall, oder begünstigt das Umfeld bei SNL Drogenmissbrauch? Für letzteres spricht durchaus einiges: Dass Kokain-Gebrauch am Arbeitsplatz in den Anfangstagen von SNL völlig normal war, ist mittlerweile ein hinreichend bekannter Fakt, den selbst ein Puff-Piece wie Jason Reitmans diesjähriges Starfucker-Biopic Saturday Night nicht verschweigen kann. Bis heute folgt die Arbeit an einer Folge von SNL einem Zeitplan, mit durchgearbeiteten Nächten, legendären After-Partys nach der Show und nur einem Tag Pause zwischen Episoden, den einzuhalten &lt;em&gt;ohne&lt;/em&gt; Kokaineinfluss sicher nicht unmöglich, aber auch nicht unbedingt einfacher ist. Auch die Frage, inwieweit der Druck, den Michaels auf seine Angestellten ausübt, zu diesem Problem beiträgt, liegt nahe.&lt;/p&gt;
+&lt;p&gt;Aber solche Fragen stellt Mulaney nicht. Und nicht nur er: Auch Dokus über verstorbene SNL-Stars wie I Am Chris Farley von 2015 konfrontieren sie nicht.&lt;/p&gt;
+&lt;p&gt;Im Podcast von The Lonely Island und Seth Meyers geht es, natürlich, nicht um Drogenmissbrauch – aber so &lt;em&gt;ganz&lt;/em&gt; ausblenden kann man das Thema beim Hören, wenn man einigermaßen Bescheid weiß, dann auch wieder nicht: Es ist irgendwie doch präsent, in den Anekdoten über lange Nächte und Last-Minute-Ideen, und eben in den Anspielungen auf Michaels’ Führungsstil. So ist es halt immer, wenn über SNL gesprochen wird: Die hässlicheren Seiten des Jobs sind immer präsent, immer direkt unter der Oberfläche, aber sie brechen nie durch, werden nie direkt thematisiert. Und so lange Lorne Michaels am Leben ist, braucht man sich wohl keine Hoffnungen zu machen auf einen wirklich ehrlichen Blick hinter die Kulissen der Show.&lt;/p&gt;
+&lt;hr class=&quot;footnotes-sep&quot;&gt;
+&lt;section class=&quot;footnotes&quot;&gt;
+&lt;ol class=&quot;footnotes-list&quot;&gt;
+&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Vorproduzierte Einspielfilme waren nicht ganz neu für SNL: Albert Brooks, Robert Smigl und zuletzt Adam McKay, der auch das Label „Digital Short“ einführte, hatten bereits Einspieler für SNL produziert. Aber erst mit der Arbeit von The Lonely Island wurden die „Digital Shorts“ ein festes Feature, das aus der Sendung nicht mehr wegzudenken war. &lt;a href=&quot;https://smoitzheim.online/blog/lonelyislandpod/#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Paul Rousseaus Friendly Fire: A Fractured Memoir: Ein potenzieller Klassiker in der Literatur über Trauma und Behinderung</title>
+    <link href="https://smoitzheim.online/blog/friendlyfire/" />
+    <updated>2024-10-24T00:00:00Z</updated>
+    <id>https://smoitzheim.online/blog/friendlyfire/</id>
+    <content type="html">&lt;p&gt;Früh in &lt;a href=&quot;https://micro.blog/books/9781400247967&quot;&gt;Friendly Fire&lt;/a&gt;, seinem Memoir über einen Unfall, von dem er permanente Hirnschäden davongetragen hat, beschreibt Paul Rousseau, wie sich die Verletzung auf sein Schreiben auswirkt:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;My post-injury brain wants to fixate and obsess. I can’t focus for long, sometimes just fifteen-minute spurts here and there. The brevity of this book is an exact reflection, these fractured chapters a direct result. If I try to write for longer than my brain allows, it becomes hollow. I lose the ability to connect dots, maintain interest.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Es ist gerade diese fragmentarische Struktur, die Friendly Fire so effektiv macht. Rousseau bildet so ab, wie sein traumatisiertes Gehirn funktioniert, und wie »Heilen« wirklich aussieht – nicht ein linearer Prozess stetiger Besserung, sondern ein&lt;br&gt;
+unordentliches, oft frustrierendes Auf-und-Ab ohne klaren Endpunkt.&lt;/p&gt;
+&lt;p&gt;Verantwortlich für Rousseaus Verletzung ist sein College-Mitbewohner und damaliger bester Freund, den er im Buch Mark nennt. Mark war ein Waffenentusiast und hatte – ein Verstoß gegen die Campus-Regeln – mehrere Schusswaffen in der gemeinsamen Wohnung. Eines Abends, als beide sich für gemeinsames Ausgehen zurechtmachten, drückte Mark den Abzug einer seiner Waffen, im Glauben, sie sei nicht geladen. Die Kugel durchschlug zwei Wände und traf Rousseau in den Kopf. Rousseaus Glück war, wie er später von seinen Ärzten hervor, ein ungewöhnlich dicker Schädel: Die Kugel zerschmetterte seinen Schädel, prallte aber ab, ohne in sein Gehirn zu dringen. Rousseau überlebte, aber mit bleibenden physischen und kognitiven Schäden und schwerem psychischen Trauma. Nach dem Unfall wartete Mark Stunden, bevor er Polizei und Ärzte informierte, kümmerte sich stattdessen darum, sich selbst zu schützen, indem er die Campus-Sicherheit belog und seine Waffen aus der Wohnung schaffte.&lt;/p&gt;
+&lt;p&gt;Die Kapitel, die den Unfall und die Ereignisse unmittelbar danach beschreiben, lesen sich nie ein Thriller. Rousseau bricht die Spannung allerdings immer wieder mit essayistischen Kapiteln, in denen er etwa auf seine Freundschaft mit Mark und seinem anderen Mitbewohner Keith zurückblickt, oder auf seine Erfahrungen als Teenager mit schlimmer Akne, die laut Rousseau den Beginn einer »seltsamen Beziehung« zur Medizin bedeuteten, die sich nach dem Unfall intensivieren sollte. Diese Einschübe reichern Rousseaus Geschichte mit Kontext an, geben ein Bild davon, welche Emotionen der Unfall in Rousseau aufgewühlt hat. Gleichzeitig spiegelt diese Struktur ein Stück weit den Verlauf der Ereignisse und hilft so, uns in Rousseaus Position zu versetzen: Wie Rousseau (zu) lange warten musste, bevor Mark Hilfe rief, lässt er uns immer wieder auf den nächsten Teil seiner Geschichte warten, indem er bewusst abschweift – »Is this a good time to talk about zits?« beginnt er etwa einen dieser Einschübe, gleich nach dem dramatischen Moment, als seine Freundin und Familie von dem Unfall erfahren.&lt;/p&gt;
+&lt;p&gt;Der Rest des Buches behandelt dann Rousseaus körperliche und geistige Verarbeitung des Traumas auf der einen und die lange gerichtliche Auseinandersetzung mit seiner Versicherung auf der anderen Seite. Die beiden Prozesse laufen gleichzeitig und arbeiten oft gegeneinander:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[My personal injury case] made progress—or at least the show of progress—my enemy. Any improvement, any impression that I wasn’t dumb and brain damaged, could undermine my case«[.]&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Die Besuche bei Gutachtern und Anwälten schildert Rousseau oft mit bitterem Humor, doch er macht auch kein Geheimnis aus seiner Wut darüber, Energie für den kafkaesken Kampf um die ihm zustehende finanzielle Unterstützung aufbringen zu müssen, anstatt sich voll auf seine Genesung konzentrieren zu können.&lt;/p&gt;
+&lt;p&gt;Diese Kapitel wechseln sich mit introspektiveren ab, in denen Rousseau seine von Trauma gezeichnete Gedanken- und Gefühlswelt abbildet und seinen Alltag nach dem Unfall erzählt. Das Bild, dass er so zeichnet, ist eines innerer Zerrissenheit, einer Genesung, die unnötig dadurch erschwert und unterbrochen wird, dass Rousseau sein Trauma immer wieder neu durchleben muss. Besonders berührend sind Rousseaus Schilderungen davon, wie das Trauma und die Trigger, die es geschaffen hat, sein Leben und seine Erinnerungen überschatten. Bei der Abschlussfeier seines Studienjahrgangs versetzt der Anblick von Marks Auto ihn in Panik; beim Videospielen kann er sich nicht überwinden, seinen digitalen Feinden in den Kopf zu schießen. Vor allem trübt das Trauma auch seine Erinnerungen, zerstört die Freundschaften, die er während dem Studium geschlossen hat. Die zu Mark, natürlich:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If every good memory I had of us was a lake, April 7 dumped into it a vat of toxic waste, tainting the whole body of water. Maybe a few things can be filtered out, but that lake is beyond redemption. Are you happy I didn’t die?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Aber auch die Freundschaft zu Keith, der Mark nach dem Unfall zwang, endlich Hilfe zu rufen, kann Rousseau nicht wieder aufnehmen:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The thing is, Keith, there is no us without Mark. And Mark shot me in the head. It’s not a bygones situation, you know? Every second I saw you would remind me that I got shot, without fail. The two of us are only capable of the past, and I’m only in the mood for moving on. I hope you’ve moved on from this too.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Mark und Keith zu verlieren, schreibt Rousseau,&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;was losing my five senses. I was robbed of the primary way I perceived the world. They were my cues, my context.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Rousseau beschreibt eindringlich, wie die Effekte seiner Behinderung ihn von seinen Mitmenschen isolieren. Sie belasten die Beziehung mit seiner Freundin und seiner Familie, verhindern, dass er Verbindungen zu seinen neuen Kollegen knüpft. Gleichzeitig schärfen seine Erfahrungen auch seinen Blick für das Leid und die Herausforderungen anderer: Bei einer Untersuchung für seine Versicherung knüpft er eine stumme Verbindung zu einer anderen Patientin; wie die Anwälte über den Wert seines Lebens verhandeln vergleicht er damit, wie Männer über die körperliche Autonomie von Frauen entscheiden. Zwischen diesen beiden gegensätzlichen Impulsen, schreibt Rousseau, ist er seit dem Unfall hin- und hergerissen:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;By many accounts, a near-death experience changes a person. Opens them up to life. Increases their compassion. It is also known that traumatic brain injury does just the opposite, decreasing emotional intelligence and empathy. I’ve been pulled by these opposing forces, not sure which team I play for. My life has been reduced to dualities. Life/death. Courage/fear. Forgiveness/hatred. Love/anger. Laugh/cry. I’m never sure if I’m supposed to wish April 7 never happened, or just adapt and be thankful. The answer is yes.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Friendly Fire ist, wie Rousseau an einer Stelle schreibt, kein »issue book«. Aber es sind gerade auch diese Momente, in denen Rousseau seinen Blick über seine eigene Geschichte hinaus erweitert, die Friendly Fire zu einem so wertvollen Beitrag zur Literatur über Trauma und Behinderung machen: Rousseaus Geschichte ist einzigartig, aber, schreibt er, »metaphorically, everyone gets shot in the head.«, und so schärft er auch unseren Blick, sensibilisiert uns für die oft unsichtbaren alltäglichen Herausforderungen unserer Mitmenschen.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Megalopolis verspricht David Graeber und liefert Elon Musk</title>
+    <link href="https://smoitzheim.online/blog/megalopolis/" />
+    <updated>2024-09-29T00:00:00Z</updated>
+    <id>https://smoitzheim.online/blog/megalopolis/</id>
+    <content type="html">&lt;p&gt;Seien wir ehrlich: Es war abzusehen, dass Megalopolis nicht &lt;em&gt;ganz&lt;/em&gt; gelungen sein würde. Francis Ford Coppola hatte die Grundidee zum Projekt in den späten 70ern. In den fast fünf Dekaden seitdem wandelte sich Coppolas Vision wieder und wieder, immer neue Einflüsse wirkten darauf ein: zeitgeschichtliche Ereignisse wie 9/11, Bücher, die Coppola gelesen hat, Weine, die er getrunken hat (vermutlich). In der Berichterstattung nahm das Projekt geradezu mythische Züge an: Es wurde als Coppolas potenzielles &lt;em&gt;magnum opus&lt;/em&gt; gehandelt, charakterisiert als so (über-)ambitioniertes wie unvermarktbares, teures Mammutprojekt. Um den Film endlich selbst zu finanzieren, verkaufte Coppola unter anderem einige seiner Weingüter. Mit hoher Wahrscheinlichkeit wird es Coppolas letzter Film sein – in diesem Film kulminiert also die Karriere eines der einflussreichsten Filmemachers in der Geschichte Hollywoods. Die Produktion selbst war Berichten von Cast und Crew zufolge chaotisch und, für einige, frustrierend: Auch am Set, so könnte man es wohlwollend ausdrücken, versiegte der Strom an neuen Ideen nicht. Coppola warf Drehpläne spontan über den Haufen, verbrachte ganze Drehtage damit, einen einzelnen visuellen Effekt zu realisieren, verschanzte sich angeblich auch mal stundenlang Marihuana rauchend in seinem Trailer.&lt;/p&gt;
+&lt;p&gt;Es kann nicht wirklich überraschen, dass ein Film mit dieser Produktionsgeschichte unter seinen eigenen Ambitionen zusammenbricht. Dass er sich weniger wie eine konsequent verfolgte Vision anfühlt als wie eine Reihe durchaus spannender, nicht immer zusammenpassender Ansätze. Dass er mehr &lt;em&gt;interessant&lt;/em&gt; als wirklich gelungen ist. Aber das, interessant, ist er ohne Frage.&lt;/p&gt;
+&lt;p&gt;Ich versuche hier aus Angst, einen spontanen Hirnschlag zu erleiden, gar nicht erst, den Plot zusammenzufassen. Was ihr, für die Zwecke dieses Reviews, wissen müsst, ist: 1. Megalopolis spielt in einer Bizarro-Version New Yorks, die das Amerika der Gegenwart mit dem alten Rom vermischt. Für die Leute auf den billigen Plätzen zieht Laurence Fishburnes Erzählerfigur ungefähr 20 mal explizit den Vergleich zwischen den USA und dem dem Untergang geweihten Rom. 2. Der Plot ist wirr, die meisten Handlungsstränge führen zu nichts und ungefähr die Hälfte der Figuren existieren nur, weil Coppola seine Familie und alte Freunde besetzen wollte. Im Kern aber geht es um die Rivalität zwischen dem Bürgermeister New Yorks, Franklyn Cicero (Giancarlo Esposito), und dem Architekten Cesar Catilina (Adam Driver). Catilina ist Chef der »Design Authority« – was genau das ist, kann ich nicht abschließend sagen, aber es scheint eine Art Architekturbüro mit eigener Polizei zu sein. Er ist außerdem Nobelpreisträger für die Entdeckung des »Wundermaterials« Megalon und plant den Bau einer futuristischen Stadt, des titelgebenden Megalopolis. Oh, und er kann die Zeit anhalten. 3. Aubrey Plaza spielt eine Figur namens Wow Platinum, eine Mischung aus Only-Fans-Star, »Mad Money«-Host Jim Cramer und Jessica Rabbit. Wow Platinum ist nicht weiter relevant für den Rest dieses Reviews oder für, könnte man überzeugend argumentieren, den Film. Aber man könnte &lt;em&gt;auch&lt;/em&gt; überzeugend argumentieren, dass sie das &lt;em&gt;einzig&lt;/em&gt; relevante an Megalopolis ist, jedenfalls ist sie das unterhaltsamste.&lt;/p&gt;
+&lt;p&gt;Cicero und Catilina sollen, glaube ich, für gegensätzliche Ideen stehen: Cicero für das Aufrechterhalten des Status Quo, für Stillstand; Catilina für Aufbruch, Zukunft, große, utopische Visionen. Ich sage »glaube ich«, weil Megalopolis eher vage in diese Richtung gestikuliert als dass er sich wirklich Mühe gibt, seine beiden Figuren und ihre angeblich gegensätzlichen Ideologien auszuarbeiten. Cicero sagt am Anfang einmal, die Menschen bräuchten keine gigantomanischen Visionen, sondern Zugang zu Bildung und Sanitäranlagen, was jetzt erstmal nicht komplett unvernünftig klingt. Catilina redet ständig von Utopien und der Stadt der Zukunft, in der Menschen in golden-futuristischen Gebäuden miteinander darüber reden, wie eine utopische Gesellschaft aussehen könnte. Man wartet aber vergeblich darauf, dass er selbst mal den Anfang macht, ein paar konkrete Vorschläge in den Raum stellt, was so eine Utopie, auf einer gesellschaftlichen Ebene, ausmachen könnte. Hauptsache halt Diskurs, freie Rede und so. Die brillanteste Erfindung dieses großen Geistes scheinen goldene Bänder zu sein,  die Menschen von A nach B transportieren. Sowas gibt es, wenn auch ästhetisch weniger ansprechend, an jedem Flughafen, aber damit reiht sich Catilina halt ein in die lange Liste selbsterklärter Tech-Visionäre, die Sachen erfinden, die es schon gibt, und sich dann laut über die Kleingeister beschweren, die sich davon nicht begeistern lassen.&lt;/p&gt;
+&lt;p&gt;Tatsächlich ist das wohl der ergiebigste Ansatz, eine einigermaßen kohärente Lesart für Megalopolis zu entwickeln: Coppola hat hier aus Versehen einen Film gemacht, der Einblicke gibt in das Denken von Tech-Bros und anderen, die sich für zukunftsgewandt, visionär halten, die behaupten, mit dem Status Quo brechen zu wollen, aber denen es an Vorstellungskraft fehlt, echte Alternativen zu entwerfen. Ihre Zukunftsvision zeichnet sich dadurch aus, dass alles irgendwie, nun, &lt;em&gt;futuristisch&lt;/em&gt; ist, technisch fortgeschritten, glänzend und neu, aber wie wir Menschen und unser Miteinander uns verändern könnten, dazu fällt ihnen nichts ein. Catilina erinnert an die Anhänger von &lt;em&gt;longtermism&lt;/em&gt; und &lt;em&gt;effective altruism&lt;/em&gt;, oder halt einfach an Elon Musk: So, wie Musk meint, die Zukunft aus Star Trek herbeiführen zu können, indem er den technischen Fortschritt forciert – anstatt durch die radikale Umstrukturierung unserer Gesellschaft –, meint Catalina, man müsste halt einfach mal die Stadt der Zukunft aus futuristischem Material bauen, und alles andere wird sich dann schon irgendwie ergeben.&lt;/p&gt;
+&lt;p&gt;Das Ding ist halt, dass Coppolas Intention erkennbar eben nicht ist, diesen Typus zu entlarven. Catilina beginnt als einigermaßen ambivalente Figur, doch am Ende ist es wirklich er, der die Bevölkerung vereint und in eine neue Zukunft führt. Coppola hängt dem Geniekult an, sieht utopisches Potenzial letztlich in einzelnen, angeblich brillanten Geistern. Unter seinen vielen Einflüssen für Megalopolis listete Coppola zuletzt unter anderem das Werk des Anthropologen, Anarchisten und Occupy-Wallstreet-Vordenkers David Graeber. Wenn man’s weiß, kann man diesen Einfluss durchaus erkennen, in dem behaupteten Glauben Catilinas an den Menschen als im Grunde gut, an die Notwendigkeit, neue Gesellschaftsentwürfe basierend auf dieser Grundlage zu entwickeln. Nur ist Coppola halt ein reicher, alter Mann, der seit Dekaden wenig Kontakt zu Menschen mit weniger als siebenstelligem Kontostand hat. So verrät er an anderer Stelle sein Misstrauen in normale Menschen, etwa in einem halbherzigen Subplot, in dem Shia LaBeouf sich zum populistischen Anführer einer vage faschistoiden Bewegung aufspielt. Einhalt gebieten kann dem nur eine letzte, große Rede Catilinas – Menschen brauchen schon irgendwie Führer, nur die richtigen müssen es sein, die visionären Genies oder, naja, diejenigen, die am lautesten von sich behaupten, visionäre Genies zu sein. David Graber versprechen, aber letztlich nur Elon Musk liefern können – das ist schon eine besondere, faszinierend-tragische Art, an den eigenen Ansprüchen zu scheitern.&lt;/p&gt;
+&lt;p&gt;Gleichzeitig ist Catilina natürlich auch eine &lt;em&gt;self-insert&lt;/em&gt; Figur Coppolas – Megalopolis wäre kein Spätwerk eines Großmeisters, könnte man ihn nicht auch als Film über das Filmemachen lesen. Coppola inszeniert sich also ein Stück weit selbst als missverstandenes Genie. Das kann man Coppola, angesichts der Schwierigkeiten, diesen Film und sein jüngeres Werk generell zu finanzieren, nicht ganz verüblen. Es hat aber einen unangenehmen Beigeschmack angesichts jüngster Entwicklungen: Coppola verklagte kürzlich Variety für die Berichterstattung über die Produktion des Films, und die Klage wirft Variety unter anderem vor, neidisch auf Coppolas Genie zu sein. Aber auch, wenn Megalopolis für mich nie so ganz als kohärentes Werk zusammenkommt, enthält er durchaus genügend Beweise für das, was man von mir aus Coppolas »Genie« nennen kann, wenn man denn unbedingt muss. Sequenzweise ist Megalopolis ein eindrucksvolles audiovisuelles Erlebnis. Sequenzen wie die, in der Catilina durch ein apokalyptisch anmutendes New Jersey chauffiert wird, vorbei an zusammenbrechenden, überlebensgroßen lebenden Statuen, oder eine zugegeben überlange Drogensequenz, erklären vielleicht ein Stück weit, warum die Produktion für Teile von Cast und Crew frustrierend war, und es so schwer war, die Finanzierung für das Projekt zusammenzukriegen: Es sind die Sorte hochspezifischer visueller Ideen, die Coppola wahrscheinlich genau vor Augen hatte, aber die schwer zu kommunizieren sind außer in ihrer fertigen Form. Schade nur, dass Coppola seinem Publikum nicht zutraut, irgendeine auch noch so unsubtile visuelle Metapher selbst zu dekodieren und deshalb ständig Figuren aussprechen lässt, was die Bilder gerade bereits kommuniziert haben (»So much injustice on the streets«, sagt eine Figur etwa, Sekunden nachdem wir eine lebende Justitia-Statue kollabieren gesehen haben).&lt;/p&gt;
+&lt;p&gt;Auf Letterboxd &lt;a href=&quot;https://letterboxd.com/smoitzheim/film/megalopolis-2024/&quot;&gt;witzelte ich&lt;/a&gt;, dass ich alles an Megalopolis mochte, außer wann immer irgendeine Figur irgendetwas sagt. Ganz so schlimm ist es nicht, aber es stimmt, dass die Dialoge und die Handlung, die diese individuell eindrucksvollen Sequenzen zu einem größeren Ganzen verbinden sollen, stattdessen offenbaren, dass Coppolas »Vision« eher eine lose Ansammlung halbgarer Ideen ist. Das macht Megalopolis zu einem streckenweise frustrierenden Film, einem, der immer &lt;em&gt;so kurz&lt;/em&gt; vor einem wirklich visionären Gedanken ist, aber dann doch zu kurz greift. Aber es ist gerade in diesem Scheitern, in dem der Film eben auch unfreiwillig entlarvend ist. Coppola hat uns keine utopische Vision zu bieten, aber vielleicht kann er uns helfen, zu verstehen, warum unsere Realität jeglicher Utopie so fern ist.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>M. Night Shyamalans Trap und warum Plotholes manchmal doch nicht egal sind</title>
+    <link href="https://smoitzheim.online/blog/trap/" />
+    <updated>2024-09-17T00:00:00Z</updated>
+    <id>https://smoitzheim.online/blog/trap/</id>
+    <content type="html">&lt;p&gt;Cinemasins und ihre Nachahmer haben dem Filmdiskurs im Internet nachhaltigen Schaden zugefügt. Primär natürlich, indem sie eine oberflächliche, kunstfeindliche Art von Filmrezeption popularisiert haben, eine, die sich auf das Suchen von »Plotholes« fokussiert, darauf, zu beweisen, dass man »schlauer« ist als der Film, über den man spricht. Dieser Ansatz ist mittlerweile mehr als hinreichend problematisiert und auseinandergenommen – der »CinemaSins-Takedown« ist im Grunde ein eigenes Subgenre von Video-Essays.&lt;/p&gt;
+&lt;p&gt;Weniger diskutiert ist bislang der &lt;em&gt;sekundäre&lt;/em&gt; Schaden, den CinemaSins angerichtet hat: Es ist, in Cineasten-Kreisen, mittlerweile schwierig, überhaupt &lt;em&gt;irgendetwas&lt;/em&gt; über den Plot eines Films zu beobachten, ohne CinemaSins’schem &lt;em&gt;nitpicking&lt;/em&gt; bezichtigt zu werden. Es ist eine verständliche, aber anstrengende Überkorrektur.&lt;/p&gt;
+&lt;p&gt;Diskussionen über die Filme von M. Night Shyamalan sind da vielleicht das beste Beispiel. Shyamalan genießt, nachdem sein Name eine Zeitlang mehr eine Pointe war, mittlerweile wieder großes Ansehen bei Filmfans. Das ist erstmal auch gut so: Shyamalans letzte Handvoll von Filmen, seit etwa The Visit, waren alle mindestens interessant, teils richtig gelungen, und ganz ehrlich, selbst seine schwächeren Filme waren immer sehenswert, hatten immer ein, zwei Sequenzen, die sein handwerkliches Können zur Schau stellten, oder wenigstens ein paar unterhaltsam debile Ideen.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://smoitzheim.online/blog/trap/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; Der Spott, dem viele den einstigen »nächsten Spielberg« lange unterzogen, war zweifelsohne übertrieben und hatte gelegentlich – man denke an halblustige Wortspiele mit seinem Namen – auch eine milde rassistische Dimension.&lt;/p&gt;
+&lt;p&gt;Aber Shyamalans leidenschaftlichste Verteidiger, die sich mittlerweile (wieder) in weiten Teilen mit der Sorte Filmfan überschneiden, die den CinemaSins-Ansatz ablehnen, verweigern mittlerweile oft &lt;em&gt;jede&lt;/em&gt; Diskussion über Shyamalans Plots. Grundsätzlich habe ich einiges übrig für diese Haltung: Filme &lt;em&gt;brauchen&lt;/em&gt; keinen besonders ausgeklügelten Plot, um zu funktionieren, und Diskussionen, die ausschließlich auf der Plot-Ebene stattfinden, sind selten besonders ergiebig, lassen oft völlig aus, was ein Werk interessant macht.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://smoitzheim.online/blog/trap/#fn2&quot; id=&quot;fnref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt; Das Bedürfnis mancher Nerds, ihre intellektuelle Überlegenheit gegenüber einem Film zu beweisen, finde ich auch maximal anstrengend, &lt;em&gt;suspension of disbelief&lt;/em&gt; gehört für mich zum guten Ton der Filmrezeption. Sätze wie »Plot-Holes sind mir egal« oder »›das macht keinen Sinn‹ ist eine langweilige Kritik« gehören wohl zu den häufigsten, die ich in Diskussionen über Filme sage.&lt;/p&gt;
+&lt;p&gt;Aber Shyamalans Filme, auch seine besseren, zeigen mir oft die Grenzen dieser Haltung auf. Das hat damit zu tun, dass Shyamalans Filme offenbar meine persönliche Maximaldosis an Plot-Absurditäten überschreiten, was natürlich irgendwie eine Geschmacksfrage ist. Ich finde aber auch, dass man Shyamalans Arbeit oft schlicht &lt;em&gt;nicht gerecht wird&lt;/em&gt;, wenn man ihr nicht auf dieser Ebene begegnet.&lt;/p&gt;
+&lt;p&gt;Ein Film wie Trap, Shyamalans jüngster, ist einfach zu &lt;em&gt;plot-forward&lt;/em&gt;, als dass man diese Ebene ignorieren könnte. Es geht um Cooper (Josh Hartnett), der mit Teenie-Tochter Riley (Ariel Donoghue) ein Konzert der Taylor-Swift-inspirierten Pop-Sängerin Lady Raven (Shyamalans Tochter Saleka) besucht. Doch Cooper ist nicht nur Familienvater, sondern auch der berüchtigte Serienkiller »The Butcher«. Das Konzert stellt sich als große Falle heraus, als polizeikoordinierte Operation, den Killer zu stellen. Es ist eine clevere, puzzleboxartige Prämisse, und die Hook hier, das, was uns emotional in den Film investieren lässt, ist nicht etwa die eher generische Beziehung zwischen Cooper und seiner Tochter als die simple, plotfokussierte Frage: Und was passiert dann? Wie entkommt Cooper aus der scheinbar ausweglosen Situation?&lt;/p&gt;
+&lt;p&gt;Die Antwort lautet, dass die gesamte Welt des Films sich um ihn biegt – die ausweglose Situation bietet ihm in entscheidenden Momenten sehr komfortable Auswege, die sich ihm, würde der Film annähernd nach den Regeln der Realität spielen, so nicht bieten würden. Ist es &lt;em&gt;nitpicking&lt;/em&gt;, das unbefriedigend zu finden? &lt;em&gt;Suspension of disbelief&lt;/em&gt; ist schön und gut, aber hier erwartet der Film von uns, unseren eigenen Augen nicht zu trauen: Wir sollen ihn beim Wort nehmen, wenn es heißt, die Konzerthalle sei hermetisch abgeriegelt, werde akribisch von der Polizei durchkämmt; wenn wir doch &lt;em&gt;sehen&lt;/em&gt; können, dass es offensichtlich &lt;em&gt;leichter&lt;/em&gt; ist für Cooper, sich innerhalb der Halle, auch in eigentlich abgeriegelte Bereiche, zu bewegen als auf jedem normalen Konzert, das wir je besucht haben. Dass sein Entkommen aus der Halle letztlich lächerlich einfach ist- Irgendwann, nach dem zehnten unglaubwürdigen &lt;em&gt;glücklichen Zufall&lt;/em&gt; wirkt es nicht mehr, als würde ein Filmemacher sich gelegentliche Freiheiten nehmen, hier und da die Regeln der Realität biegen, um einen spannenderen Film zu schaffen, sondern als würde er das Publikum die Arbeit machen lassen: Trap gibt sich wenig Mühe, Cooper als den kühl-intelligenten, skrupellosen Killer zu &lt;em&gt;zeigen&lt;/em&gt;, der er wohl sein soll, und noch weniger, die Gefahr der Situation zu etablieren, zählt aber darauf, dass wir beides irgendwie annehmen und uns vorstellen, damit irgendeine Art von Spannung entsteht.&lt;/p&gt;
+&lt;p&gt;Das Problem ist auch, dass wir einfach zu wenig für unsere &lt;em&gt;suspension of disbelief&lt;/em&gt; belohnt werden – was, ironischerweise, zum Teil daran liegt, dass Shyamalan eben ein so plot-besessener Drehbuchautor ist. Über Shyamalans Twists wurde in den letzten paar Dekaden viel gewitzelt, und zweifelsohne wurden seine Filme allzu oft auf ihre mehr oder weniger überraschende finale Wendung reduziert. Dass Shyamalan seine Plots aber gerne so konstruiert, dass noch möglichst spät neue, &lt;em&gt;game-changing&lt;/em&gt; Informationen offenbart werden, ist nicht von der Hand zu weisen, und ist auch bei Trap nicht anders.&lt;/p&gt;
+&lt;p&gt;Ich versuche hier, so vage wie möglich zu bleiben, aber leichte Spoiler sind unvermeidlich. Die Protagonistin des Films wechselt im Grunde zwei mal – von Cooper zu Lady Raven zu Coopers Frau Rachel (Alison Pill). Das ist in der Theorie erstmal nicht uninteressant, in der Praxis jedoch führt es dazu, dass die interessanteste Beziehung des Films erst kurz vor Schluss überhaupt etabliert wird. Gegen Ende gibt es eine ca. 15minütige Strecke, in der mir Trap richtig gut gefallen hat, in deren Zentrum die klimaktische Konfrontation von Cooper und Rachel steht. Die Plot–Unglaubwürdigkeiten hören hier nicht auf – damit es überhaupt zu dieser Konfrontation kommen kann, muss die Polizei, inklusive der angeblich brillanten FBI-Profilerin, die den Einsatz koordiniert, absurd inkompetent handeln –, aber sie fallen jetzt weniger ins Gewicht, da wir dafür, darüber hinwegzusehen, mit interessanter Charakterarbeit belohnt werden. Aber dass Trap erst so spät auf diese interessantere Ebene wechselt, ist frustrierend. Es unterstreicht nur, woran es dem Film fehlte, und es wirft Fragen auf – warum war Rachel bereit, ihre Tochter so in Gefahr zu bringen? Wie hat sie sich gefühlt mit dem Wissen, dass Riley gemeinsam mit dem »Butcher« in der Falle sitzt? – die über »Plotholes« hinausgehen: Sie deuten auf den viel interessanteren Film hin, der Trap hätte sein können, hätte Shyamalan sich eben weniger auf die Plot-Ebene fokussiert, wäre er nicht so besessen davon, seinen Filmen auf Biegen und Brechen einen »Twist« zu geben.&lt;/p&gt;
+&lt;p&gt;Trap ist so, wie so viele Shyamalan-Filme, einer, der in Sequenzen und Momenten funktioniert, aber nicht als ganzes. Er macht es sich einfach, indem er die eigene Prämisse nicht konsequent zu Ende denkt, seine eigenen (behaupteten) Regeln bricht. Und der, ja, schlicht &lt;em&gt;keinen Sinn macht&lt;/em&gt;, keine interne Kohärenz hat, und das über weite Strecken nicht mit anderen Qualitäten aufwiegen kann. Er verdient sich unsere &lt;em&gt;suspension of disbelief&lt;/em&gt; nicht.&lt;/p&gt;
+&lt;hr class=&quot;footnotes-sep&quot;&gt;
+&lt;section class=&quot;footnotes&quot;&gt;
+&lt;ol class=&quot;footnotes-list&quot;&gt;
+&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Mit Ausnahme vielleicht von seiner Verfilmung von Avatar: The Last Airbender. &lt;a href=&quot;https://smoitzheim.online/blog/trap/#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn2&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Siehe als prominentes und ewiges Beispiel die beliebtesten Kritikpunkte an The Last Jedi, die sich an Plausibilitäts-Nickeligkeiten aufhängen, ohne die thematische Intention dahinter in Betracht zu ziehen. &lt;a href=&quot;https://smoitzheim.online/blog/trap/#fnref2&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Alien: Romulus ist interessanter als erwartet</title>
+    <link href="https://smoitzheim.online/blog/alienromulus/" />
+    <updated>2024-09-07T00:00:00Z</updated>
+    <id>https://smoitzheim.online/blog/alienromulus/</id>
+    <content type="html">&lt;p&gt;In vielen Aspekten ist Alien: Romulus genau der Film, den ich erwartet habe: Es ist ein weiteres &lt;em&gt;Legacyquel&lt;/em&gt;, das &lt;em&gt;zurück zu den Wurzeln&lt;/em&gt; der Alien-Reihe gehen will. Das bedeutet einerseits, dass der Film sich bei Liebhabern der klassischen Filme anbiedern will, mit unangenehmem Fanservice, der von unpassenden Zitaten von One-Linern aus Aliens bis zu einer geschmacklosen CGI-Wiederbelebung eines verstorbenen Darstellers aus Alien reicht. Es bedeutet andererseits aber auch eine tatsächliche Rückbesinnung auf alte Stärken der Reihe. Regisseur Fede Alvarez arbeitet, so weit es geht, mit physischen Sets, praktischen Effekten und Monstern, die von Menschen in unbequemen Anzügen gespielt werden, und strukturiert seinen Film als eine Art Crash-Kurs über die klassische Alien-Reihe: Der Film beginnt als Creature-Feature, das die gruseligsten Sequenzen enthält, die die Alien-Reihe seit dem Original zu bieten hatte, nimmt im Mittelteil ein Bisschen von James Camerons Aliens inspirierte Action mit, und lässt sich für sein Finale von den besseren/bizarreren Ideen von Alien: Resurrection inspirieren. Es hat ein Bisschen was von Malen-nach-Zahlen, vom Abhaken einer Checklist, aber es &lt;em&gt;funktioniert&lt;/em&gt;. Alvarez remixt effektiv ikonische Sequenzen des Originals, und bringt ein paar inspirierte Ideen für eigene Set-Pieces mit, etwa eine Sequenz, in der die Figuren in der Schwerelosigkeit dem ätzenden Blut getöteter Xenomorphs ausweichen müssen.&lt;/p&gt;
+&lt;p&gt;Wo Romulus aber von meinen Erwartungen abweicht, ist in seiner Figurenkonstellation, seinem Grundkonflikt, und das ist auch, was dem Film eine eigene Identität gibt, ihn zu mehr als bloßer Nachlassverwaltung macht. Der emotionale Kern des Films ist die Beziehung der jungen Rain (Cailee Spaney) zu ihrem »Bruder«, einem Androiden namens Andy (David Jonsson). Rain lebt als Minenarbeiterin in einer vom Weyland-Yutani-Konzern verwalteten Kolonie (Tageslichtstunden: 0), allein mit Andy, nachdem ihre Eltern an durch die harte Arbeit verursachten Krankheiten gestorben sind. Andy ist ein Auslaufmodell, von Rains Vater, wie später eine Figur formuliert, »im Müll gefunden«. Nachdem Rains Arbeitsvertrag von Weyland-Yutani unilateral um einige Jahre verlängert wird, schließen die beiden sich einer Gruppe an, die plant, die Cryostasis-Kammern eines verlassenen, im All treibenden Schiffes zu bergen, was ihnen ermöglichen würde, im Cryo-Schlaf in eine lebenswertere Existenz auf einem anderen Planeten zu fliehen. Schnell stellen sie allerdings fest, &lt;em&gt;warum&lt;/em&gt; das Schiff menschenleer im All treibt: Die Crew fiel den Xenomorphs zum Opfer, die noch immer in jeder Ecke des Schiffes lauern.&lt;/p&gt;
+&lt;p&gt;Damit die Gruppe sich frei auf dem Schiff bewegen kann, setzt Rain Andy ein Modul eines halb-zerstörten Androiden ein, den sie auf dem Schiff findet. Das gibt Andy Zugang zum gesamten Schiff, hat aber auch einige unbeabsichtigte Nebenwirkungen: Das neuere Modul bringt ein »Upgrade« mit, das Andy einerseits bessere Kontrolle über seinen mechanischen Körper gibt, aber auch seine Persönlichkeit verändert, und ihm eine neue Direktive gibt – anstatt in Rains handelt er nun im Interesse von Wayland-Yutani.&lt;/p&gt;
+&lt;p&gt;Alvarez und sein Co-Autor Rodo Sayagues spielen hier mit so interessanten wie potenziell problematischen Ideen: Vor dem Update bewegt sich Andy langsam und zuckend, stottert, ist auf Rains Unterstützung angewiesen. Alvarez und Sayagues arbeiten hier mit Coding: der veralterte Android als behinderter Mensch. Das läuft Gefahr, in das &lt;em&gt;Othering&lt;/em&gt; behinderter Menschen, das Bild von ihnen als nicht ganz menschlich hineinzuspielen. Hier hat es für mich aber gut funktioniert: Zwar erleben wir den Großteil der Geschichte durch Rains Augen, aber Alvarez und Sayagues lassen von Anfang an Raum für Andys Perspektive. Es besteht, auch dank Jonssons starker Performance, kein Zweifel daran, dass Andy ein Innenleben hat, das nicht weniger reichhaltig ist, als das der anderen, menschlichen Figuren. Wenn er keine vollwertige Person, »nicht ganz menschlich« ist, dann nicht, weil ihm etwas fehlt, sondern weil Vorurteile gegen &lt;em&gt;synthetics&lt;/em&gt; ihm die Eigenständigkeit und Möglichkeit zur Entfaltung nehmen – er ist nicht als Automat geboren, sondern wird &lt;a href=&quot;https://54books.de/wir-werden-nicht-als-automaten-geboren-wir-werden-zu-ihnen-gemacht-kazuo-ishiguros-klara-und-die-sonne-aus-autistischer-perspektive/&quot;&gt;zu einem gemacht&lt;/a&gt;. Das »Upgrade«, das Andy besser »funktionieren« lässt, kommt von Weyland-Yutani, ist also nur eine andere Facette derselben kapitalistischen Unterdrückung, die Rain zu weiteren Jahren Minenarbeit zwingt. Es verändert Andys Persönlichkeit, macht ihn effizienter, aber auch kühler, kalkurierter – weniger menschlich. Am Ende, nachdem Andys ursprüngliche Persönlichkeit wiederhergestellt wurde, muss Rain sich sogar eingestehen, dass auch ihre Beziehung zu Andy etwas kontrollierendes hatte, und sie gesteht ihm letztlich Autonomie zu, macht ihn zum gleichberechtigten Partner in der Beziehung.&lt;/p&gt;
+&lt;p&gt;Nicht nur Andy, auch Rain und die anderen Mitglieder der Gruppe kämpfen letztlich darum, inmitten einer ausbeuterischen, menschlichen Situation ihre Menschlichkeit zu bewahren. Das ist keine brandneue Idee, weder für das Sci-Fi-Genre, noch für das Alien-Franchise, aber wie Alvarez und Sayagues sich Konzepten aus der gesamten Franchise-Geschichte bedienen, um diese Idee zu dramatisieren, ist durchaus bemerkenswert. Sie übernehmen Elemente nicht nur aus der Kern-Alien-Reihe, sondern auch aus Ridley Scotts polarisierendem Prequel Prometheus, und verbinden alles überraschend elegant und kohärent. Es erinnert ein kleines Bisschen daran, wie auch Rian Johnson in The Last Jedi Ideen der gesamten Star-Wars-Reihe, inklusive der unbeliebten Prequels, aufgreift und auffrischt – wenn auch Johnson deutlich mehr kreative Freiheit hatte, sein Film daher ein eigenständigeres, weniger fan-service-lastiges Werk ist.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://smoitzheim.online/blog/alienromulus/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Die offensichtlichste Idee von Prometheus, die Romulus aufgreift, ist das außerirdische Serum, mit dem damals der Androide David an den menschlichen Figuren experimentierte. Hier plant Weyland-Yutani, mit Hilfe des Serums die nächste Evolution der Menschheit einzuleiten – auch wir Menschen sind für den Konzern nur veraltete Maschinen, die dringend ein Update benötigen.&lt;/p&gt;
+&lt;p&gt;Romulus knüpft allerdings noch auf eine interessantere, subtilere, vielleicht gar nicht so intendierte Art an Prometheus an. Eine beliebte Kritik an Prometheus lautet ja, dass die Figuren, allesamt Wissenschaftler, irrationale, »dumme« Entscheidungen treffen. Lassen wir mal dahingestellt, wie interessant diese Kritik ist: Was stimmt, ist dass Prometheus damit in Kontrast zu Alien steht. Im Original trifft Ridley zunächst die rationale, um nicht zu sagen kaltherzige Entscheidung, den Quarantäne-Vorschriften zu folgen und ihre Crew-Mitglieder nicht wieder an Bord zu lassen, nachdem Kane von einem Facehugger befallen wurde. Bliebe es bei dieser Entscheidung, würde das die ganze Katastrophe des Films verhindern, doch der Androide Ash revidiert sie.&lt;/p&gt;
+&lt;p&gt;In Romulus ist es der »gepatchte« Andy, der an einer Stelle eine ähnlich kühle, rationale Entscheidung wie Ripley im Original trifft. Hauptfigur Rain derweil lassen Alvarez und Sayagues immer wieder »irrational« handeln – aber bewusst, mit Methode. Rain entscheidet sich immer wieder bewusst dagegen, sich selbst zu schützen, den sichersten Ausweg zu nehmen, um ihre Freunde und ihren »Bruder« zu retten. »Rationales«, i.e. kühl-kalkulierendes Handeln ist hier vor allem die Methode des Konzerns, wer sich seine Menschlichkeit bewahren will muss dagegen manchmal Emotionen über kühlen Intellekt stellen. Alien: Romulus ist so auch eine Absage an eine Strömung der Science-Fiction: die Science-Fiction von Astounding-Chefredakteur und &lt;a href=&quot;https://locusmag.com/2019/11/cory-doctorow-jeannette-ng-was-right-john-w-campbell-was-a-fascist/&quot;&gt;Faschist&lt;/a&gt; John W. Campbell, die Science-Fiction der &lt;a href=&quot;https://locusmag.com/2014/03/cory-doctorow-cold-equations-and-moral-hazard/&quot;&gt;&lt;em&gt;Kalten Gleichungen&lt;/em&gt;&lt;/a&gt;, der selbst das originale Meisterwerk der Reihe ein Stück weit anhing. Dass Romulus so interessant mit Klassikern des Genres und dem Ursprung der Alien-Reihe in Dialog tritt, hätte ich so nicht erwartet.&lt;/p&gt;
+&lt;p&gt;Schade, dass die interessanteren Aspekte des Films unterminiert werden von den Franchise-Verpflichtungen, die er abarbeiten muss – vor allem natürlich von der Entscheidung, Ian Holm per CGI wiederzubeleben. Laut Ridley Scott kam die Entscheidung von Scotts und Alvarez’ gemeinsamer Liebe für die Figur Ash und Bedauern darüber, dass sie nach dem Original nie wieder aufgetaucht war. Die Wiederbelebung erfolgte in Absprache mit Holms Witwe. Das mag stimmen, aber es ist gerade diese Normalisierung, die ich bedenklich finde: Scott bedauerte es also, Ash nie zurückgebracht zu haben, und möchte das jetzt nachholen – sollte es wirklich ein rein technisches Problem sein, dass der Darsteller dieser Figur verstorben ist? Wie routiniert mittlerweile verstorbene Schauspieler so wiederbelebt werden, wie wenig Rechtfertigung es für solche Entscheidungen braucht, finde ich schon einigermaßen erschreckend.&lt;/p&gt;
+&lt;p&gt;Man muss also ein ganzes Stück guten Willen mitbringen und über die unangenehmeren Aspekte hinwegsehen, die es 2024 offenbar einfach mit sich bringt, wenn man in einem etablierten Franchise arbeitet. Aber ich finde, dass Romulus diese Mühe wert ist: Es ist ein interessanterer Film, als ihm viele Kritiker zugestehen, einer, der bei allem pflichtgerechten Abarbeiten der Franchise-Checklist eine eigene Identität bewahrt.&lt;/p&gt;
+&lt;hr class=&quot;footnotes-sep&quot;&gt;
+&lt;section class=&quot;footnotes&quot;&gt;
+&lt;ol class=&quot;footnotes-list&quot;&gt;
+&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Eine Meta-Lesart von Alien: Romulus als Film über seine eigene Entstehung – darüber, wie schwierig es ist, innerhalb der Disney-Maschinerie (zu der Fox und damit Alien ja mittlerweile gehören) interessante Filme zu machen – ist wohl auch nicht allzu weit hergeholt. &lt;a href=&quot;https://smoitzheim.online/blog/alienromulus/#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</content>
+  </entry>
+</feed>
+
+</div>
+</div>
+</div>
+
+</div>
+</heading-anchor></main>
+
+<footer>
+<div class="container text-center small py-vh-3">
+Built with <a href="https://11ty.dev" target="_blank">11ty</a> Designed by <a href="https://templatedeck.com/brook-html-template.html" target="_blank">Template Deck</a>
+</div>
+</footer>
+<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
+
+</body>
+</html>
