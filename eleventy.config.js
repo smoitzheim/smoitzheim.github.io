@@ -1,5 +1,6 @@
 import { IdAttributePlugin, InputPathToUrlTransformPlugin, HtmlBasePlugin } from "@11ty/eleventy";
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
+import pluginRss from "@11ty/eleventy-plugin-rss";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginNavigation from "@11ty/eleventy-navigation";
 import yaml from "js-yaml";
@@ -87,30 +88,7 @@ eleventyConfig.addPlugin(pluginSyntaxHighlight, {
 	eleventyConfig.addPlugin(HtmlBasePlugin);
 	eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
     eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
-	eleventyConfig.addPlugin(feedPlugin, {
-		type: "atom", // or "rss", "json"
-		outputPath: "/feed.xml",
-		stylesheet: "pretty-atom-feed.xsl",
-		templateData: {
-			eleventyNavigation: {
-				key: "Feed",
-				order: 4
-			}
-		},
-		collection: {
-			name: "posts",
-			limit: 10,
-		},
-		metadata: {
-			language: "de",
-			title: "Sebastian Moitzheim's Weblog",
-			subtitle: "Neue Texte und Shitposts von Sebastian Moitzheim.",
-			base: "https://smoitzheim.online/",
-			author: {
-				name: "Sebastian Moitzheim"
-			}
-		}
-	});
+	eleventyConfig.addPlugin(pluginRss);
 
 
 	eleventyConfig.addPlugin(pluginFilters);

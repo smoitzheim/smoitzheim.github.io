@@ -7,9 +7,6 @@
 </head>
 <body data-bs-spy="scroll" data-bs-target="#navScroll">
 {% include "partials/nav.njk" %}
-<details>
-  <summary>{{ content | safe | truncate(280) }}</summary>
-</details>
 {{content|safe}}
 {% include "partials/footer.njk" %}
 </body>
