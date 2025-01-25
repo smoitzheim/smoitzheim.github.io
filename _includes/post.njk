@@ -23,8 +23,7 @@ layout: base.njk
 <div class="col-12 col-lg-10 col-xl-6 py-vh-2">
 {% if show_toc %}<h3>{{metadata.toc_widget_title}}</h3>{{ content | toc | safe }}{% endif %}
 {{content|safe}}
-{%- if metadata.comments -%}
-test
+{%- if metadata.comments|length -%}
 <p><em>Hinterlasse <a href="{{metadata.comments}}">hier</a> einen Kommentar.</em></p>
 {%- endif -%}
 </div>
