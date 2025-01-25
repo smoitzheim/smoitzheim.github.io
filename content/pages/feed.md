@@ -9,7 +9,7 @@ layout: empty
         <meta charset="UTF-8">
         <meta http-equiv="refresh" content="0; url=http://example.com">
         <script type="text/javascript">
-            window.location.href = "http://example.com"
+            window.location.href = "/feed.xml"
         </script>
         <title>Feed Redirect</title>
     </head>
@@ -18,5 +18,3 @@ layout: empty
         Wenn du nicht automatisch weitergeleitet wirst, findest du den RSS-Feed <a href="/feed.xml">hier</a>.
     </body>
 </html>
-
-[Go to home page](/)
