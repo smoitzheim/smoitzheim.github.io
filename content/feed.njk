@@ -1,7 +1,6 @@
 ---json
 {
   "permalink": "feed.xml",
-  "stylesheet": "https://smoitzheim.online/feed/pretty-atom-feed.xsl",
   "eleventyExcludeFromCollections": true,
   "layout": "empty.njk",
   "metadata": {
@@ -16,6 +15,7 @@
 }
 ---
 <?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="/feed/pretty-atom-feed.xsl" type="text/xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ metadata.language or page.lang }}">
   <title>{{ metadata.title }}</title>
   <subtitle>{{ metadata.description }}</subtitle>
