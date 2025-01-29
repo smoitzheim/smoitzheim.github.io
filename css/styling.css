@@ -41,4 +41,5 @@ button.inputsubmit, input.inputsubmit {
 
 button.inputsubmit:hover, input.inputsubmit:hover {
 	opacity: 0.75;
+	margin-bottom: 1em;
 }
