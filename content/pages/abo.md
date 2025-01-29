@@ -12,15 +12,8 @@ Du kannst mein Blog per [RSS](https://smoitzheim.online/feed.xml) oder per [Emai
 Öffne [https://smoitzheim.online/feed.xml](https://smoitzheim.online/feed.xml) in deinem RSS-Reader.
 
 ### Email
-<form action="https://feedmail.org/subscriptions/confirm">
-	<!-- The URL of your feed. -->
-	<input type=hidden name=url value="https://smoitzheim.online/feed.xml">
-
-	<!-- Return URL after subscription is confirmed. Optional -->
-	<input type=hidden name=r value="https://smoitzheim.online">
-
-	<label><input type=email name=email class="inputmail" placeholder="deine Email" required></label>
-	<button class="inputsubmit">Abonnieren</button>
+<form action="https://feedmail.org/subscriptions/confirm"><!-- The URL of your feed. --><input type=hidden name=url value="https://smoitzheim.online/feed.xml"><!-- Return URL after subscription is confirmed. Optional --><input type=hidden name=r value="https://smoitzheim.online">
+<input type=email name=email class="inputmail" placeholder="deine Email" required><button class="inputsubmit">Abonnieren</button>
 </form>
 
 <!--- ### Fediverse
