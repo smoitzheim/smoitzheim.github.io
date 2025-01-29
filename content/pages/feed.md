@@ -1,21 +1,11 @@
 ---
-permalink: feed.html
+permalink: feedold.xml
 eleventyExcludeFromCollections: true
 layout: empty
 ---
-<!DOCTYPE HTML>
-<html lang="de-DE">
-    <head>
-        <meta charset="UTF-8">
-      	<link href="/feed.xml" rel="self" />
-        <meta http-equiv="refresh" content="0; url="/feed.xml">
-        <script type="text/javascript">
-            window.location.href = "/feed.xml"
-        </script>
-        <title>Feed Redirect</title>
-    </head>
-    <body>
-        <!-- Note: don't tell people to `click` the link, just tell them that it is a link. -->
-        Wenn du nicht automatisch weitergeleitet wirst, findest du den RSS-Feed <a href="/feed.xml">hier</a>.
-    </body>
-</html>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="/feed/pretty-atom-feed.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ metadata.language or page.lang }}">
+  <title>test</title>
+  <subtitle>test</subtitle>
+</feed>
