@@ -1,7 +1,18 @@
----
-permalink: feed.xml
-eleventyExcludeFromCollections: true
-layout: empty
+---json
+{
+  "permalink": "feedxml.xml",
+  "eleventyExcludeFromCollections": true,
+  "layout": "empty.njk",
+  "metadata": {
+    "title": "Sebastian Moitzheim's Weblog",
+    "description": "neue Texte und Shitposts von Sebastian Moitzheim.",
+    "language": "de",
+    "base": "https://smoitzheim.online/",
+    "author": {
+      "name": "Sebastian Moitzheim"
+    }
+  }
+}
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="/feed/pretty-atom-feed.xsl" type="text/xsl"?>
