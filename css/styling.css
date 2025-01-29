@@ -1,3 +1,44 @@
 .list-left {max-width: 80%}
 blockquote, blockquote p {font-style: italic;}
 blockquote em, blockquote p em {font-style: normal;}
+
+input.inputmail {
+  line-height: 24px;
+  font-size: 14px;
+  padding: 8px 10px;
+  border-radius: 3px;
+  color: #151515;
+  box-sizing: border-box;
+  border: 1px solid #151515, 0.33);
+}
+
+input.inputmail:focus {
+  outline: none;
+  border: 1px solid #151515;  
+}
+
+button.inputsubmit, input.inputsubmit {
+	display: inline-flex;
+    background-color: #151515 !important;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 900;
+    line-height: 24px;
+    font-size: 14px;
+    padding: 8px 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .08);
+    border: 1px solid #151515;
+    border-radius: 3px;
+    color: #fff;
+    margin-left: 5px;
+    margin-right: 5px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+button.inputsubmit:hover, input.inputsubmit:hover {
+	opacity: 0.75;
+}
