@@ -16,14 +16,14 @@ layout: empty
     <name>Sebastian Moitzheim</name>
   </author>
   {%- for post in collections.posts | reverse %}
-  {%- set absolutePostUrl %}{{ post.url | htmlBaseUrl(https://smoitzheim.online/) }}{% endset %}
+  {%- set absolutePostUrl %}{{ post.url | htmlBaseUrl("https://smoitzheim.online/") }}{% endset %}
   <entry>
     <title>{{ post.data.title }}</title>
     <link href="{{ absolutePostUrl }}" />
     <summary>{{ post.content | striptags(true, preserve_linebreaks) | truncate(280) }}</summary>
     <updated>{{ post.date | dateToRfc3339 }}</updated>
     <id>{{ absolutePostUrl }}</id>
-    <content type="html">{{ post.content | renderTransforms(post.data.page, https://smoitzheim.online/) }}</content>
+    <content type="html">{{ post.content | renderTransforms(post.data.page, "https://smoitzheim.online/") }}</content>
   </entry>
   {%- endfor %}
 </feed>
