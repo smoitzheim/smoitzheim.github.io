@@ -1,10 +1,7 @@
 ---
 title: Abo & Support
-description: Abonniere und unterstütze mein Blog!
 permalink: /abo/
 ---
-### Abo & Support
-
 ## Abonniere mein Blog
 Du kannst mein Blog per [RSS](https://smoitzheim.online/feed.xml) oder per [Email](https://feedmail.org/subscriptions/new?url=https%3A%2F%2Fsmoitzheim.online%2Ffeed.xml) abonnieren:
 
