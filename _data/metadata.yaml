@@ -28,9 +28,9 @@ navbar:
  - nav: Suche
    url: /search/
 
-nav_contact:
- text: Socials & Kontakt
- url: https://smoitzheim.omg.lol
+# nav_contact:
+# text: Socials & Kontakt
+# url: https://smoitzheim.omg.lol
 
 footer: 
  text1: Built with
