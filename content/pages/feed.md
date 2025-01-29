@@ -1,5 +1,5 @@
 ---
-permalink: feed.html
+permalink: feed.xml
 eleventyExcludeFromCollections: true
 layout: empty
 ---
