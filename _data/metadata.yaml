@@ -19,6 +19,8 @@ nav_logo:
  title: "Sebastian Moitzheim's Weblog"
 
 navbar: 
+ - nav: "Abo & Support"
+   url: /abo/
  - nav: Über mich
    url: /about/
  - nav: Archiv

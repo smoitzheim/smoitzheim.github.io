@@ -1,7 +1,7 @@
 ---
 title: Abo & Support
 description: Abonniere und unterstütze mein Blog!
-permalink: /about/
+permalink: /abo/
 ---
 ### Abo & Support
 
