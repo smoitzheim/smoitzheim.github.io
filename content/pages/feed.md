@@ -4,13 +4,8 @@ eleventyExcludeFromCollections: true
 layout: empty
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="/feed/pretty-atom-feed.xsl" type="text/xsl"?>
+<?xml-stylesheet href="/pretty-atom-feed.xsl" type="text/xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="de">
-  <redirect>
-<newLocation>
-https://smoitzheim.online/feed.xml
-</newLocation>
-</redirect>
   <title>Sebastian Moitzheim's Weblog</title>
   <subtitle>neue Texte und Shitposts von Sebastian Moitzheim.</subtitle>
   <link href="https://smoitzheim.online/feed.xml" rel="self" />
