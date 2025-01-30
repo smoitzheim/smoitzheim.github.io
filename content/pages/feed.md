@@ -4,7 +4,7 @@ eleventyExcludeFromCollections: true
 layout: empty
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="/pretty-atom-feed.xsl" type="text/xsl"?>
+<?xml-stylesheet href="https://smoitzheim.online/feed/pretty-atom-feed.xsl" type="text/xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="de">
   <title>Sebastian Moitzheim's Weblog</title>
   <subtitle>neue Texte und Shitposts von Sebastian Moitzheim.</subtitle>
