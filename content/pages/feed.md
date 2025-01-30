@@ -1,21 +1,29 @@
 ---
-permalink: feed.html
+permalink: feed.xml
 eleventyExcludeFromCollections: true
 layout: empty
 ---
-<!DOCTYPE HTML>
-<html lang="de-DE">
-    <head>
-        <meta charset="UTF-8">
-      	<link href="/feed.xml" rel="self" />
-        <meta http-equiv="refresh" content="0; url="/feed.xml">
-        <script type="text/javascript">
-            window.location.href = "/feed.xml"
-        </script>
-        <title>Feed Redirect</title>
-    </head>
-    <body>
-        <!-- Note: don't tell people to `click` the link, just tell them that it is a link. -->
-        Wenn du nicht automatisch weitergeleitet wirst, findest du den RSS-Feed <a href="/feed.xml">hier</a>.
-    </body>
-</html>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="/feed/pretty-atom-feed.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="de">
+  <title>Sebastian Moitzheim's Weblog</title>
+  <subtitle>neue Texte und Shitposts von Sebastian Moitzheim.</subtitle>
+  <link href="https://smoitzheim.online/feed.xml" rel="self" />
+  <link href="https://smoitzheim.online/" />
+  <updated>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+  <id>https://smoitzheim.online/</id>
+  <author>
+    <name>Sebastian Moitzheim</name>
+  </author>
+  {%- for post in collections.posts | reverse %}
+  {%- set absolutePostUrl %}{{ post.url | htmlBaseUrl("https://smoitzheim.online/") }}{% endset %}
+  <entry>
+    <title>{{ post.data.title }}</title>
+    <link href="{{ absolutePostUrl }}" />
+    <summary>{{ post.content | striptags(true, preserve_linebreaks) | truncate(280) }}</summary>
+    <updated>{{ post.date | dateToRfc3339 }}</updated>
+    <id>{{ absolutePostUrl }}</id>
+    <content type="html">{{ post.content | renderTransforms(post.data.page, "https://smoitzheim.online/") }}</content>
+  </entry>
+  {%- endfor %}
+</feed>
