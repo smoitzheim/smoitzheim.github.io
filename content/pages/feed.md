@@ -8,7 +8,7 @@ layout: empty
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="de">
   <redirect>
 <newLocation>
-Https://smoitzheim.online/feed.xml
+https://smoitzheim.online/feed.xml
 </newLocation>
 </redirect>
   <title>Sebastian Moitzheim's Weblog</title>
