@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="de">
   <title>Sebastian Moitzheim&#39;s Weblog</title>
   <subtitle>neue Texte und Shitposts von Sebastian Moitzheim.</subtitle>
-  <link href="https://smoitzheim.online/feedxml.xml" rel="self" />
+  <link href="https://smoitzheim.online/feed.xml" rel="self" />
   <link href="https://smoitzheim.online/" />
   <updated>2024-12-07T00:00:00Z</updated>
   <id>https://smoitzheim.online/</id>
