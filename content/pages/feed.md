@@ -6,9 +6,15 @@ layout: empty
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="https://smoitzheim.online/feed/pretty-atom-feed.xsl" type="text/xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="de">
+<redirect>
+<newLocation>
+https://smoitzheim.online/feed.xml
+</newLocation>
+</redirect>
   <title>Sebastian Moitzheim's Weblog</title>
   <subtitle>neue Texte und Shitposts von Sebastian Moitzheim.</subtitle>
   <link href="https://smoitzheim.online/feed.xml" rel="self" />
+  <link rel="alternate" href="https://smoitzheim.online/feed.xml" type="application/atom+xml" title="Feed">
   <link href="https://smoitzheim.online/" />
   <updated>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
   <id>https://smoitzheim.online/</id>
