@@ -1,0 +1,30 @@
+---
+title: Actor Brain muss sich so gut anfühlen (eine Würdigung von Adrien Brodys Pop-Art) 
+---
+<p>Im Mai 2003, kurz nach seinem ersten Oscar-Gewinn für <em>The Pianist</em>, moderierte Adrien Brody Saturday Night Live. Bei der Ansage des Musikgasts Sean Paul – eigentlich ein eher routinemäßiger, in ein, zwei Sekunden erledigter Teil des Aufgabenbereichs eines SNL-Hosts – performte Brody, ohne Absprache mit Cast und Autoren/Produzenten der Show, ein spontanes <a href="https://www.tiktok.com/@huggyattack/video/7463238595827141934">Bit</a>: Er setzte eine Dreadlock-Perücke und einen jamaikanischen Akzent auf und brabbelte Nonsens-Phrasen wie „respec’ my neck“. Seitdem, heißt es, ist Brody von erneuten Auftritten bei SNL ausgeschlossen.</p>
+<p>Der Vorfall illustrierte ganz wunderbar die spezifische Kategorie von <em>Actor Brain</em>, die Brody hat, deren Grundgedanke in etwa so geht: <em>Ich bin gut im Schauspiel. Das heißt, ich muss auch gut in allem anderen sein.</em><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> Dieser Grundgedanke führt dann eben zu Folgegedanken wie, <em>Sean Paul ist aus Jamaika, und das ist sehr witzig. Diese scharfsinnige komische Beobachtung muss ich mit der Welt teilen.</em> Oder, <a href="https://www.youtube.com/watch?v=u8-8PYURHdY">zuletzt</a>: <em>Ich habe einen Oscar gewonnen und muss jetzt eine Rede halten. Ich habe der Welt etwas mitzuteilen. Ich weiß zwar noch nicht was, aber wenn ich lang genug rede, kommt vielleicht was brauchbares dabei rum.</em></p>
+<iframe width="560" height="auto" src="https://www.youtube.com/embed/u8-8PYURHdY?si=avrQ8j1PnbnaT_8V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<p>Ich möchte hier ausdrücklich betonen, dass ich Brodys Mindset für genau richtig halte und finde, alle Schauspieler sollten so ein. Wenn man sich als Schauspieler nicht aufführt wie Jenna Maroney aus 30 Rock, ist das als Arbeitsverweigerung zu werten. Ich kann das nicht so richtig erklären, ich bin einfach überzeugt, dass es irgendwie gesund für eine Gesellschaft ist, wenn ein paar Auserwählte den weltfremden Größenwahn ausleben, den sich diejenigen von uns, die für ihr Geld arbeiten müssen, sich nicht leisten können. Als Gesellschaft sollten wir also die Brodys und Eidingers dieser Welt <em>enablen</em>, wo wir nur können.</p>
+<p>Entsprechend möchte ich an dieser Stelle etwas anderes würdigen, in dem Adrien Brody sehr gut zu sein glaubt: seine Kunst. Adrien Brody macht Pop-Art. Sie ist genau so, wie ihr es euch vorstellt, wenn ihr hört „Adrien Brody macht Pop-Art“.</p>
+<p>Schauen wir uns eines seiner Werke an:</p>
+<p><img src="https://eu.uploads.micro.blog/174668/2025/brodybucks3.jpg" alt=""></p>
+<p>„Starbucks“ zu „Brodybucks“ – qualifiziert das schon als Wortspiel? Ist das Satire der <a href="https://en.wikipedia.org/wiki/Dumb_Starbucks">Nathan-Fielder-Schule</a>? Lassen wir uns von diesen Fragen nicht allzu lang ablenken, schauen wir stattdessen nochmal genauer hin, denn Brody hat auch eine grafische Veränderung am Starbuchs-Logo vorgenommen: Da sind sie also, die titelgebenden <em>Handguns</em>. Vielleicht also eher Satire der <a href="https://www.youtube.com/watch?v=C6wY9OwqJ2A">Michael-Scott-Schule</a>? Auf jeden Fall zeigt sich hier bereits Brodys scharfsinnige Konsumkritik, die auch im folgenden Bild zur Geltung kommt:</p>
+<p><img src="https://eu.uploads.micro.blog/174668/2025/brodycigs.jpg" alt=""></p>
+<p>Wer zu denjenigen gehört, denen Morgan Spurlock erst aufzeigen musste, dass es keine gute Idee ist, zu <em>jeder</em> Mahlzeit Fast Food zu essen, den wird dieses Werk Brodys vielleicht noch weiter wachrütteln. Und der sollte sich jetzt gut festhalten, denn das nächste Werk – vielleicht Brodys Meisterstück – ist noch erschütternder:</p>
+<p><img src="https://eu.uploads.micro.blog/174668/2025/brodyguns.jpg" alt=""></p>
+<p>Es ist vielleicht nicht auf den ersten Blick zu erkennen, aber in diesem Werk versteckt sich eine subtile Anti-Schusswaffen-Botschaft:</p>
+<p><img src="https://eu.uploads.micro.blog/174668/2025/brodyguns2.jpg" alt=""></p>
+<p>Als Betrachter mag man zunächst irritiert sein: Waffen sind doch alles andere als „Toys“? Ich glaube, dass Brody diesen Widerspruch bewusst einsetzt – das Labeln von gefährlichen Waffen als Spielzeuge, hat das nicht beinahe etwas ironisches?</p>
+<p>Aufmerksame Beobachter werden erkannt haben, dass Brody sich gerne zusammen mit seinen Werken ablichten lässt, und hier entfaltet seine Kunst für mich erst ihre ganze Wirkung. Schaut in dieses Gesicht:</p>
+<p><img src="https://eu.uploads.micro.blog/174668/2025/brodyguns4.webp" alt=""></p>
+<p>Stellt euch vor, wie es sein muss, durch diese Augen zu schauen, in diesem Kopf zu leben. Was in einem Menschen vorgehen muss, der „Toys“ neben ein Schusswaffen-Display schreibt, es in eine Kunstgalerie hängt und sich daneben ablichten lässt mit diesem „Ja, das hab ich mich getraut,  was willst du dagegen tun?“-Gesicht? Keine Selbstzweifel. Kein Konzept davon, dass andere Menschen auch ein lebendiges Inneres haben, und dass nicht jeder Gedanke, den man hat, so noch nie von irgendjemandem auf der Welt gedacht worden ist. Es muss sich gut anfühlen in diesem Kopf. Aber wie ein anderer großer Künstler, The Great Gonzo, es einst formulierte: <em>You can just visit, but I plan to stay</em>. Die meisten von uns sind verdammt, mit Selbstzweifeln und dem Bewusstsein zu leben, dass wir nichts besonderes sind. Adrien Brodys Kunst jedoch lässt uns, nur für einen Moment, erleben, wie es wäre, davon befreit zu sein.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Ebenfalls betroffen <a href="https://54books.de/man-nimmt-es-ja-erstmal-ernst-ueber-die-fotoarbeiten-von-lars-eidinger/">ist etwa Lars Eidinger</a>. Spenden Sie jetzt.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+https://smoitzheim.online/2025/04/09/adrienbrodyart.html
