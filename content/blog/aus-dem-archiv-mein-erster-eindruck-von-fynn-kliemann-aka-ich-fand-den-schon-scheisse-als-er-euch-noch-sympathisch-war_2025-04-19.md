@@ -1,5 +1,5 @@
 ---
-title: aus dem Archiv: Mein erster Eindruck von Fynn Kliemann (aka ich fand den schon scheiße als er euch noch sympathisch war) 
+title: "aus dem Archiv: Mein erster Eindruck von Fynn Kliemann (aka ich fand den schon scheiße als er euch noch sympathisch war)"
 ---
 <p>Fynn Kliemann, der kultige YouTube-Grifter und Corona-Profiteur, versucht sich derzeit mal wieder an einem Comeback, unterstützt von einer <a href="https://www.ardmediathek.de/film/fynn-kliemann-ich-hoffe-ihr-vermisst-mich/MjMxY2ZjYWQtMmNmNi00MmM4LTgxM2ItMzE0MDFhNjAyMzQ5">Doku des hessischen Rundfunks</a>.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> Aus diesem Anlass hier eine Wiederveröffentlichung aus meinem Archiv: Mein Review zu Netflix’ Doku-Reihe <em>Das Hausboot</em>, die meine erste Begegnung mit Kliemann war.</p>
 <h2 id="das-hausboot-kultig-auf-so-eine-jonestown-art">Das Hausboot: Kultig, auf so eine Jonestown-Art</h2>
