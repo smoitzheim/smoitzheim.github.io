@@ -3,15 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Archiv</title>
-<meta content="Archiv" property="og:title">
-<meta content="Archiv" name="twitter:title">
-<meta content="Archiv" name="title">
-<meta content="Archiv" property="og:site_name">
-<meta content="Update from my blog posts" name="description">
-<meta content="Update from my blog posts" property="facebook:description">
-<meta content="Update from my blog posts" property="og:description">
-<meta content="Update from my blog posts" name="twitter:description">
+<title>Der ESC wird erst wieder Spaß machen, wenn die Jurys abgeschafft sind</title>
+<meta content="Der ESC wird erst wieder Spaß machen, wenn die Jurys abgeschafft sind" property="og:title">
+<meta content="Der ESC wird erst wieder Spaß machen, wenn die Jurys abgeschafft sind" name="twitter:title">
+<meta content="Der ESC wird erst wieder Spaß machen, wenn die Jurys abgeschafft sind" name="title">
+<meta content="Der ESC wird erst wieder Spaß machen, wenn die Jurys abgeschafft sind" property="og:site_name">
+<meta content="" name="description">
+<meta content="" property="facebook:description">
+<meta content="" property="og:description">
+<meta content="" name="twitter:description">
 <meta property="twitter:card" content="summary_large_image">
 <meta content="" name="twitter:image">
 <meta content="" name="facebook:image">
@@ -28,15 +28,183 @@
 <meta content="" property="twitter:author">
 <meta content="" name="twitter:site">
 <meta property="og:type" content="website">
-<link rel="canonical" href="https://smoitzheim.github.io/archive/page-2/">
+<link rel="canonical" href="https://smoitzheim.github.io/blog/der-esc-wird-erst-wieder-spass-machen-wenn-die-jurys-abgeschafft-sind_2025-05-18/">
 <link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Sebastian Moitzheim&#39;s Weblog">
 <meta name="language" content="de">
 <meta name="locale" content="de_DE">
 <meta property="og:locale" content="de_DE">
 <meta name="generator" content="Eleventy v3.0.0"> 
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","description":"","headline":"Sebastian Moitzheim&#39;s Weblog - ","name":"Sebastian Moitzheim&#39;s Weblog","url":"https://smoitzheim.github.io/archive/page-2/"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","description":"","headline":"Sebastian Moitzheim&#39;s Weblog - ","name":"Sebastian Moitzheim&#39;s Weblog","url":"https://smoitzheim.github.io/blog/der-esc-wird-erst-wieder-spass-machen-wenn-die-jurys-abgeschafft-sind_2025-05-18/"}</script>
 <link rel="manifest" href="/manifest.json" crossorigin="use-credentials">
-<style>/*!
+<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+/*!
    * Bootstrap  v5.2.0 (https://getbootstrap.com/)
    * Copyright 2011-2022 The Bootstrap Authors
    * Copyright 2011-2022 Twitter, Inc.
@@ -60,59 +228,50 @@
 </div>
 </nav>
 
-<main><heading-anchor>
-<div class="w-100 overflow-hidden position-relative" id="top">
-<div class="container py-vh-5">
+
+<style>h1,h2,h3,h4,h5{font-family:Sentient,'New York',Georgia,serif!important}body,html{font-family:Sentient,'New York',Georgia,serif!important}.mt-3{margin-top:30px}</style>
+
+<main class="container py-vh-3"><heading-anchor>
 <div class="row d-flex justify-content-center text-center">
-<div class="col-12 col-lg-10">
-<h1 class="display-huge mb-3" id="archiv">Archiv</h1>
+<div class="col-12 col-lg-10 col-xl-6">
+<small class="text-muted">By <a href="https://smoitzheim.omg.lol">Sebastian Moitzheim</a> On <time datetime="2025-05-18">18 May 2025</time></small>
+<h1 class="display-huge" style="margin-top:.2em" id="der-esc-wird-erst-wieder-spass-machen-wenn-die-jurys-abgeschafft-sind">Der ESC wird erst wieder Spaß machen, wenn die Jurys abgeschafft sind</h1>
+<p class="lead pt-2 py-vh-2"></p>
+<small class="text-muted">
+</small>
+</div>
+<div class="row">
+<div class="col-12">
+
 </div>
 </div>
+<div class="row d-flex justify-content-center text-start">
+<div class="col-12 col-lg-10 col-xl-6 py-vh-2">
+
+<div class="trix-content">
+  <p>Mein persönlicher Höhepunkt des gestrigen ESC-Finales war ja, als Kommentator Thorsten Schorn über die Punkte aus Spanien witzelte, da hätten wohl ein paar deutsche Mallorca-Touristen angerufen – und sich dann schnell korrigierte: Ach ja, nee, sind ja erstmal nur die Jurypunkte. Selbst für den Kommentator ist das neue Punktesystem<sup id="fnref:1"><a class="footnote-ref" data-id="8ac87565-ce2e-47e1-ac0b-1089d0f49c4e" href="#fn:1">1</a></sup> komplett unintuitiv: Die ganze Show über wird das Publikum zum Anrufen aufgerufen, nur damit am Ende dann erstmal die Jurypunkte groß und breit vergeben werden, als würden die irgendjemanden interessieren.</p>
+<p>Die Jurys sollte es halt überhaupt nicht geben – ihre Wiedereinführung war eine der dümmsten Ideen der ESC-Geschichte. Ein Argument für sie soll ja sein, dass sie “politischem” Abstimmen entgegenwirken würden: “Blockvoting” zwischen Nachbar- oder befreundeten Ländern und so. Das ist aber zum einen einfach Unsinn: Die Jurypunkte sind genauso politisch, genauso erkennbar nicht nur basierend auf der Musik vergeben wie die Publikumspunkte. Der Unterschied zwischen den Jury- und den Publikumsentscheidungen ist meist eher, dass der Durchschnittsgeschmack der Jurys einigermaßen bieder ist: Songs wie die extrem langweilige Nummer aus der Schweiz gestern, die beim Publikum komplett durchfallen, gefallen den Jurys, weil sie irgendwie “respektabel” sind und zum Beispiel von sympathischen, nahbar-hübschen-aber-nicht-<em>zu</em>-sexy jungen Frauen performt werden. Songs wie der absolute Banger aus Estland, die etwas albernes, trashiges haben, kommen bei den Jurys mittelmäßig bis schlecht an, beim Publikum aber zurecht super.</p>
+<p>Zum anderen ist es auch einfach ein Missverständnis davon, was den ESC interessant macht. Es war immer Teil des Reizes der Veranstaltung, zu interpretieren, welche Länder einander warum genau Punkte gaben. Klar, man ärgert sich auch schonmal,<sup id="fnref:2"><a class="footnote-ref" data-id="0a300a44-4f8e-4407-80f4-afc666e8eba7" href="#fn:2">2</a></sup> aber das gehört dazu. Die Punktevergabe war früher der beste Teil der Veranstaltung, hier fanden die besten Geschichten statt. Heute weiß ich während der Vergabe überhaupt nicht, was ich fühlen soll: Ich werde mich einfach nie dafür interessieren, wie fünf Randos in Schweden einen Song finden.<sup id="fnref:3"><a class="footnote-ref" data-id="02e1cffd-9898-48bf-a04d-aa5a3a48181e" href="#fn:3">3</a></sup> Wie aber das schwedische <em>Publikum</em> einen Song findet, darauf kann ich reagieren, das kann in mir Emotionen auslösen.</p>
+<p>Das Festhalten der Veranstalter an den Jurys ist letztlich Teil des größeren Problems: des Festhaltens an der Idee, der ESC wäre “unpolitisch”. Es ist eine Veranstaltung, in der Nationen einander bewerten – wie könnte das jemals unpolitisch sein? Warum sollte es? Wer unpolitische Musikwettbewerbe will, soll halt DSDS oder so gucken. Der ESC aber sollte sich endlich wieder darauf besinnen, was ihn immer ausgemacht hat.</p>
+<ol class="footnotes">
+<li id="fn:1" data-id="8ac87565-ce2e-47e1-ac0b-1089d0f49c4e"><p>Mittlerweile auch schon wieder fast zehn Jahre alt, aber es wird für mich für immer das “neue” System bleiben.</p></li>
+<li id="fn:2" data-id="0a300a44-4f8e-4407-80f4-afc666e8eba7"><p>Gestern hätte man sich zugegeben <em>viel</em> geärgert, über die vielen Publikumspunkte an Israel.</p></li>
+<li id="fn:3" data-id="02e1cffd-9898-48bf-a04d-aa5a3a48181e"><p>Meistens weiß ich ja nichtmal, wer die Mitglieder der <em>deutschen</em> Jury sind.</p></li>
+</ol>
 </div>
+https://smoitzheim.online/posts/der-esc-wird-erst-wieder-spass-machen-wenn-die-jurys-abgeschafft-sind
 </div>
-<div class="container">
-<div class="row d-flex justify-content-center">
-<div class="col-11 col-lg-10 col-xl-6">
-<div class="row border-bottom">
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="paul-rousseaus-friendly-fire-a-fractured-memoir-ein-potenzieller-klassiker-in-der-literatur-ueber-trauma-und-behinderung"><a class="text-decoration-none" href="/blog/paul-rousseaus-friendly-fire-a-fractured-memoir-ein-potenzieller-klassiker-in-der-literatur-ueber-trauma-und-behinderung_2025-05-06/">Paul Rousseaus Friendly Fire: A Fractured Memoir: Ein potenzieller Klassiker in der Literatur über Trauma und Behinderung</a></h2></div>
-<time datetime="2025-05-06">06 May 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="me-absolutely-demolishing-hemingway-in-both-the-saddest-and-shortest-categories-for"><a class="text-decoration-none" href="/blog/me-absolutely-demolishing-hemingway-in-both-the-saddest-and-shortest-categories-for_2025-05-06/">Me absolutely demolishing Hemingway in both the „saddest“ AND „shortest“ categories:  „For...</a></h2></div>
-<time datetime="2025-05-06">06 May 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="ein-paar-sehr-sehenswerte-videos-ueber-dwarf-fortress-das-vielleicht-komplexeste-videospiel-aller-zeiten"><a class="text-decoration-none" href="/blog/ein-paar-sehr-sehenswerte-videos-ueber-dwarf-fortress-das-vielleicht-komplexeste-videospiel-aller-zeiten_2025-05-06/">Ein paar sehr sehenswerte Videos über Dwarf Fortress, das vielleicht komplexeste Videospiel aller Zeiten</a></h2></div>
-<time datetime="2025-05-06">06 May 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="t-hese-ads-are-trying-to-sell-llms-as-a-tool-for-sending"><a class="text-decoration-none" href="/blog/t-hese-ads-are-trying-to-sell-llms-as-a-tool-for-sending_2025-05-05/">“[T]hese ads are trying to sell LLMs as a tool for sending...</a></h2></div>
-<time datetime="2025-05-05">05 May 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="kyle-mooney-ueber-snl-w-e-must-all-agree-it-s-not-a-healthy"><a class="text-decoration-none" href="/blog/kyle-mooney-ueber-snl-w-e-must-all-agree-it-s-not-a-healthy_2025-05-05/">Kyle Mooney über SNL: „[W]e must all agree it’s not a healthy...</a></h2></div>
-<time datetime="2025-05-05">05 May 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="worueber-the-lonely-island-und-seth-meyers-in-ihrem-podcast-reden-und-worueber-nicht"><a class="text-decoration-none" href="/blog/worueber-the-lonely-island-und-seth-meyers-in-ihrem-podcast-reden-und-worueber-nicht_2025-05-04/">Worüber The Lonely Island und Seth Meyers in ihrem Podcast reden – und worüber nicht</a></h2></div>
-<time datetime="2025-05-04">04 May 2025</time>
-</article>
-</div>
-</div>
+
 </div>
 </div>
 </heading-anchor></main>
-<div class="container d-flex justify-content-between">
-<div class="col border-top border-end py-vh-3 d-flex align-items-center">
-<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
-<path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"></path></svg>
-<a class="ms-2 display-6" href="/archive/"> Previous</a>
+<div class="container">
+<div class="row">
+<div class="col border-top border-end py-vh-3 col-lg-6 col-xl-6 col-12 align-items-center">  
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+<path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"></path></svg><a class="ms-2 display-6" href="/blog/blue-prince-ist-das-beste-puzzle-spiel-seit-jahren-ausser-wenn-es-das-nervigste-puzzle-spiel-seit-jahren-ist_2025-05-14/">Blue Prince ist das beste Puzzle-Spiel seit Jahren (außer, wenn es das nervigste Puzzle-Spiel seit Jahren ist)</a></div>
+<div class="col border-top text-end py-vh-3 col-lg-6 col-xl-6 ol-12 align-items-center justify-content-end">
 </div>
-<div class="col border-top text-end py-vh-3 d-flex align-items-center justify-content-end">
-<a class="me-2 display-6" href="/archive/page-3/">Next <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
-</svg></a>
 </div>
 </div>
 
