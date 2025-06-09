@@ -1,0 +1,17 @@
+---
+title: "Ein lesenswerter Artikel über einen vergessen Videospiel-Entwickler"
+---
+
+<div class="trix-content">Ich hab die Tage ein Bisschen in meiner Read-Later-App aufgeräumt und bin dabei über [diesen Artikel bei Ars Technica](https://arstechnica.com/gaming/2025/04/how-a-1980s-atari-creator-with-cystic-fibrosis-crafted-a-story-of-salmon-survival/) über Videospielentwickler Bill Williams gestolpert. Williams war mir vorher kein Begriff, doch liest man so über sein Werk, wünscht man sich unweigerlich, dass sein Name bekannter wäre. Sein erstes Spiel, *Salmon Run*, erschien 1982 für den Atari 800. Spieler kontrollieren darin einen Lachs, der zum Laichen flussaufwärts schwimmt. Es beeindruckt nicht nur mit seinem Sound-Design, mit für die Hardware einzigartig realistischen Wasser-Soundeffekten, es hat auch eine berührende persönliche Inspiration:
+
+> The "swimming against the current" gameplay isn't just clever game design. Williams spent his life navigating his own treacherous currents—hospital visits, treatments, and the constant struggle just to breathe. His personal battle with cystic fibrosis, characterized by chronic pain, infused *Salmon Run* with authentic meaning that transcends its simple pixels.
+
+<div><iframe allowfullscreen="true" autoplay="false" disablekbcontrols="false" enableiframeapi="false" endtime="0" height="480" ivloadpolicy="0" loop="false" modestbranding="false" origin="" playlist="" src="https://www.youtube.com/embed/2bl9qiSe7Hk" width="640"></iframe></div>Zu Williams weiterem Werk gehören unter anderem “the incomprehensible fantasy masterpiece [*Necromancer*](https://en.wikipedia.org/wiki/Necromancer_(video_game))” und die “cultural simulation” [*Knights of the Crystallion*](https://en.wikipedia.org/wiki/Knights_of_the_Crystallion)*.* Alle seine Spiele waren – basierend auf Gameplay-Videos und Reviews – ambitioniert und faszinierend, wenn auch vielleicht nicht immer ganz erfolgreich in dem, was sie sich vornahmen.
+
+<div><iframe allowfullscreen="true" autoplay="false" disablekbcontrols="false" enableiframeapi="false" endtime="0" height="480" ivloadpolicy="0" loop="false" modestbranding="false" origin="" playlist="" src="https://www.youtube.com/embed/JqYXgNULDrg" width="640"></iframe></div>Williams’ Zeit in der Videospiel-Industrie war kurz: Anfang der 90er kehrte er ihr den Rücken und wurde stattdessen Priester. 1998 starb er mit nur 38 Jahren, viel zu jung, aber immerhin, laut Ars Technica, deutlich später als die Prognose seiner Ärzte, er werde nicht älter werden als 13 Jahre.
+
+Ein hartnäckiges, selbst (ja *gerade*) von Videospiel-Liebhabern propagiertes Narrativ lautet, dass Videospiele erst “erwachsen werden” mussten - dass es erst fotorealistische Grafiken und filminspirierte Inszenierung brauchte, damit Videospiele *künstlerisch wertvoll* wurden. Vergessene Entwickler wie Williams wieder ins Rampenlicht zu rücken, finde ich auch deshalb wichtig, weil es diesem Narrativ widerspricht: Entwickler wie Williams haben schon früh das künstlerische Potenzial des Mediums erkannt und eigenartige, persönliche, berührende Werke geschaffen.
+
+</div>
+
+https://smoitzheim.online/posts/ein-lesenswerter-artikel-uber-einen-vergessen-videospiel-entwickler
