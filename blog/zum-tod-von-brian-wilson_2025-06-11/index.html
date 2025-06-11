@@ -3,15 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Archiv</title>
-<meta content="Archiv" property="og:title">
-<meta content="Archiv" name="twitter:title">
-<meta content="Archiv" name="title">
-<meta content="Archiv" property="og:site_name">
-<meta content="Update from my blog posts" name="description">
-<meta content="Update from my blog posts" property="facebook:description">
-<meta content="Update from my blog posts" property="og:description">
-<meta content="Update from my blog posts" name="twitter:description">
+<title>Zum Tod von Brian Wilson</title>
+<meta content="Zum Tod von Brian Wilson" property="og:title">
+<meta content="Zum Tod von Brian Wilson" name="twitter:title">
+<meta content="Zum Tod von Brian Wilson" name="title">
+<meta content="Zum Tod von Brian Wilson" property="og:site_name">
+<meta content="" name="description">
+<meta content="" property="facebook:description">
+<meta content="" property="og:description">
+<meta content="" name="twitter:description">
 <meta property="twitter:card" content="summary_large_image">
 <meta content="" name="twitter:image">
 <meta content="" name="facebook:image">
@@ -28,15 +28,183 @@
 <meta content="" property="twitter:author">
 <meta content="" name="twitter:site">
 <meta property="og:type" content="website">
-<link rel="canonical" href="https://smoitzheim.github.io/archive/page-6/">
+<link rel="canonical" href="https://smoitzheim.github.io/blog/zum-tod-von-brian-wilson_2025-06-11/">
 <link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Sebastian Moitzheim&#39;s Weblog">
 <meta name="language" content="de">
 <meta name="locale" content="de_DE">
 <meta property="og:locale" content="de_DE">
 <meta name="generator" content="Eleventy v3.0.0"> 
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","description":"","headline":"Sebastian Moitzheim&#39;s Weblog - ","name":"Sebastian Moitzheim&#39;s Weblog","url":"https://smoitzheim.github.io/archive/page-6/"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","description":"","headline":"Sebastian Moitzheim&#39;s Weblog - ","name":"Sebastian Moitzheim&#39;s Weblog","url":"https://smoitzheim.github.io/blog/zum-tod-von-brian-wilson_2025-06-11/"}</script>
 <link rel="manifest" href="/manifest.json" crossorigin="use-credentials">
-<style>/*!
+<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+/*!
    * Bootstrap  v5.2.0 (https://getbootstrap.com/)
    * Copyright 2011-2022 The Bootstrap Authors
    * Copyright 2011-2022 Twitter, Inc.
@@ -60,62 +228,50 @@
 </div>
 </nav>
 
-<main><heading-anchor>
-<div class="w-100 overflow-hidden position-relative" id="top">
-<div class="container py-vh-5">
+
+<style>h1,h2,h3,h4,h5{font-family:Sentient,'New York',Georgia,serif!important}body,html{font-family:Sentient,'New York',Georgia,serif!important}.mt-3{margin-top:30px}</style>
+
+<main class="container py-vh-3"><heading-anchor>
 <div class="row d-flex justify-content-center text-center">
-<div class="col-12 col-lg-10">
-<h1 class="display-huge mb-3" id="archiv">Archiv</h1>
+<div class="col-12 col-lg-10 col-xl-6">
+<small class="text-muted">By <a href="https://smoitzheim.omg.lol">Sebastian Moitzheim</a> On <time datetime="2025-06-11">11 June 2025</time></small>
+<h1 class="display-huge" style="margin-top:.2em" id="zum-tod-von-brian-wilson">Zum Tod von Brian Wilson</h1>
+<p class="lead pt-2 py-vh-2"></p>
+<small class="text-muted">
+</small>
+</div>
+<div class="row">
+<div class="col-12">
+
 </div>
 </div>
+<div class="row d-flex justify-content-center text-start">
+<div class="col-12 col-lg-10 col-xl-6 py-vh-2">
+
+<div class="trix-content">*Pet Sounds* – und ja, das ist eine total *basic*, langweilig-klischeehafte Netter-Weißer-Junge-Meinung – ist vielleicht das beste Album der Popgeschichte, und Brian Wilson war vielleicht der größte Pop-Songwriter aller Zeiten. Das Wort “Genie” wird inflationär ge- und missbraucht, aber Wilson ist wohl einer der wenigen, die es ziemlich treffend beschreibt: jemand, dessen Verstand irgendwie auf einer anderen Frequenz operierte als der von uns Normalsterblichen, der – es fällt beim Hören von *God Only Knows* oder *Good Vibrations* schwer, nicht diesen Schluss zu ziehen – irgendwie für das, was er machte, geboren war. Es gibt buchlange Analysen von *Pet Sounds* aus musiktheoretischer und kulturgeschichtlicher und Tonstudio-Nerd-Perspektive, wer verstehen will, warum dieses Album *wichtig* und *einflussreich* und so war, wird nicht lange nach einer Erklärung suchen müssen.<sup id="fnref:1">[1](#fn:1)</sup> Aber man *braucht* nichts davon, um zu erkennen, dass dieses Album etwas besonderes ist: Auch, wer kein geübtes Musikerohr hat, nicht im Detail die *musikalische* Vielschichtigkeit und Komplexität raushört, spürt die *emotionale* sofort. Hört allein den scheinbar simplen Opener *Wouldn’t It Be Nice* und sagt mir, ob dieser Song nach Aufbruch oder nach Abschied klingt, naiv oder weise, nach vorne schaut oder zurück.
+<p>Wilsons Geschichte wurde vielfach geschrieben und mythologisiert, aber natürlich muss man auch bei jemandem wie ihm, dessen gesamtes Leben <em>public record</em> scheint, vorsichtig sein, die Mythologie unkritisch als wahr anzunehmen. Wilsons Image ist das eines melancholischen Außenseiters, und von jemandem, bei dem <em>Genie und Wahnsinn eng beieinander liegen</em>. Er schrieb Lieder übers Surfen, war aber selbst kein Surfer, er tüftelte alleine im Studio, während der Rest der Band tourte. Sein Genie war teils missverstanden, auch innerhalb der Band: Es gab zwei teils gegensätzliche Impulse innerhalb der Beach Boys, Wilsons künstlerische Ambitionen auf der einen Seite, der kommerziellere Instinkt, verkörpert durch Mike Love, auf der anderen.<sup id="fnref:2"><a href="#fn:2">2</a></sup> Hinreichend dokumentiert, unter anderem in <em>Love &amp; Mercy</em> dramatisiert, sind Wilsons langjähriger Kampf mit psychischen und Suchtkrankheiten, die Jahre, die er unter der missbräuchlichen Kontrolle des Celebrity-Psychiaters Eugene Landy stand. Brian Wilson ist ein Stück weit eine tragische Figur, man muss sich fragen, wie viele <em>Pet Sounds</em> er ohne diese Widrigkeiten noch hätte schreiben können.</p>
+<p>Aber viele Episoden lassen sich auch anders erzählen. Klar, sie hat etwas Einsames, die Vorstellung von Wilson allein im Studio bei der Arbeit an <em>Pet Sounds</em>, während der Rest der Band sich auf der Bühne feiern lässt. Aber irgendwie doch auch schön, dass die Kollegen ihr verschrobenes Genie ein Stück weit machen ließen, die Band als Plattform seines De-facto-Soloalbums zur Verfügung stellten, obwohl sie vielleicht nicht ganz verstanden, was genau er da machte. Eine zentrale Episode der Brian-Wilson-Tragödie ist die Arbeit an <em>Smile</em>, dem geplanten, noch ambitionierteren Nachfolgealbum von <em>Pet Sounds</em>, das, unter anderem aufgrund von Wilsons zunehmenden psychischen Problemen, nie in der Form erschien, die Wilson sich erhofft hatte.<sup id="fnref:3"><a href="#fn:3">3</a></sup> Ein potenzielles Meisterwerk, das nie erscheint, ein genialer Künstler, der am Druck – “Brian Wilson is a genius” war damals ein <a href="https://en.wikipedia.org/wiki/Brian_Wilson_is_a_genius">offizielles Mantra</a> der PR-Strategie der Band – und den eigenen Ambitionen zerbricht: Das ist ein packendes Narrativ, und hat sicher viel wahres. Man kann das ganze aber auch erzählen als die Vorgeschichte zu einem sehr wohl <em>existierenden</em> Meisterwerk, dem auf Wilsons Kompositionen und einzelnen Versatzstücken der Smile-Aufnahmen basierenden, von der Band gemeinsam aufgenommenen <em>Smiley Smile</em>. Bei Release unterschätzt, hat das Album längst eine verdiente kritische Neueinschätzung erhalten – auf seine eigene Art ist es kaum weniger brilliant als <em>Pet Sounds</em>, und kaum weniger einflussreich: Es gilt als Wegbereiter für Ambient- und Lo-Fi-Musik, im “Legacy”-Abschnitt des <a href="https://en.wikipedia.org/wiki/Smiley_Smile">Wikipedia-Artikels</a> – nur um den Coolness-Faktor des Albums zu unterstreichen – kommen unter anderem Trevor Moore von der Sketch-Comedy-Truppe The Whitest Kids You Know und die Komponisten der Musik für Nintendos Kult-JRPG-Reihe <em>Mother</em> zu Wort. <em>Smiley Smile</em> ist eine weitere Bühne für Brian Wilsons kompositorisches Genie – <em>Good Vibrations</em> allein enthält ja mehr Ideen als ganze Karrieren anderer Songwriter –, aber es ist auch ein Band-Album, das extrem <em>Spaß</em> macht,<sup id="fnref:4"><a href="#fn:4">4</a></sup> und ich finde, das macht es zu einem essenziellen Companion-Piece zu der Melancholie von <em>Pet Sounds</em>, und einem wichtigen, gar nicht so tragischen Abschnitt von Wilsons Karriere.</p>
+<p>Es ist was dran am Bild von Wilson als <em>troubled</em>, als jemand, der mit Widrigkeiten zu kämpfen hatte, und ich will das hier nicht herunterspielen. Im Gegenteil, natürlich ist das ein wichtiger Grund, warum ich mich zu Wilsons Musik hingezogen fühlte: Seine Songs drücken ein Gefühl aus, das ich als Autist, als jemand, der mit psychischen Krankheiten lebt, nur zu gut kenne, dieses Gefühl, irgendwie <em>technisch gesehen</em> dabei zu sein, aber nicht wirklich teilhaben zu können oder dürfen, am Spaß der anderen, an der Gemeinschaft, am Leben. <em>I Just Wasn’t Made for These Times</em> heißt ein zentraler Song auf <em>Pet Sounds</em>, der den Titel für Dokumentationen und Bücher und Artikel über Wilson und sein Leben lieferte.</p>
+<p>Aber Teil der Geschichte ist eben auch, dass Wilson es doch irgendwie schaffte, teilzuhaben, dass er und der Rest der Band, zumindest zeitweise, ein eigenartiges Arrangement schafften, das Wilson die Freiheit und die Plattform gab, auf eine sehr eigene Art zu arbeiten und einige der besten Songs der Musikgeschichte zu schreiben. Dass er seinen Weg ging, Anerkennung erhielt, Menschen begeisterte. Und dann irgendwann, wenn auch erst spät im Leben, wohl auch eine Art von Stabilität fand – was weder für einen Rockstar, noch für einen psychisch kranken, behinderten Menschen selbstverständlich ist. Auf den letzten paar Veröffentlichungen seiner Karriere – der ziemlich gelungenen 2012er Beach-Boys-Reunion <em>That’s Why God Made the Radio</em> und dem durchwachsenen 2015er Soloalbum <em>No Pier Pressure</em> – sind ein paar berührende Kompositionen zu finden, in denen Wilson zurückblickt, sein Resümee zieht, und dabei wehmütig klingt, aber auch so, als hätte er seinen Frieden gemacht. In <a href="https://www.youtube.com/watch?v=_EKHqpEwqAU"><em>The Last Song</em></a> auf <em>No Pier Pressure</em> heißt es, “There was a time and place for what we had”, und das ist doch irgendwie eine schöne, versöhnliche Coda zu “I guess I just wasn’t made for these times”.</p>
+<div><iframe allowfullscreen="true" autoplay="false" disablekbcontrols="false" enableiframeapi="false" endtime="0" height="480" ivloadpolicy="0" loop="false" modestbranding="false" origin="" playlist="" src="https://www.youtube.com/embed/dmcNbsLCpBQ" width="640"></iframe></div>1. Wer keine Lust auf viel lesen hat, aber zumindest einen kleinen Crashkurs will, kann auch einfach *Love &amp; Mercy* schauen, eins der ganz wenigen Biopics, die zumindest *eine Idee* davon vermitteln, was das Werk des dargestellten Künstlers besonders macht.
+2. Ich bin ja der Meinung, dass der Beach-Boys-Katalog die heißesten Kandidaten für sowohl den besten – *God Only Knows* – als auch den schlechtesten – *Kokomo* – Song aller Zeiten enthält.
+3. 2004 erschien, basierend auf den Aufnahmen zu *Smile*, *Brian Wilson Presents Smile* als Soloalbum, doch natürlich war das nicht das Album, das eventuell in den 60ern hätte erscheinen können, hätte Wilson es damals fertiggestellt.
+4. Wikipedia zitiert Wilson selbst mit: “\[W\]e had so much fun. The Smiley Smile era was so great, it was unbelievable. Personally, spiritually, everything, it was great.”
 </div>
+<p><a href="https://smoitzheim.online/posts/zum-tod-von-brian-wilson">https://smoitzheim.online/posts/zum-tod-von-brian-wilson</a></p>
+
 </div>
-<div class="container">
-<div class="row d-flex justify-content-center">
-<div class="col-11 col-lg-10 col-xl-6">
-<div class="row border-bottom">
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="actor-brain-muss-sich-so-gut-anfuehlen-eine-wuerdigung-von-adrien-brodys-pop-art"><a class="text-decoration-none" href="/blog/actor-brain-muss-sich-so-gut-anfuehlen-eine-wuerdigung-von-adrien-brodys-pop-art_2025-04-09/">Actor Brain muss sich so gut anfühlen (eine Würdigung von Adrien Brodys Pop-Art)</a></h2></div>
-<time datetime="2025-04-09">09 April 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><a class="text-decoration-none" href="/blog/_2025-04-09/"><p>Ich hab kürzlich von Adrien Brody’s Kunst erfahren und jetzt ist er mein <a href="https://smoitzheim.online/2025/04/09/adrienbrodyart.html">liebster zeitgenössischer Künstler</a>.</p>
-<p><a...< a=""></a...<></p></a></div>
-<time datetime="2025-04-09">09 April 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><a class="text-decoration-none" href="/blog/_2025-03-14/"><blockquote>
-<p>Es ist viel gefährlicher, wenn die Union AfD-Politik macht, als wenn die AfD in der Opposition selbst ihre Politik macht. Gegenüber den Forderungen der AfD gibt es immer noch viele Vorbehalte. Eine Brandmauer gegenüber CDU und SPD gibt es hingegen nicht. Am...</p></blockquote></a></div>
-<time datetime="2025-03-14">14 March 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><a class="text-decoration-none" href="/blog/_2025-03-07/"><p>Serienautoren haben komplett vergessen was „Nebenfiguren“ sind. Nicht jede Figur muss ihr persönliches Trauma auf Spielfilmlänge ausgebreitet haben. Dare I say es ist meistens interessanter, wenn man auch bisschen was offenlässt.</p>
-<img...< a=""></img...<></a></div>
-<time datetime="2025-03-07">07 March 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="merz-verhalten-seit-der-wahl-ist-nicht-impulsiv-sondern-wohlkalkuliert"><a class="text-decoration-none" href="/blog/merz-verhalten-seit-der-wahl-ist-nicht-impulsiv-sondern-wohlkalkuliert_2025-03-03/">Merz&#39; Verhalten seit der Wahl ist nicht impulsiv, sondern wohlkalkuliert</a></h2></div>
-<time datetime="2025-03-03">03 March 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><a class="text-decoration-none" href="/blog/_2025-02-26/"><p>Neben dem offensichtlichen – Merz sieht den Kampf gegen Rechtsextremismus als Kampf gegen ihn selbst, <em>go figure</em> – lebt Merz mit dieser <a href="https://taz.de/551-Fragen-im-Bundestag/!6072207/">kleinen Anfrage</a> auch seine persönliche DOGE-Fantasie aus. Merz hat ja...</p></a></div>
-<time datetime="2025-02-26">26 February 2025</time>
-</article>
-</div>
-</div>
+
 </div>
 </div>
 </heading-anchor></main>
-<div class="container d-flex justify-content-between">
-<div class="col border-top border-end py-vh-3 d-flex align-items-center">
-<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
-<path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"></path></svg>
-<a class="ms-2 display-6" href="/archive/page-5/"> Previous</a>
+<div class="container">
+<div class="row">
+<div class="col border-top border-end py-vh-3 col-lg-6 col-xl-6 col-12 align-items-center">  
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+<path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"></path></svg><a class="ms-2 display-6" href="/blog/die-mission-impossible-reihe-ist-das-marvel-cinematic-universe-fuer-selbsterklaerte-cineasten_2025-06-10/">Die Mission-Impossible-Reihe ist das Marvel Cinematic Universe für selbsterklärte Cineasten</a></div>
+<div class="col border-top text-end py-vh-3 col-lg-6 col-xl-6 ol-12 align-items-center justify-content-end">
 </div>
-<div class="col border-top text-end py-vh-3 d-flex align-items-center justify-content-end">
-<a class="me-2 display-6" href="/archive/page-7/">Next <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
-</svg></a>
 </div>
 </div>
 
