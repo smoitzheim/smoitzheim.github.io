@@ -3,15 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Archiv</title>
-<meta content="Archiv" property="og:title">
-<meta content="Archiv" name="twitter:title">
-<meta content="Archiv" name="title">
-<meta content="Archiv" property="og:site_name">
-<meta content="Update from my blog posts" name="description">
-<meta content="Update from my blog posts" property="facebook:description">
-<meta content="Update from my blog posts" property="og:description">
-<meta content="Update from my blog posts" name="twitter:description">
+<title>The Ballad of Wallis Island trifft genau den richtigen Ton</title>
+<meta content="The Ballad of Wallis Island trifft genau den richtigen Ton" property="og:title">
+<meta content="The Ballad of Wallis Island trifft genau den richtigen Ton" name="twitter:title">
+<meta content="The Ballad of Wallis Island trifft genau den richtigen Ton" name="title">
+<meta content="The Ballad of Wallis Island trifft genau den richtigen Ton" property="og:site_name">
+<meta content="" name="description">
+<meta content="" property="facebook:description">
+<meta content="" property="og:description">
+<meta content="" name="twitter:description">
 <meta property="twitter:card" content="summary_large_image">
 <meta content="" name="twitter:image">
 <meta content="" name="facebook:image">
@@ -28,15 +28,183 @@
 <meta content="" property="twitter:author">
 <meta content="" name="twitter:site">
 <meta property="og:type" content="website">
-<link rel="canonical" href="https://smoitzheim.github.io/archive/page-5/">
+<link rel="canonical" href="https://smoitzheim.github.io/blog/the-ballad-of-wallis-island-trifft-genau-den-richtigen-ton_2025-07-05/">
 <link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Sebastian Moitzheim&#39;s Weblog">
 <meta name="language" content="de">
 <meta name="locale" content="de_DE">
 <meta property="og:locale" content="de_DE">
 <meta name="generator" content="Eleventy v3.0.0"> 
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","description":"","headline":"Sebastian Moitzheim&#39;s Weblog - ","name":"Sebastian Moitzheim&#39;s Weblog","url":"https://smoitzheim.github.io/archive/page-5/"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","description":"","headline":"Sebastian Moitzheim&#39;s Weblog - ","name":"Sebastian Moitzheim&#39;s Weblog","url":"https://smoitzheim.github.io/blog/the-ballad-of-wallis-island-trifft-genau-den-richtigen-ton_2025-07-05/"}</script>
 <link rel="manifest" href="/manifest.json" crossorigin="use-credentials">
-<style>/*!
+<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+/*!
    * Bootstrap  v5.2.0 (https://getbootstrap.com/)
    * Copyright 2011-2022 The Bootstrap Authors
    * Copyright 2011-2022 Twitter, Inc.
@@ -60,59 +228,48 @@
 </div>
 </nav>
 
-<main><heading-anchor>
-<div class="w-100 overflow-hidden position-relative" id="top">
-<div class="container py-vh-5">
+
+<style>h1,h2,h3,h4,h5{font-family:Sentient,'New York',Georgia,serif!important}body,html{font-family:Sentient,'New York',Georgia,serif!important}.mt-3{margin-top:30px}</style>
+
+<main class="container py-vh-3"><heading-anchor>
 <div class="row d-flex justify-content-center text-center">
-<div class="col-12 col-lg-10">
-<h1 class="display-huge mb-3" id="archiv">Archiv</h1>
+<div class="col-12 col-lg-10 col-xl-6">
+<small class="text-muted">By <a href="https://smoitzheim.omg.lol">Sebastian Moitzheim</a> On <time datetime="2025-07-05">05 July 2025</time></small>
+<h1 class="display-huge" style="margin-top:.2em" id="the-ballad-of-wallis-island-trifft-genau-den-richtigen-ton">The Ballad of Wallis Island trifft genau den richtigen Ton</h1>
+<p class="lead pt-2 py-vh-2"></p>
+<small class="text-muted">
+</small>
+</div>
+<div class="row">
+<div class="col-12">
+
 </div>
 </div>
+<div class="row d-flex justify-content-center text-start">
+<div class="col-12 col-lg-10 col-xl-6 py-vh-2">
+
+<div class="trix-content">Ich weiß nicht, ob The Ballad of Wallis Island wirklich so gut ist, oder ob ich einfach so ausgehungert bin nach dieser Art Film: Filme über *Menschen*, über *erwachsene* Menschen gar, mit alltäglichen, erwachsenen Problemen, und Filme, die witzig sind, aber auf eine andere Art als dass alle Figuren ständig irgendwelche *Quips* raushauen und so den Eindruck erwecken, dass nichts, was ihnen passiert, sie irgendwie anfasst.
+<p>Jedenfalls: Wallis Island hatte ich eher so in der Hoffnung angemacht, etwas milde unterhaltsames zu finden, das man mit halber Aufmerksamkeit gucken kann, während man nebenbei <del>durch den Feedreader scrollt</del> <em>ein Bisschen was erledigt</em>. Stattdessen fand ich einen meiner Lieblingsfilme des bisherigen Jahres.</p>
+<p>The Ballad of Wallis Island basiert auf dem BAFTA-nominierten Kurzfilm The One and Only Herb McGwyer Plays Wallis Island von 2007. Regie bei beidem führte James Griffiths, dessen bisher einzigen Film, das Nick-Frost-Vehikel Cuban Fury, ich als “ganz nett” in Erinnerung habe. Es geht um den exzentrischen Lottogewinner Charles Heath, der den Folksänger Herb McGwyer für ein privates Konzert auf der abgelegenen Insel bucht, auf der Heath sich zur Ruhe gesetzt hat. Was Herb nicht weiß, ist dass Charles auch Nell Mortimer, Herbs ehemalige musikalische und romantische Partnerin engagiert hat, um eine Reunion des gemeinsamen Folk-Duos zu arrangieren – und dass Nell mit ihrem Mann Michael anreist.</p>
+<p>Tom Basden und Tim Key schrieben das Drehbuch und spielen die Hauptrollen. Key ist Stand-Up-Comedian und Lyriker, ich kenne ihn vor allem aus Taskmaster und <a href="https://www.youtube.com/@NoMoreJockeys">No More Jockeys</a>, als Schauspieler ist er mir bisher nicht groß aufgefallen – aber er ist fantastisch: Sein Charles Heath ist exzentrisch, aber nie hollywood-<em>quirky</em>, gleichzeitig extrem liebenswert und ziemlich anstrengend. Charles und Herb haben eine klassische kontrastierende Double-Act-Dynamik, mit Herb als <em>Straight Man</em> und Charles als der absurdere, komischere Partner, doch Keys Charles ist mehr als eine Ansammlung von Marotten, deutet von Anfang an auf die Tiefe hin, die er nach und nach offenbart. Alexei Toliopoulos auf Letterboxd <a href="https://letterboxd.com/thisisalexei/film/the-ballad-of-wallis-island/">vergleicht</a> Key mit John Candy, was ich sehr treffend finde – insbesondere erinnert Keys Performance an die von Candy in John Hughes’ Planes, Trains &amp; Automobiles, wie Candy dort ist Key hier auch das emotionale Zentrum des Films und seine Verschrobenheit wirkt nie beliebig, sondern spezifisch und glaubhaft (wohl auch, weil Key, wie No-More-Jockeys-Kenner schnell feststellen werden, so manche eigenen verbalen Tics und Muster in die Figur mit einfließen lässt). Basden hat die etwas undankbare Aufgabe, dem eine eher humorlose, “normalere” Figur entgegenzusetzen, und er macht das ordentlich, aber, nun, sagen wir nicht mit dem Charisma eines Steve Martin. Dass die bald dazustoßende Nell von <em>heavy hitter</em> Carey Mulligan gespielt wird, macht es ihm nicht einfacher. Mulligan ist immer stark, aber sie in dieser Rolle zu sehen, ist erfrischend, sie hat hier eine Leichtigkeit, die sie in letzter Zeit seltener zeigt und die ihr gut steht.</p>
+<p>Wallis Island hätte eine Menge Gelegenheiten, ein lauterer, sentimentalerer Film zu werden, aber er widersteht dem konsequent. Man kann sich etwa eine Version dieser Geschichte vorstellen, in der das Duo McGwyer Mortimer als legendärer Act aufgebauscht wird, das Auseinandergehen der beiden spektakulärer war, mehr Sex, Drogen und Rock’n’Roll-Drama hatte als hier. In der sie das verschlafene Setting mit Rockstar-Allüren aufmischen und so für eine andere, lautere Art von Komik sorgen. Aber Herb und Nell sind eigentlich ziemlich normale Menschen und ihre Beziehung scheint aus demselben Grund auseinandergegangen zu sein wie die meisten Beziehungen, weil es irgendwie nicht gepasst hat. Ihre Musik ist nicht besonders beeindruckend und wird uns nicht als wichtig oder einflussreich verkauft: Was sie besonders macht, ist dass sie eine wichtige Rolle in Charles’ Leben gespielt hat.</p>
+<p>Denkbar wäre auch eine Version des Films, die stärker in Richtung <em>Tearjerker</em> und/oder <em>feelgood</em> lehnt, doch auch dem widersteht Wallis Island. Die tragischen Elemente von Charles’ Backstory präsentiert der Film unsentimental, <em>matter-of-fact</em>. Er endet positiv, aber er gibt seinen Figuren keinen einfachen Ausweg, niemand kriegt hier genau, was er will. Es gibt keine spektakuläre Reunion von McGwyer Mortimer, weder musikalisch noch romantisch, und am Ende des Films haben sich alle Figuren ein paar Schritte vorwärts bewegt, aber sind nirgendwo angekommen. Der Film erkennt an, dass sich manche Konflikte nicht lösen und manche Wunden nicht heilen lassen, und das macht es umso berührender, wie sich die Figuren am Ende entscheiden, weiterzumachen und nach vorne zu schauen.</p>
+<p>Wie gesagt: Kann schon sein, dass ich in einer Woche nicht mehr an Wallis Island denke. Der Film ist demonstrativ klein, unscheinbar, wenn man so will auch <em>unambitioniert</em>. Aber er ist, und das finde ich bewundernswert, auch extrem <em>selbstsicher</em>: Er trifft konsequent den richtigen Ton, einen, den zu treffen gar nicht so leicht ist, leise und irgendwie ehrlich und trotz seiner einigermaßen konstruierten Prämisse weitgehend frei von <em>Drehbuchrascheln</em>, von allzu einfacher Katharsis und billigem Drama. Griffiths, Basden und Key wussten genau, welche Art von Film sie machen wollten, und es ist eine, die zumindest ich derzeit schmerzlich vermisse.</p>
 </div>
+<p><a href="https://smoitzheim.online/posts/the-ballad-of-wallis-island-trifft-genau-den-richtigen-ton">https://smoitzheim.online/posts/the-ballad-of-wallis-island-trifft-genau-den-richtigen-ton</a></p>
+
 </div>
-<div class="container">
-<div class="row d-flex justify-content-center">
-<div class="col-11 col-lg-10 col-xl-6">
-<div class="row border-bottom">
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="megalopolis-verspricht-david-graeber-und-liefert-elon-musk"><a class="text-decoration-none" href="/blog/megalopolis-verspricht-david-graeber-und-liefert-elon-musk_2025-05-04/">Megalopolis verspricht David Graeber und liefert Elon Musk</a></h2></div>
-<time datetime="2025-05-04">04 May 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="m-night-shyamalans-trap-und-warum-plotholes-manchmal-doch-nicht-egal-sind"><a class="text-decoration-none" href="/blog/m-night-shyamalans-trap-und-warum-plotholes-manchmal-doch-nicht-egal-sind_2025-05-04/">M. Night Shyamalans Trap und warum Plotholes manchmal doch nicht egal sind</a></h2></div>
-<time datetime="2025-05-04">04 May 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="aus-dem-archiv-mein-erster-eindruck-von-fynn-kliemann-aka-ich-fand-den-schon-scheisse-als-er-euch-noch-sympathisch-war"><a class="text-decoration-none" href="/blog/aus-dem-archiv-mein-erster-eindruck-von-fynn-kliemann-aka-ich-fand-den-schon-scheisse-als-er-euch-noch-sympathisch-war_2025-05-04/">aus dem Archiv: Mein erster Eindruck von Fynn Kliemann (aka ich fand den schon scheiße als er euch noch sympathisch war)</a></h2></div>
-<time datetime="2025-05-04">04 May 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="andy-sambergs-seltsamer-beitrag-zum-50-jubilaeum-von-saturday-night-live"><a class="text-decoration-none" href="/blog/andy-sambergs-seltsamer-beitrag-zum-50-jubilaeum-von-saturday-night-live_2025-05-04/">Andy Sambergs seltsamer Beitrag zum 50. Jubiläum von Saturday Night Live</a></h2></div>
-<time datetime="2025-05-04">04 May 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="alien-romulus-ist-interessanter-als-erwartet"><a class="text-decoration-none" href="/blog/alien-romulus-ist-interessanter-als-erwartet_2025-05-04/">Alien: Romulus ist interessanter als erwartet</a></h2></div>
-<time datetime="2025-05-04">04 May 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="actor-brain-muss-sich-so-gut-anfuehlen-eine-wuerdigung-von-adrien-brodys-pop-art"><a class="text-decoration-none" href="/blog/actor-brain-muss-sich-so-gut-anfuehlen-eine-wuerdigung-von-adrien-brodys-pop-art_2025-05-04/">Actor Brain muss sich so gut anfühlen (eine Würdigung von Adrien Brodys Pop-Art)</a></h2></div>
-<time datetime="2025-05-04">04 May 2025</time>
-</article>
-</div>
-</div>
+
 </div>
 </div>
 </heading-anchor></main>
-<div class="container d-flex justify-content-between">
-<div class="col border-top border-end py-vh-3 d-flex align-items-center">
-<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
-<path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"></path></svg>
-<a class="ms-2 display-6" href="/archive/page-4/"> Previous</a>
+<div class="container">
+<div class="row">
+<div class="col border-top border-end py-vh-3 col-lg-6 col-xl-6 col-12 align-items-center">  
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+<path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"></path></svg><a class="ms-2 display-6" href="/blog/the-monkey-wir-werden-alle-sterben-lass-uns-tanzen_2025-07-01/">The Monkey: Wir werden alle sterben, lass uns tanzen</a></div>
+<div class="col border-top text-end py-vh-3 col-lg-6 col-xl-6 ol-12 align-items-center justify-content-end">
 </div>
-<div class="col border-top text-end py-vh-3 d-flex align-items-center justify-content-end">
-<a class="me-2 display-6" href="/archive/page-6/">Next <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
-</svg></a>
 </div>
 </div>
 
