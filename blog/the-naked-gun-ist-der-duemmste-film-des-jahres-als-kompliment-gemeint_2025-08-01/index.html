@@ -3,15 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Archiv</title>
-<meta content="Archiv" property="og:title">
-<meta content="Archiv" name="twitter:title">
-<meta content="Archiv" name="title">
-<meta content="Archiv" property="og:site_name">
-<meta content="Update from my blog posts" name="description">
-<meta content="Update from my blog posts" property="facebook:description">
-<meta content="Update from my blog posts" property="og:description">
-<meta content="Update from my blog posts" name="twitter:description">
+<title>“The Naked Gun” ist der dümmste Film des Jahres (als Kompliment gemeint)</title>
+<meta content="“The Naked Gun” ist der dümmste Film des Jahres (als Kompliment gemeint)" property="og:title">
+<meta content="“The Naked Gun” ist der dümmste Film des Jahres (als Kompliment gemeint)" name="twitter:title">
+<meta content="“The Naked Gun” ist der dümmste Film des Jahres (als Kompliment gemeint)" name="title">
+<meta content="“The Naked Gun” ist der dümmste Film des Jahres (als Kompliment gemeint)" property="og:site_name">
+<meta content="" name="description">
+<meta content="" property="facebook:description">
+<meta content="" property="og:description">
+<meta content="" name="twitter:description">
 <meta property="twitter:card" content="summary_large_image">
 <meta content="" name="twitter:image">
 <meta content="" name="facebook:image">
@@ -28,15 +28,183 @@
 <meta content="" property="twitter:author">
 <meta content="" name="twitter:site">
 <meta property="og:type" content="website">
-<link rel="canonical" href="https://smoitzheim.github.io/archive/">
+<link rel="canonical" href="https://smoitzheim.github.io/blog/the-naked-gun-ist-der-duemmste-film-des-jahres-als-kompliment-gemeint_2025-08-01/">
 <link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Sebastian Moitzheim&#39;s Weblog">
 <meta name="language" content="de">
 <meta name="locale" content="de_DE">
 <meta property="og:locale" content="de_DE">
 <meta name="generator" content="Eleventy v3.0.0"> 
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","description":"","headline":"Sebastian Moitzheim&#39;s Weblog - ","name":"Sebastian Moitzheim&#39;s Weblog","url":"https://smoitzheim.github.io/archive/"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","description":"","headline":"Sebastian Moitzheim&#39;s Weblog - ","name":"Sebastian Moitzheim&#39;s Weblog","url":"https://smoitzheim.github.io/blog/the-naked-gun-ist-der-duemmste-film-des-jahres-als-kompliment-gemeint_2025-08-01/"}</script>
 <link rel="manifest" href="/manifest.json" crossorigin="use-credentials">
-<style>/*!
+<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+/*!
    * Bootstrap  v5.2.0 (https://getbootstrap.com/)
    * Copyright 2011-2022 The Bootstrap Authors
    * Copyright 2011-2022 Twitter, Inc.
@@ -60,54 +228,53 @@
 </div>
 </nav>
 
-<main><heading-anchor>
-<div class="w-100 overflow-hidden position-relative" id="top">
-<div class="container py-vh-5">
+
+<style>h1,h2,h3,h4,h5{font-family:Sentient,'New York',Georgia,serif!important}body,html{font-family:Sentient,'New York',Georgia,serif!important}.mt-3{margin-top:30px}</style>
+
+<main class="container py-vh-3"><heading-anchor>
 <div class="row d-flex justify-content-center text-center">
-<div class="col-12 col-lg-10">
-<h1 class="display-huge mb-3" id="archiv">Archiv</h1>
+<div class="col-12 col-lg-10 col-xl-6">
+<small class="text-muted">By <a href="https://smoitzheim.omg.lol">Sebastian Moitzheim</a> On <time datetime="2025-08-01">01 August 2025</time></small>
+<h1 class="display-huge" style="margin-top:.2em" id="the-naked-gun-ist-der-duemmste-film-des-jahres-als-kompliment-gemeint">“The Naked Gun” ist der dümmste Film des Jahres (als Kompliment gemeint)</h1>
+<p class="lead pt-2 py-vh-2"></p>
+<small class="text-muted">
+</small>
+</div>
+<div class="row">
+<div class="col-12">
+
 </div>
 </div>
+<div class="row d-flex justify-content-center text-start">
+<div class="col-12 col-lg-10 col-xl-6 py-vh-2">
+
+<div class="trix-content">Früh in “The Naked Gun” formuliert Liam Neesons Frank Drebin Jr., vor einem Porträt Leslie Nielsens kniend, die Hoffnungen des Teams um Regisseur Akiva Schaffer für ihr Reboot: genau wie früher soll es sein, aber gleichzeitig frisch und originell. Es freut mich sehr, attestieren zu können, dass sie ihr Ziel erreicht haben: Der neue “Naked Gun” steht spürbar in der Tradition der ZAZ-Klassiker, lässt uns jederzeit spüren, wie sehr Schaffer und Co. die Originale verehren (und *verstehen*!), ohne sich dabei allzu sehr auf unsere Nostalgie zu stützen. Der Film darf wohl schon jetzt als lustigster des Jahres bezeichnet werden – er bringt eine Art von “schlau-dummem” Humor zurück ins Kino, die zumindest mir sehr gefehlt hat.
+<p>Der oben angesprochene Gag ist eher die Ausnahme: Schaffer und seine Co-Autoren Dan Gregor und Doug Mand halten sich klugerweise zurück mit selbstreferenziellem Humor, mit Callbacks zu den Originalen, mit “Wir-wissen-dass-wir-in-einem-Film-sind”-Augenzwinkern.<sup id="fnref:1"><a href="#fn:1">1</a></sup> Klug ist das nicht nur, weil sie damit eine der <a href="https://creativecreativity.com/2017/07/30/david-zuckers-15-rules-of-comedy/">Regeln</a> von Zucker-Abrams-Zucker, des Kreativteams der Originalfilme, befolgen,<sup id="fnref:2"><a href="#fn:2">2</a></sup> sondern weil wir von dieser Sorte Humor in den letzten Jahren mehr als genug gesehen haben – spätestens nach den Deadpool-Filmen ist solcher Meta-Humor einigermaßen abgenutzt. Stattdessen bedienen Schaffer und Co. sich vieler der Techniken, die auch ZAZ genutzt haben: visuelle Gags – Slapstick, absurde Details im Hintergrund – und Wortwitze der Sorte “…and don’t call me Shirley”. Wenn sie etwas parodieren, dann tendenziell eher kleine, gut beobachtete Details als größere “Tropes”: Ein Running-Gag, aus dem der Film erstaunlich viel rausholt, basiert etwa auf der simplen Beobachtung, dass Figuren in Polizeifilmen und -serien ständig und überall Kaffeebecher in der Hand halten, aber ihren Kaffee nie trinken.</p>
+<p>Ein Grund, warum ich diesen Humor so mag, und warum ich ihn gerade im Kino vermisst habe, ist dass er zu einem guten Teil ein originär <em>filmischer</em> Humor ist. Okay, lustige Dialoge kann man auch fürs Theater schreiben, aber die visuellen Gags, die absurde Cartoonlogik, der die Welt des Films folgt, dafür braucht es die präzise Kontrolle darüber, was der Zuschauer wann sieht, die nur Kamera und Schnitt ermöglichen. Schaffer knüpft damit auch an seine Arbeit mit The Lonely Island an, die, darüber hab ich ja <a href="https://smoitzheim.online/posts/woruber-the-lonely-island-und-seth-meyers-in-ihrem-podcast-reden-und-woruber-nicht">schonmal geschrieben</a>, dank ihres Backgrounds in Kurzfilmen und Online-Videos immer ein interessanter Gegenentwurf waren zu eher bühnensozialisierten Comedy-Filmemachern wie Adam McKay und Judd Apatow. Deren Ansatz war es ja eher, ihre Handschrift als Regisseur möglichst unsichtbar zu halten und stattdessen die Improvisationen ihrer Schauspieler in den Mittelpunkt zu stellen, während in vielen Lonely-Island-Projekten der Humor (auch) in der Inszenierung oder im Schnitt liegt.</p>
+<p>Man muss hier unbedingt hervorheben, wie wichtig das Casting für das Gelingen dieses Films ist, besonders das von Liam Neeson als Frank Drebin Jr. Schaffer hat <a href="https://podcasts.apple.com/de/podcast/the-lonely-island-and-seth-meyers-podcast/id1738121304?i=1000719763508">im Lonely-Island-Podcast</a> betont, dass Neesons Interesse ihn überhaupt erst überzeugt hat, dass ein “Naked Gun”-Reboot eine gute Idee sein könnte, und tatsächlich ist Neesons Performance ein wichtiger Grund, warum der Film sich, obwohl er in seinem Humor an die Originale anknüpft, eigenständig und frisch anfühlt. Neeson versteht, dass niemand eine Leslie-Nelson-Imitation von ihm sehen will, und dass seine Performance umso lustiger wird, je weniger Humor er zeigt. Er lässt sich nie anmerken, dass er die Absurdität seiner Figur oder der Welt um sie herum erkennt, sondern spielt Frank Drebin mit derselben Intensität und Gravitas wie seine Figuren in den Action-Filmen und Rache-Thrillern, die die letzten Dekaden seiner Karriere dominiert haben. Pamela Anderson als die Femme Fatale des Films spielt ähnlich großartig mit ihrem Image, und die Chemie der beiden konnte man ja schon in den diversen Promo-Interviews zum Film erkennen.</p>
+<p>Im Podcast sprach Schaffer auch darüber, wie wichtig es ihm war, dass “The Naked Gun” bei aller Absurdität auch einen gut konstruierten Plot hat. Für meinen Geschmack tritt dieser Plot um einen größenwahnsinnigen Tech-Milliardär auf den letzten Metern ein Bisschen zu sehr in den Vordergrund, der Humor bleibt so ein Stück weit auf der Strecke. Letztlich ist der Film aber zu temporeich und, nun, <em>kurz</em> (85 Minuten, die <em>korrekte</em> Länge für eine Komödie!), um je langweilig zu werden, und spätestens bei den Credits, die mehr gute Gags enthalten als so mancher Film über seine gesamte Laufzeit, ist der kurze Hänger zum Schluss dann auch wieder vergessen.</p>
+<p>An “The Naked Gun” hängt derzeit viel Hoffnung, die ich hier ja auch schon <a href="https://smoitzheim.online/posts/leseempfehlung-warum-das-naked-gun-reboot-der-wichtigste-film-des-kinosommers-ist">formuliert habe</a>, dass er der Komödie im Kino neues Leben einhauchen könnte. Das ist natürlich eine unfaire Erwartungshaltung an <em>irgendeinen</em> Film, selbst das Reboot eines Klassikers. Schaffer war ja schon an so manchem Film beteiligt – etwa “Popstar: Never Stop Never Stopping” –, der in einer gerechten Welt ein Kassenschlager gewesen wäre und eine neue Welle von Kino-Komödien inspiriert hätte, aber erst im Streaming sein Publikum fand. Aber vielleicht sind die bekannte IP und Liam Neesons Starpower genug, “The Naked Gun” dieses Schicksal zu ersparen. Der Gedanke – man wird ja noch träumen dürfen! – an eine neue Welle grandios-dummer Albernheit im Kino gefällt mir jedenfalls, und wenn das irgendein Film inspirieren kann, dann wohl dieser.</p>
+<ol>
+<li>Zumindest im eigentlichen Film. In einer Mid-Credits-Szene reißen sie die vierte Wand dann komplett ein, auf sehr unterhaltsame Weise.</li>
+<li>“Don’t remind the audience that they’re watching a movie. This is the rule most often legally bypassed, but a movie has to be a strong one to withstand more than one or two of these.”</li>
+</ol>
+</div>  
+---
+<p><a href="https://letterbird.co/smoitzheim?subject=Re%3A%20%E2%80%9CThe%20Naked%20Gun%E2%80%9D%20ist%20der%20d%C3%BCmmste%20Film%20des%20Jahres%20%28als%20Kompliment%20gemeint%29">Reply by email</a></p>
+<p><a href="https://smoitzheim.online/posts/the-naked-gun-ist-der-dummste-film-des-jahres-als-kompliment-gemeint">https://smoitzheim.online/posts/the-naked-gun-ist-der-dummste-film-des-jahres-als-kompliment-gemeint</a></p>
+
 </div>
-</div>
-<div class="container">
-<div class="row d-flex justify-content-center">
-<div class="col-11 col-lg-10 col-xl-6">
-<div class="row border-bottom">
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="the-naked-gun-ist-der-duemmste-film-des-jahres-als-kompliment-gemeint"><a class="text-decoration-none" href="/blog/the-naked-gun-ist-der-duemmste-film-des-jahres-als-kompliment-gemeint_2025-08-01/">“The Naked Gun” ist der dümmste Film des Jahres (als Kompliment gemeint)</a></h2></div>
-<time datetime="2025-08-01">01 August 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="sollten-wir-uns-alle-ein-loch-in-den-kopf-bohren-ein-streifzug-durch-eine-bizarre-subkultur"><a class="text-decoration-none" href="/blog/sollten-wir-uns-alle-ein-loch-in-den-kopf-bohren-ein-streifzug-durch-eine-bizarre-subkultur_2025-07-16/">Sollten wir uns alle ein Loch in den Kopf bohren? (ein Streifzug durch eine bizarre Subkultur)</a></h2></div>
-<time datetime="2025-07-16">16 July 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="leseempfehlung-warum-das-naked-gun-reboot-der-wichtigste-film-des-kinosommers-ist"><a class="text-decoration-none" href="/blog/leseempfehlung-warum-das-naked-gun-reboot-der-wichtigste-film-des-kinosommers-ist_2025-07-09/">Leseempfehlung: Warum das Naked-Gun-Reboot der wichtigste Film des Kinosommers ist</a></h2></div>
-<time datetime="2025-07-09">09 July 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="the-ballad-of-wallis-island-trifft-genau-den-richtigen-ton"><a class="text-decoration-none" href="/blog/the-ballad-of-wallis-island-trifft-genau-den-richtigen-ton_2025-07-05/">The Ballad of Wallis Island trifft genau den richtigen Ton</a></h2></div>
-<time datetime="2025-07-05">05 July 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="the-monkey-wir-werden-alle-sterben-lass-uns-tanzen"><a class="text-decoration-none" href="/blog/the-monkey-wir-werden-alle-sterben-lass-uns-tanzen_2025-07-01/">The Monkey: Wir werden alle sterben, lass uns tanzen</a></h2></div>
-<time datetime="2025-07-01">01 July 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="is-this-too-much-carly-rae-jepsens-dedicated"><a class="text-decoration-none" href="/blog/is-this-too-much-carly-rae-jepsens-dedicated_2025-06-24/">Is This Too Much? Carly Rae Jepsens Dedicated</a></h2></div>
-<time datetime="2025-06-24">24 June 2025</time>
-</article>
-</div>
-</div>
+
 </div>
 </div>
 </heading-anchor></main>
-<div class="container d-flex justify-content-between">
-<div class="col border-top text-end py-vh-3 d-flex align-items-center justify-content-end">
-<a class="me-2 display-6" href="/archive/page-2/">Next <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
-</svg></a>
+<div class="container">
+<div class="row">
+<div class="col border-top border-end py-vh-3 col-lg-6 col-xl-6 col-12 align-items-center">  
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+<path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"></path></svg><a class="ms-2 display-6" href="/blog/sollten-wir-uns-alle-ein-loch-in-den-kopf-bohren-ein-streifzug-durch-eine-bizarre-subkultur_2025-07-16/">Sollten wir uns alle ein Loch in den Kopf bohren? (ein Streifzug durch eine bizarre Subkultur)</a></div>
+<div class="col border-top text-end py-vh-3 col-lg-6 col-xl-6 ol-12 align-items-center justify-content-end">
+</div>
 </div>
 </div>
 
