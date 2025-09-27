@@ -3,15 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Archiv</title>
-<meta content="Archiv" property="og:title">
-<meta content="Archiv" name="twitter:title">
-<meta content="Archiv" name="title">
-<meta content="Archiv" property="og:site_name">
-<meta content="Update from my blog posts" name="description">
-<meta content="Update from my blog posts" property="facebook:description">
-<meta content="Update from my blog posts" property="og:description">
-<meta content="Update from my blog posts" name="twitter:description">
+<title>Dieser lange Text von Paul Laity in der London Review of Books über...</title>
+<meta content="Dieser lange Text von Paul Laity in der London Review of Books über..." property="og:title">
+<meta content="Dieser lange Text von Paul Laity in der London Review of Books über..." name="twitter:title">
+<meta content="Dieser lange Text von Paul Laity in der London Review of Books über..." name="title">
+<meta content="Dieser lange Text von Paul Laity in der London Review of Books über..." property="og:site_name">
+<meta content="" name="description">
+<meta content="" property="facebook:description">
+<meta content="" property="og:description">
+<meta content="" name="twitter:description">
 <meta property="twitter:card" content="summary_large_image">
 <meta content="" name="twitter:image">
 <meta content="" name="facebook:image">
@@ -28,15 +28,183 @@
 <meta content="" property="twitter:author">
 <meta content="" name="twitter:site">
 <meta property="og:type" content="website">
-<link rel="canonical" href="https://smoitzheim.github.io/archive/page-3/">
+<link rel="canonical" href="https://smoitzheim.github.io/blog/dieser-lange-text-von-paul-laity-in-der-london-review-of-books-ueber_2025-09-27/">
 <link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Sebastian Moitzheim&#39;s Weblog">
 <meta name="language" content="de">
 <meta name="locale" content="de_DE">
 <meta property="og:locale" content="de_DE">
 <meta name="generator" content="Eleventy v3.0.0"> 
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","description":"","headline":"Sebastian Moitzheim&#39;s Weblog - ","name":"Sebastian Moitzheim&#39;s Weblog","url":"https://smoitzheim.github.io/archive/page-3/"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","description":"","headline":"Sebastian Moitzheim&#39;s Weblog - ","name":"Sebastian Moitzheim&#39;s Weblog","url":"https://smoitzheim.github.io/blog/dieser-lange-text-von-paul-laity-in-der-london-review-of-books-ueber_2025-09-27/"}</script>
 <link rel="manifest" href="/manifest.json" crossorigin="use-credentials">
-<style>/*!
+<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+/*!
    * Bootstrap  v5.2.0 (https://getbootstrap.com/)
    * Copyright 2011-2022 The Bootstrap Authors
    * Copyright 2011-2022 Twitter, Inc.
@@ -60,59 +228,47 @@
 </div>
 </nav>
 
-<main><heading-anchor>
-<div class="w-100 overflow-hidden position-relative" id="top">
-<div class="container py-vh-5">
+
+<style>h1,h2,h3,h4,h5{font-family:Sentient,'New York',Georgia,serif!important}body,html{font-family:Sentient,'New York',Georgia,serif!important}.mt-3{margin-top:30px}</style>
+
+<main class="container py-vh-3"><heading-anchor>
 <div class="row d-flex justify-content-center text-center">
-<div class="col-12 col-lg-10">
-<h1 class="display-huge mb-3" id="archiv">Archiv</h1>
+<div class="col-12 col-lg-10 col-xl-6">
+<small class="text-muted">By <a href="https://smoitzheim.omg.lol">Sebastian Moitzheim</a> On <time datetime="2025-09-27">27 September 2025</time></small>
+<h1 class="display-huge" style="margin-top:.2em" id="dieser-lange-text-von-paul-laity-in-der-london-review-of-books-ueber">Dieser lange Text von Paul Laity in der London Review of Books über...</h1>
+<p class="lead pt-2 py-vh-2"></p>
+<small class="text-muted">
+</small>
+</div>
+<div class="row">
+<div class="col-12">
+
 </div>
 </div>
+<div class="row d-flex justify-content-center text-start">
+<div class="col-12 col-lg-10 col-xl-6 py-vh-2">
+
+<div class="trix-content">Dieser [**lange Text von Paul Laity in der London Review of Books**](https://www.lrb.co.uk/the-paper/v47/n17/paul-laity/after-martha) über den Tod seiner Tochter und die ärztlichen Fehler, die wahrscheinlich dazu geführt haben, ist alles andere als *light reading* – ich musste mehrfach unterbrechen, weil ich so wütend war –, aber lesen sollte man ihn trotzdem unbedingt (vor allem, wenn “man” Arzt oder sonstwie in medizinische Behandlung involviert ist).
+<p>Woran ich beim Lesen oft denken musste, ist die diesjährige zweite Staffel von Nathan Fielders HBO-Comedy-Doku-Essay-Dings “The Rehearsal”. Fielder beschäftigt sich darin mit dem “Co-Pilot-Syndrom”, einem Kommunikationsproblem, das seiner Ansicht nach Ursache für eine Vielzahl von Flugzeugabstürzen ist. Das Problem ist die strikte Hierarchie im Cockpit: Co-Piloten trauen sich nicht, aus Angst um ihre Karriere und übermäßigem Respekt ihrem Vorgesetzten gegenüber, Probleme und mögliche Fehler ihres Piloten anzusprechen und, wenn nötig, selbst einzugreifen; Piloten ihrerseits sind sich ihrer selbst so sicher, dass sie, wenn sich ihr Co-Pilot doch mal traut, Bedenken anzumelden, diese nicht ernst nehmen.</p>
+<p>Ich glaube, man könnte eine weitere Staffel über dasselbe Phänomen in Krankenhäusern drehen – Fälle wie der von Laity geschilderte zeigen das. Der ganze Berufsstand “Arzt” hat – der Überzeugung bin ich schon lange, aber spätestens nach einem traumatischen Krankenhausaufenthalt vor 5 Jahren, dessen Folgen mich wohl den Rest meines Lebens begleiten werden – ein Arroganzproblem. Ärzte hören nicht auf die Einschätzungen von Pflegern, obwohl diese oft mehr Zeit mit den Patienten verbringen und so ein vollständigeres Bild ihrer Situation haben. Und beide, Pfleger wie Ärzte, behandeln die Sorgen von Patienten und Angehörigen als lästiges Problem, das es zu <em>managen</em> gilt, anstatt sie ernstzunehmen.</p>
+<p>Laity zeigt, wie schwierig es für Patienten oder, in so schrecklichen Fällen wie seinem, Hinterbliebene ist, irgendeine Form von <em>accountability</em> zu erstreiten, wie die Systeme – in seinem Fall die in Großbritannien, aber es würde mich stark wundern, sähe es in Deutschland groß anders aus –, die theoretisch Patientenrechte schützen und Behandlungsfehler vermeiden und gegebenenfalls ahnden sollen, oft mehr darauf ausgelegt scheinen, Ärzte vor Konsequenzen für ihre Fehler zu schützen. Wie nüchtern und ausgewogen er dabei bleibt, finde ich fast übermenschlich, ich will mir nicht vorstellen, wie schwierig die Arbeit an einem solchen Text über das schreckliche und allem Anschein nach vermeidbare Schicksal des eigenen Kindes sein muss.</p>
+</div>  
+---
+<p><a href="https://letterbird.co/smoitzheim?subject=Re%3A%20Dieser%20lange%20Text%20von%20Paul%20Laity%20in%20der%20London%20Review%20of%20Books%C2%A0%C3%BCber...">Per E-Mail antworten</a></p>
+<p><a href="https://smoitzheim.online/posts/2025-09-27-dieser-lange-text-von">https://smoitzheim.online/posts/2025-09-27-dieser-lange-text-von</a></p>
+
 </div>
-</div>
-<div class="container">
-<div class="row d-flex justify-content-center">
-<div class="col-11 col-lg-10 col-xl-6">
-<div class="row border-bottom">
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="aus-dem-archiv-carly-rae-jepsens-e-mo-tion-erschien-heute-vor-10-jahren-das-hier-hab-ich-damals-zum-5jaehrigen-geschrieben"><a class="text-decoration-none" href="/blog/aus-dem-archiv-carly-rae-jepsens-e-mo-tion-erschien-heute-vor-10-jahren-das-hier-hab-ich-damals-zum-5jaehrigen-geschrieben_2025-06-24/">Aus dem Archiv: Carly Rae Jepsens E•MO•TION erschien heute vor 10 (!) Jahren, das hier hab ich damals zum 5jährigen geschrieben</a></h2></div>
-<time datetime="2025-06-24">24 June 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="neues-von-adrien-brody-bildender-kuenstler"><a class="text-decoration-none" href="/blog/neues-von-adrien-brody-bildender-kuenstler_2025-06-19/">Neues von Adrien Brody, bildender Künstler</a></h2></div>
-<time datetime="2025-06-19">19 June 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="zum-tod-von-brian-wilson"><a class="text-decoration-none" href="/blog/zum-tod-von-brian-wilson_2025-06-11/">Zum Tod von Brian Wilson</a></h2></div>
-<time datetime="2025-06-11">11 June 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="die-mission-impossible-reihe-ist-das-marvel-cinematic-universe-fuer-selbsterklaerte-cineasten"><a class="text-decoration-none" href="/blog/die-mission-impossible-reihe-ist-das-marvel-cinematic-universe-fuer-selbsterklaerte-cineasten_2025-06-10/">Die Mission-Impossible-Reihe ist das Marvel Cinematic Universe für selbsterklärte Cineasten</a></h2></div>
-<time datetime="2025-06-10">10 June 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="ein-lesenswerter-artikel-ueber-einen-vergessen-videospiel-entwickler"><a class="text-decoration-none" href="/blog/ein-lesenswerter-artikel-ueber-einen-vergessen-videospiel-entwickler_2025-06-09/">Ein lesenswerter Artikel über einen vergessen Videospiel-Entwickler</a></h2></div>
-<time datetime="2025-06-09">09 June 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="mario-kart-world-ist-gut-aber-vielleicht-braucht-nicht-jedes-spiel-eine-open-world"><a class="text-decoration-none" href="/blog/mario-kart-world-ist-gut-aber-vielleicht-braucht-nicht-jedes-spiel-eine-open-world_2025-06-08/">Mario Kart World ist gut, aber vielleicht braucht nicht jedes Spiel eine Open World?</a></h2></div>
-<time datetime="2025-06-08">08 June 2025</time>
-</article>
-</div>
-</div>
+
 </div>
 </div>
 </heading-anchor></main>
-<div class="container d-flex justify-content-between">
-<div class="col border-top border-end py-vh-3 d-flex align-items-center">
-<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
-<path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"></path></svg>
-<a class="ms-2 display-6" href="/archive/page-2/"> Previous</a>
+<div class="container">
+<div class="row">
+<div class="col border-top border-end py-vh-3 col-lg-6 col-xl-6 col-12 align-items-center">  
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+<path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"></path></svg><a class="ms-2 display-6" href="/blog/the-office-nachfolger-the-paper-hat-potenzial-aber-gute-sitcoms-zu-schreiben-ist-heute-fast-unmoeglich_2025-09-14/">“The Office”-Nachfolger: “The Paper” hat Potenzial, aber gute Sitcoms zu schreiben ist heute fast unmöglich</a></div>
+<div class="col border-top text-end py-vh-3 col-lg-6 col-xl-6 ol-12 align-items-center justify-content-end">
 </div>
-<div class="col border-top text-end py-vh-3 d-flex align-items-center justify-content-end">
-<a class="me-2 display-6" href="/archive/page-4/">Next <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
-</svg></a>
 </div>
 </div>
 
