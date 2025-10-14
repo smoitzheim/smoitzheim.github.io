@@ -3,15 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Archiv</title>
-<meta content="Archiv" property="og:title">
-<meta content="Archiv" name="twitter:title">
-<meta content="Archiv" name="title">
-<meta content="Archiv" property="og:site_name">
-<meta content="Update from my blog posts" name="description">
-<meta content="Update from my blog posts" property="facebook:description">
-<meta content="Update from my blog posts" property="og:description">
-<meta content="Update from my blog posts" name="twitter:description">
+<title>Die optimale Strategie für einen “Unfair Flips”-Speedrun</title>
+<meta content="Die optimale Strategie für einen “Unfair Flips”-Speedrun" property="og:title">
+<meta content="Die optimale Strategie für einen “Unfair Flips”-Speedrun" name="twitter:title">
+<meta content="Die optimale Strategie für einen “Unfair Flips”-Speedrun" name="title">
+<meta content="Die optimale Strategie für einen “Unfair Flips”-Speedrun" property="og:site_name">
+<meta content="" name="description">
+<meta content="" property="facebook:description">
+<meta content="" property="og:description">
+<meta content="" name="twitter:description">
 <meta property="twitter:card" content="summary_large_image">
 <meta content="" name="twitter:image">
 <meta content="" name="facebook:image">
@@ -28,15 +28,183 @@
 <meta content="" property="twitter:author">
 <meta content="" name="twitter:site">
 <meta property="og:type" content="website">
-<link rel="canonical" href="https://smoitzheim.github.io/archive/page-9/">
+<link rel="canonical" href="https://smoitzheim.github.io/blog/die-optimale-strategie-fuer-einen-unfair-flips-speedrun_2025-10-14/">
 <link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Sebastian Moitzheim&#39;s Weblog">
 <meta name="language" content="de">
 <meta name="locale" content="de_DE">
 <meta property="og:locale" content="de_DE">
 <meta name="generator" content="Eleventy v3.0.0"> 
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","description":"","headline":"Sebastian Moitzheim&#39;s Weblog - ","name":"Sebastian Moitzheim&#39;s Weblog","url":"https://smoitzheim.github.io/archive/page-9/"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","description":"","headline":"Sebastian Moitzheim&#39;s Weblog - ","name":"Sebastian Moitzheim&#39;s Weblog","url":"https://smoitzheim.github.io/blog/die-optimale-strategie-fuer-einen-unfair-flips-speedrun_2025-10-14/"}</script>
 <link rel="manifest" href="/manifest.json" crossorigin="use-credentials">
-<style>/*!
+<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+/*!
    * Bootstrap  v5.2.0 (https://getbootstrap.com/)
    * Copyright 2011-2022 The Bootstrap Authors
    * Copyright 2011-2022 Twitter, Inc.
@@ -60,62 +228,48 @@
 </div>
 </nav>
 
-<main><heading-anchor>
-<div class="w-100 overflow-hidden position-relative" id="top">
-<div class="container py-vh-5">
+
+<style>h1,h2,h3,h4,h5{font-family:Sentient,'New York',Georgia,serif!important}body,html{font-family:Sentient,'New York',Georgia,serif!important}.mt-3{margin-top:30px}</style>
+
+<main class="container py-vh-3"><heading-anchor>
 <div class="row d-flex justify-content-center text-center">
-<div class="col-12 col-lg-10">
-<h1 class="display-huge mb-3" id="archiv">Archiv</h1>
+<div class="col-12 col-lg-10 col-xl-6">
+<small class="text-muted">By <a href="https://smoitzheim.omg.lol">Sebastian Moitzheim</a> On <time datetime="2025-10-14">14 October 2025</time></small>
+<h1 class="display-huge" style="margin-top:.2em" id="die-optimale-strategie-fuer-einen-unfair-flips-speedrun">Die optimale Strategie für einen “Unfair Flips”-Speedrun</h1>
+<p class="lead pt-2 py-vh-2"></p>
+<small class="text-muted">
+</small>
+</div>
+<div class="row">
+<div class="col-12">
+
 </div>
 </div>
+<div class="row d-flex justify-content-center text-start">
+<div class="col-12 col-lg-10 col-xl-6 py-vh-2">
+
+<div class="trix-content">Ich hab die Tage ja [über “Unfair Flips” geschrieben](https://smoitzheim.online/posts/ein-paar-gedanken-die-ich-hatte-wahrend-ich-in-unfair-flips-1332-mal-eine-munze-geworfen-habe), ein Spiel, in dem Erfolg und Misserfolg ausschließlich vom Zufall abhängen. Dennoch hat das Spiel eine [aktive Speedrunning-Community](https://www.speedrun.com/unfairflips). “Unfair Flips” zu speedrunnen ist in der Praxis vor allem eine Ausdauer-Prüfung: Man wiederholt das Spiel so lange, bis man Glück hat und einen Run erwischt, in dem nur wenige Münzwürfe für den Sieg gebraucht werden.
+<p>Aber “Unfair Flips” ist halt ein Computerspiel, was bedeutet, dass “Zufall” nie <em>wirklich</em> Zufall ist – der Zufallsgenerator des Spiels basiert auf einem Algorithmus, der ausgehend von einem Seed berechnet, welche Münzwürfe zu “Kopf” und welche zu “Zahl” führen. Das bedeutet, dass es <em>in der Theorie</em> tatsächlich eine optimale Strategie ist, die Videospielentwickler <a href="https://graham.build/s/a-blog/028-unfair-flips-world-record-strategy/"><strong>Graham in einem unterhaltsamen Blogpost aufgeschrieben hat</strong></a>.<sup id="fnref:1"><a href="#fn:1">1</a></sup> Der Post ist auch lesenswert, wenn man kein Interesse an Speedrunning oder “Unfair Flips” hat, denn wie das Spiel selbst funktioniert er auch als Meditation darüber, warum genau wir überhaupt unsere Zeit mit Spielen verbringen.</p>
+<ol>
+<li><a href="https://blog.lauramichet.com/how-to-speedrun-unfair-flips/">Via, mal wieder, Laura Michet.</a></li>
+</ol>
+</div>  
+---
+<p><a href="https://letterbird.co/smoitzheim?subject=Re%3A%20Die%20optimale%20Strategie%20f%C3%BCr%20einen%20%E2%80%9CUnfair%20Flips%E2%80%9D-Speedrun">Per E-Mail antworten</a></p>
+<p><a href="https://smoitzheim.online/posts/die-optimale-strategie-fur-einen-unfair-flips-speedrun">https://smoitzheim.online/posts/die-optimale-strategie-fur-einen-unfair-flips-speedrun</a></p>
+
 </div>
-</div>
-<div class="container">
-<div class="row d-flex justify-content-center">
-<div class="col-11 col-lg-10 col-xl-6">
-<div class="row border-bottom">
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="aus-dem-archiv-mein-erster-eindruck-von-fynn-kliemann-aka-ich-fand-den-schon-scheisse-als-er-euch-noch-sympathisch-war"><a class="text-decoration-none" href="/blog/aus-dem-archiv-mein-erster-eindruck-von-fynn-kliemann-aka-ich-fand-den-schon-scheisse-als-er-euch-noch-sympathisch-war_2025-04-19/">aus dem Archiv: Mein erster Eindruck von Fynn Kliemann (aka ich fand den schon scheiße als er euch noch sympathisch war)</a></h2></div>
-<time datetime="2025-04-19">19 April 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="actor-brain-muss-sich-so-gut-anfuehlen-eine-wuerdigung-von-adrien-brodys-pop-art"><a class="text-decoration-none" href="/blog/actor-brain-muss-sich-so-gut-anfuehlen-eine-wuerdigung-von-adrien-brodys-pop-art_2025-04-09/">Actor Brain muss sich so gut anfühlen (eine Würdigung von Adrien Brodys Pop-Art)</a></h2></div>
-<time datetime="2025-04-09">09 April 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><a class="text-decoration-none" href="/blog/_2025-04-09/"><p>Ich hab kürzlich von Adrien Brody’s Kunst erfahren und jetzt ist er mein <a href="https://smoitzheim.online/2025/04/09/adrienbrodyart.html">liebster zeitgenössischer Künstler</a>.</p>
-<p><a...< a=""></a...<></p></a></div>
-<time datetime="2025-04-09">09 April 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><a class="text-decoration-none" href="/blog/_2025-03-14/"><blockquote>
-<p>Es ist viel gefährlicher, wenn die Union AfD-Politik macht, als wenn die AfD in der Opposition selbst ihre Politik macht. Gegenüber den Forderungen der AfD gibt es immer noch viele Vorbehalte. Eine Brandmauer gegenüber CDU und SPD gibt es hingegen nicht. Am...</p></blockquote></a></div>
-<time datetime="2025-03-14">14 March 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><a class="text-decoration-none" href="/blog/_2025-03-07/"><p>Serienautoren haben komplett vergessen was „Nebenfiguren“ sind. Nicht jede Figur muss ihr persönliches Trauma auf Spielfilmlänge ausgebreitet haben. Dare I say es ist meistens interessanter, wenn man auch bisschen was offenlässt.</p>
-<img...< a=""></img...<></a></div>
-<time datetime="2025-03-07">07 March 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="merz-verhalten-seit-der-wahl-ist-nicht-impulsiv-sondern-wohlkalkuliert"><a class="text-decoration-none" href="/blog/merz-verhalten-seit-der-wahl-ist-nicht-impulsiv-sondern-wohlkalkuliert_2025-03-03/">Merz&#39; Verhalten seit der Wahl ist nicht impulsiv, sondern wohlkalkuliert</a></h2></div>
-<time datetime="2025-03-03">03 March 2025</time>
-</article>
-</div>
-</div>
+
 </div>
 </div>
 </heading-anchor></main>
-<div class="container d-flex justify-content-between">
-<div class="col border-top border-end py-vh-3 d-flex align-items-center">
-<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
-<path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"></path></svg>
-<a class="ms-2 display-6" href="/archive/page-8/"> Previous</a>
+<div class="container">
+<div class="row">
+<div class="col border-top border-end py-vh-3 col-lg-6 col-xl-6 col-12 align-items-center">  
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+<path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"></path></svg><a class="ms-2 display-6" href="/blog/eigentlich-verwirrt-es-mich-ja-ein-bisschen-dass-taylor-swifts-neues-album_2025-10-13/">Eigentlich verwirrt es mich ja ein Bisschen, dass Taylor Swifts neues Album...</a></div>
+<div class="col border-top text-end py-vh-3 col-lg-6 col-xl-6 ol-12 align-items-center justify-content-end">
 </div>
-<div class="col border-top text-end py-vh-3 d-flex align-items-center justify-content-end">
-<a class="me-2 display-6" href="/archive/page-10/">Next <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
-</svg></a>
 </div>
 </div>
 
