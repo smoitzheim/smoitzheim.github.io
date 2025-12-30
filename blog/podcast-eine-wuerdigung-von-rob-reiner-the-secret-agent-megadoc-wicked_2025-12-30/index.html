@@ -3,15 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Archiv</title>
-<meta content="Archiv" property="og:title">
-<meta content="Archiv" name="twitter:title">
-<meta content="Archiv" name="title">
-<meta content="Archiv" property="og:site_name">
-<meta content="Update from my blog posts" name="description">
-<meta content="Update from my blog posts" property="facebook:description">
-<meta content="Update from my blog posts" property="og:description">
-<meta content="Update from my blog posts" name="twitter:description">
+<title>Podcast: Eine Würdigung von Rob Reiner (+ “The Secret Agent”, “Megadoc”, “Wicked”)</title>
+<meta content="Podcast: Eine Würdigung von Rob Reiner (+ “The Secret Agent”, “Megadoc”, “Wicked”)" property="og:title">
+<meta content="Podcast: Eine Würdigung von Rob Reiner (+ “The Secret Agent”, “Megadoc”, “Wicked”)" name="twitter:title">
+<meta content="Podcast: Eine Würdigung von Rob Reiner (+ “The Secret Agent”, “Megadoc”, “Wicked”)" name="title">
+<meta content="Podcast: Eine Würdigung von Rob Reiner (+ “The Secret Agent”, “Megadoc”, “Wicked”)" property="og:site_name">
+<meta content="" name="description">
+<meta content="" property="facebook:description">
+<meta content="" property="og:description">
+<meta content="" name="twitter:description">
 <meta property="twitter:card" content="summary_large_image">
 <meta content="" name="twitter:image">
 <meta content="" name="facebook:image">
@@ -28,15 +28,183 @@
 <meta content="" property="twitter:author">
 <meta content="" name="twitter:site">
 <meta property="og:type" content="website">
-<link rel="canonical" href="https://smoitzheim.github.io/archive/page-2/">
+<link rel="canonical" href="https://smoitzheim.github.io/blog/podcast-eine-wuerdigung-von-rob-reiner-the-secret-agent-megadoc-wicked_2025-12-30/">
 <link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Sebastian Moitzheim&#39;s Weblog">
 <meta name="language" content="de">
 <meta name="locale" content="de_DE">
 <meta property="og:locale" content="de_DE">
 <meta name="generator" content="Eleventy v3.0.0"> 
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","description":"","headline":"Sebastian Moitzheim&#39;s Weblog - ","name":"Sebastian Moitzheim&#39;s Weblog","url":"https://smoitzheim.github.io/archive/page-2/"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","description":"","headline":"Sebastian Moitzheim&#39;s Weblog - ","name":"Sebastian Moitzheim&#39;s Weblog","url":"https://smoitzheim.github.io/blog/podcast-eine-wuerdigung-von-rob-reiner-the-secret-agent-megadoc-wicked_2025-12-30/"}</script>
 <link rel="manifest" href="/manifest.json" crossorigin="use-credentials">
-<style>/*!
+<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+/*!
    * Bootstrap  v5.2.0 (https://getbootstrap.com/)
    * Copyright 2011-2022 The Bootstrap Authors
    * Copyright 2011-2022 Twitter, Inc.
@@ -60,59 +228,64 @@
 </div>
 </nav>
 
-<main><heading-anchor>
-<div class="w-100 overflow-hidden position-relative" id="top">
-<div class="container py-vh-5">
+
+<style>h1,h2,h3,h4,h5{font-family:Sentient,'New York',Georgia,serif!important}body,html{font-family:Sentient,'New York',Georgia,serif!important}.mt-3{margin-top:30px}</style>
+
+<main class="container py-vh-3"><heading-anchor>
 <div class="row d-flex justify-content-center text-center">
-<div class="col-12 col-lg-10">
-<h1 class="display-huge mb-3" id="archiv">Archiv</h1>
+<div class="col-12 col-lg-10 col-xl-6">
+<small class="text-muted">By <a href="https://smoitzheim.omg.lol">Sebastian Moitzheim</a> On <time datetime="2025-12-30">30 December 2025</time></small>
+<h1 class="display-huge" style="margin-top:.2em" id="podcast-eine-wuerdigung-von-rob-reiner-the-secret-agent-megadoc-wicked">Podcast: Eine Würdigung von Rob Reiner (+ “The Secret Agent”, “Megadoc”, “Wicked”)</h1>
+<p class="lead pt-2 py-vh-2"></p>
+<small class="text-muted">
+</small>
+</div>
+<div class="row">
+<div class="col-12">
+
 </div>
 </div>
+<div class="row d-flex justify-content-center text-start">
+<div class="col-12 col-lg-10 col-xl-6 py-vh-2">
+
+<div class="trix-content">Wir hätten auch nicht damit gerechnet, aber kurz vor dem Jahreswechsel haben wir doch noch eine neue Folge für euch – leider aus einem traurigen Anlass: dem plötzlichen und tragischen Tod von Rob Reiner, den wir in dieser Folge würdigen wollen. Reiners Filmographie ist gar nicht so leicht kritisch zu fassen: Auf den ersten Blick ist es eine klassische “Journeyman”-Filmographie, doch Reiners “Hit-Rate” und kultureller Einfluss sind eher die eines Autorenfilmers. Wir fragen uns deshalb: Was macht einen Rob-Reiner-Film aus, was ist seine “Handschrift”?
+<p>Außerdem besprechen wir Kleber Mendonça Filhos “The Secret Agent”, Mike Figgis’ “Megadoc” und “Wicked” – ja, den ersten Teil, wir lassen es eben gern langsam angehen.</p>
+<p>Danke fürs Zuhören in diesem Jahr, rutscht gut rein, und wir hören uns wieder in 2026!</p>
+<div><iframe allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture" height="175" loading="lazy" src="https://embed.podcasts.apple.com/us/podcast/6-eine-w%C3%BCrdigung-von-rob-reiner-the-secret-agent/id1839223228?i=1000743218967" title="Apple Podcasts Embed" width="100%"></iframe></div>[](#abonnieren "Link to this heading")Abonnieren
+------------------------------------------------
+<ul>
+<li><a href="https://feed.smoitzheim.online/pods/filmcarsten.xml">Hier findet ihr den <strong>RSS-Feed</strong>.</a></li>
+<li><a href="https://pod.link/1839223228?view=apps&amp;sort=popularity">Hier Links für die meisten relevanten Podcatcher.</a></li>
+</ul>
+<h2 id="referenzen-und-further-reading" tabindex="-1"><a href="#referenzen-und-further-reading" title="Link to this heading"></a>Referenzen und further reading <a class="header-anchor" href="#referenzen-und-further-reading"></a></h2>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=n9IXq5MwG5Q">Matt Baumes Video-Essay zur queeren Geschichte von Oz</a></li>
+<li><a href="https://www.nytimes.com/2025/12/16/opinion/culture/stephen-king-rob-reiner-stand-by-me.html">Stephen King über Rob Reiner</a></li>
+</ul>
+<h2 id="wo-ihr-uns-findet" tabindex="-1"><a href="#wo-ihr-uns-findet" title="Link to this heading"></a>Wo ihr uns findet <a class="header-anchor" href="#wo-ihr-uns-findet"></a></h2>
+<ul>
+<li><a href="https://bsky.app/profile/mueckerling.bsky.social">Conrad auf Bluesky</a></li>
+<li><a href="https://smoitzheim.omg.lol/">ich überall</a></li>
+</ul>
+<hr>
+<p><em>Danke fürs Lesen/Hören! Zum Jahresende möchte ich etwas verstärkt auf die Möglichkeiten hinweisen, meine Arbeit zu unterstützen. Wenn dir mein Content dieses Jahr gefallen hat, freue ich mich über eine kleine</em> <a href="https://ko-fi.com/smoitzheim"><em>finanzielle Unterstützung bei Ko-Fi</em></a> <em>– gerade beim Podcasten fallen einige Kosten an (Hosting, Technik, Software etc.), und dein Beitrag hilft uns, diese zu decken. Oder empfiehl uns weiter – in den sozialen Medien, oder einfach an Freunde, die es interessieren könnte. Auch Bewertungen und Reviews bei Apple Podcasts u.ä. helfen uns sehr!</em></p>
+</div>  
+---
+<p><a href="https://letterbird.co/smoitzheim?subject=Re%3A%20Podcast%3A%20Eine%20W%C3%BCrdigung%20von%20Rob%20Reiner%20%28%2B%20%E2%80%9CThe%20Secret%20Agent%E2%80%9D%2C%20%E2%80%9CMegadoc%E2%80%9D%2C%20%E2%80%9CWicked%E2%80%9D%29">Per E-Mail antworten</a></p>
+<p><a href="https://smoitzheim.online/posts/podcast-eine-wurdigung-von-rob-reiner-the-secret-agent-megadoc-wicked">https://smoitzheim.online/posts/podcast-eine-wurdigung-von-rob-reiner-the-secret-agent-megadoc-wicked</a></p>
+
 </div>
-</div>
-<div class="container">
-<div class="row d-flex justify-content-center">
-<div class="col-11 col-lg-10 col-xl-6">
-<div class="row border-bottom">
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="podcast-warum-die-obsession-mit-kanon-dem-kino-schadet"><a class="text-decoration-none" href="/blog/podcast-warum-die-obsession-mit-kanon-dem-kino-schadet_2025-10-11/">Podcast: Warum die Obsession mit “Kanon” dem Kino schadet</a></h2></div>
-<time datetime="2025-10-11">11 October 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="ein-paar-gedanken-die-ich-hatte-waehrend-ich-in-unfair-flips-1332-eine-muenze-geworfen-habe"><a class="text-decoration-none" href="/blog/ein-paar-gedanken-die-ich-hatte-waehrend-ich-in-unfair-flips-1332-eine-muenze-geworfen-habe_2025-10-06/">Ein paar Gedanken, die ich hatte, während ich in “Unfair Flips” 1332 eine Münze geworfen habe</a></h2></div>
-<time datetime="2025-10-06">06 October 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="paul-thomas-andersons-one-battle-after-another-ist-ein-virtuos-inszeniertes-actionepos-aber-ich-glaube-irgendwas-hab-ich-verpasst"><a class="text-decoration-none" href="/blog/paul-thomas-andersons-one-battle-after-another-ist-ein-virtuos-inszeniertes-actionepos-aber-ich-glaube-irgendwas-hab-ich-verpasst_2025-09-28/">Paul Thomas Andersons “One Battle After Another” ist ein virtuos inszeniertes Actionepos, aber ich glaube, irgendwas hab ich verpasst</a></h2></div>
-<time datetime="2025-09-28">28 September 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="dieser-lange-text-von-paul-laity-in-der-london-review-of-books-ueber"><a class="text-decoration-none" href="/blog/dieser-lange-text-von-paul-laity-in-der-london-review-of-books-ueber_2025-09-27/">Dieser lange Text von Paul Laity in der London Review of Books über...</a></h2></div>
-<time datetime="2025-09-27">27 September 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="the-office-nachfolger-the-paper-hat-potenzial-aber-gute-sitcoms-zu-schreiben-ist-heute-fast-unmoeglich"><a class="text-decoration-none" href="/blog/the-office-nachfolger-the-paper-hat-potenzial-aber-gute-sitcoms-zu-schreiben-ist-heute-fast-unmoeglich_2025-09-14/">“The Office”-Nachfolger: “The Paper” hat Potenzial, aber gute Sitcoms zu schreiben ist heute fast unmöglich</a></h2></div>
-<time datetime="2025-09-14">14 September 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="zwei-lesenswerte-texte-ueber-obskure-videospiele-und-ihren-inspirierenden-entwickler"><a class="text-decoration-none" href="/blog/zwei-lesenswerte-texte-ueber-obskure-videospiele-und-ihren-inspirierenden-entwickler_2025-09-13/">Zwei lesenswerte Texte über obskure Videospiele und ihren inspirierenden Entwickler</a></h2></div>
-<time datetime="2025-09-13">13 September 2025</time>
-</article>
-</div>
-</div>
+
 </div>
 </div>
 </heading-anchor></main>
-<div class="container d-flex justify-content-between">
-<div class="col border-top border-end py-vh-3 d-flex align-items-center">
-<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
-<path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"></path></svg>
-<a class="ms-2 display-6" href="/archive/"> Previous</a>
+<div class="container">
+<div class="row">
+<div class="col border-top border-end py-vh-3 col-lg-6 col-xl-6 col-12 align-items-center">  
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+<path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"></path></svg><a class="ms-2 display-6" href="/blog/podcast-das-verborgene-potenzial-von-cgi-wake-up-dead-man-a-knives-out-mystery_2025-12-12/">Podcast: Das verborgene Potenzial von CGI (+ Wake Up Dead Man: A Knives Out Mystery)</a></div>
+<div class="col border-top text-end py-vh-3 col-lg-6 col-xl-6 ol-12 align-items-center justify-content-end">
 </div>
-<div class="col border-top text-end py-vh-3 d-flex align-items-center justify-content-end">
-<a class="me-2 display-6" href="/archive/page-3/">Next <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
-</svg></a>
 </div>
 </div>
 
