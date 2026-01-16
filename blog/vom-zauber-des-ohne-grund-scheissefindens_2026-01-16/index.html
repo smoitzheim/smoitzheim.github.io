@@ -3,15 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Archiv</title>
-<meta content="Archiv" property="og:title">
-<meta content="Archiv" name="twitter:title">
-<meta content="Archiv" name="title">
-<meta content="Archiv" property="og:site_name">
-<meta content="Update from my blog posts" name="description">
-<meta content="Update from my blog posts" property="facebook:description">
-<meta content="Update from my blog posts" property="og:description">
-<meta content="Update from my blog posts" name="twitter:description">
+<title>Vom Zauber des Ohne-Grund-Scheißefindens</title>
+<meta content="Vom Zauber des Ohne-Grund-Scheißefindens" property="og:title">
+<meta content="Vom Zauber des Ohne-Grund-Scheißefindens" name="twitter:title">
+<meta content="Vom Zauber des Ohne-Grund-Scheißefindens" name="title">
+<meta content="Vom Zauber des Ohne-Grund-Scheißefindens" property="og:site_name">
+<meta content="" name="description">
+<meta content="" property="facebook:description">
+<meta content="" property="og:description">
+<meta content="" name="twitter:description">
 <meta property="twitter:card" content="summary_large_image">
 <meta content="" name="twitter:image">
 <meta content="" name="facebook:image">
@@ -28,15 +28,183 @@
 <meta content="" property="twitter:author">
 <meta content="" name="twitter:site">
 <meta property="og:type" content="website">
-<link rel="canonical" href="https://smoitzheim.github.io/archive/page-2/">
+<link rel="canonical" href="https://smoitzheim.github.io/blog/vom-zauber-des-ohne-grund-scheissefindens_2026-01-16/">
 <link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Sebastian Moitzheim&#39;s Weblog">
 <meta name="language" content="de">
 <meta name="locale" content="de_DE">
 <meta property="og:locale" content="de_DE">
 <meta name="generator" content="Eleventy v3.0.0"> 
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","description":"","headline":"Sebastian Moitzheim&#39;s Weblog - ","name":"Sebastian Moitzheim&#39;s Weblog","url":"https://smoitzheim.github.io/archive/page-2/"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","description":"","headline":"Sebastian Moitzheim&#39;s Weblog - ","name":"Sebastian Moitzheim&#39;s Weblog","url":"https://smoitzheim.github.io/blog/vom-zauber-des-ohne-grund-scheissefindens_2026-01-16/"}</script>
 <link rel="manifest" href="/manifest.json" crossorigin="use-credentials">
-<style>/*!
+<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+/*!
    * Bootstrap  v5.2.0 (https://getbootstrap.com/)
    * Copyright 2011-2022 The Bootstrap Authors
    * Copyright 2011-2022 Twitter, Inc.
@@ -60,59 +228,63 @@
 </div>
 </nav>
 
-<main><heading-anchor>
-<div class="w-100 overflow-hidden position-relative" id="top">
-<div class="container py-vh-5">
+
+<style>h1,h2,h3,h4,h5{font-family:Sentient,'New York',Georgia,serif!important}body,html{font-family:Sentient,'New York',Georgia,serif!important}.mt-3{margin-top:30px}</style>
+
+<main class="container py-vh-3"><heading-anchor>
 <div class="row d-flex justify-content-center text-center">
-<div class="col-12 col-lg-10">
-<h1 class="display-huge mb-3" id="archiv">Archiv</h1>
+<div class="col-12 col-lg-10 col-xl-6">
+<small class="text-muted">By <a href="https://smoitzheim.omg.lol">Sebastian Moitzheim</a> On <time datetime="2026-01-16">16 January 2026</time></small>
+<h1 class="display-huge" style="margin-top:.2em" id="vom-zauber-des-ohne-grund-scheissefindens">Vom Zauber des Ohne-Grund-Scheißefindens</h1>
+<p class="lead pt-2 py-vh-2"></p>
+<small class="text-muted">
+</small>
+</div>
+<div class="row">
+<div class="col-12">
+
 </div>
 </div>
+<div class="row d-flex justify-content-center text-start">
+<div class="col-12 col-lg-10 col-xl-6 py-vh-2">
+
+<div class="trix-content">Ich bin in den letzten Tagen irgendwie in einer etwas seltsamen TikTok-Nachbarschaft gelandet, nämlich der, in der Menschen – meistens junge Frauen Anfang-Mitte 20 – Schauspieler Dax Shepard psychoanalysieren.
+<p>Shepard hatte in seinem bizarr erfolgreichen Podcast “Armchair Expert” die Tage Cher zu Gast. Arrangiert hat das Interview wohl Shepards Frau Kristen Bell, die mit Cher befreundet ist, seit die beiden 2013 zusammen in “Burlesque” zu sehen waren, einem Film, der technisch gesehen existiert, das kann man ihm nicht nehmen. Ein <a href="https://www.sfchronicle.com/entertainment/article/cher-dax-shepard-podcast-21279746.php">Ausschnitt aus diesem Podcast</a> ging durch die Clickbait-Schleudern: Cher, direkt wie immer, sagt, dass Shepard sich glücklich schätzen solle, denn Bell sei “definitely the better half”. Shepard fragt Cher daraufhin:</p>
+<blockquote>
+<p>Who would you like to see Kristen with? Who would be your dream partner for her? ’Cause I know you think she could be better, and I don’t disagree. Who would be your pick?</p>
+</blockquote>
+<p>Cher hat darauf keine Antwort, und Bell wiegelt ab: “He’s being self-deprecating.” Alle kichern ein Bisschen, und dann sagt Cher versöhnlich:</p>
+<blockquote>
+<p>The truth is, I trust her. So you must have something that I don’t see.</p>
+</blockquote>
+<p>Für mich klang das vielleicht milde awkward – Shepard versucht sich an einem Riff, aber Cher kann oder will ihn nicht <em>yes-and</em>-en –, aber jetzt nicht wesentlich anders als die meisten Ausschnitte aus Celebrity-Podcasts, die mir in den sozialen Medien so begegnen. Es fällt mir ehrlich gesagt schwer, überhaupt irgendeine Meinung dazu zu haben, es ist halt die Sorte inhaltsleeres Gelaber, das Menschen, deren Leben zu gut sind als dass sie irgendwas zu sagen haben könnten, so produzieren, wenn man sie vor ein Mikro setzt ohne dass sie akut irgendein Produkt zu bewerben haben.</p>
+<p>Einige TikToker allerdings sehen das anders: Für sie ist dieser Ausschnitt Beweis, dass Shepard seine Frau <em>hasst</em>, dass er sie schlägt, misshandelt, dass sie (und Cher) in Angst vor ihm leben, seine Gefühle regulieren müssen. Shepard ist ein Narzisst, sind sie sich sicher, er <em>gaslightet</em> Bell, er nimmt wieder regelmäßig Drogen.</p>
+<p>Dass es albern – um nicht zu sagen: ungesund – ist, solche Diagnosen basierend auf einem Podcast-Ausschnitt zu stellen, muss ich glaube ich niemandem erklären.<sup id="fnref:1"><a href="#fn:1">1</a></sup> Ich habe auch kein Interesse daran, mich hier über Bande mit irgendwelchen TikTokern zu streiten. Aber nicht zum ersten Mal muss ich daran denken, was für ein Verlust es ist, dass wir anscheinend die wichtige Kulturtechnik “Dinge ohne (guten) Grund scheiße finden” verlernt haben.</p>
+<p>Das ist sicher nicht der einzige Faktor, der in die absurde Praxis der TikTok-Diagnosen reinspielt,<sup id="fnref:2"><a href="#fn:2">2</a></sup> aber es ist ein relevanter: Irgendwie hat sich über die letzten zehn-oder-so Jahre die Idee verfestigt, dass wir Dinge nicht scheißen finden “dürfen”, ohne dafür eine <em>moralische</em> Rechtfertigung zu haben. Und das hat die Art, wie wir über Kultur sprechen, ziemlich seltsam gemacht. Was man nicht nur an Fällen wie diesem sieht: Menschen haben eine diffuse Abneigung gegen einen Schauspieler, aber müssen sich erst eine pseudo-psychologische Begründung konstruieren, bevor sie das ausdrücken können.</p>
+<p>Es spielt zum Beispiel auch in die seltsame Kiss-the-Ring-Mentalität, die wir derzeit oft gegenüber erfolgreichen Künstlern und Künstlerinnen haben. Wenn man erst eine moralische Begründung braucht, um Dinge scheiße zu finden, wird im Umkehrschluss auch jedem öffentlich ausgedrückten Scheißefinden eine Dimension moralischer Verurteilung unterstellt – was dann zu solchen Ideen führt wie “Wer Taylor Swift scheiße findet, ist misogyn”.</p>
+<p>Ich versteh ja durchaus, woher dieses Bedürfnis nach Rechtfertigung kommt, und ich will hier auch gar keine generelle “It’s not that deep”-Position einnehmen. Natürlich ist es erstmal gut, sich zu fragen, wie man zu den eigenen Urteilen gekommen ist. Aber manchmal gibt es eben keine bessere Antwort als “keine Ahnung, Vibes”, und in solchen Fällen halte ich es für gesünder, ehrlich zu sein, als irgendeine moralische Empörung um das eigene Bauchgefühl herum zu konstruieren. Ich habe diesen Fehler in der Vergangenheit sicher selbst das ein oder andere Mal in Rezensionen gemacht, und es ist dann halt auch einfach schnell ziemlich <em>cringe</em>, wenn man es mit nur ein Bisschen Abstand erneut liest.</p>
+<p>Außerdem, das sollte man nicht unerwähnt lassen, macht es manchmal einfach eine Menge Spaß, ein grundloser Hater zu sein! Also: Das nächste Mal, wenn ihr versucht seid, irgendeinen Schauspieler zu psychoanalysieren oder einem Film faschistische Propaganda oder so zu unterstellen, überlegt doch kurz, ob ihr stattdessen nicht sowas sagen könntet wie: Ich find Dax Shepard scheiße, weil er ein Grabbeltisch-Josh-Radnor ist, der ein Grabbeltisch-Zach-Braff war, und weil der Name “Dax Shepard” reserviert sein sollte für die Hauptfigur einer obskuren 80er-Serie, die im Nachmittagsprogramm von RTL II läuft – “Dax Shepard, US Marshal” –, und weil mir sein dummes Gesicht nicht gefällt.</p>
+<ol>
+<li>Das ist nichtmal der wichtigste Grund, aber wie authentisch ist <em>irgendjemand</em>, wenn er mit <em>Cher</em> spricht?</li>
+<li>Ein anderer großer ist die, sagen wir, bastardisierte Normalisierung des Themenkomplexes “geistige Gesundheit”, die über die letzte Dekade stattgefunden hat. Die Sprache von Therapie und “Self-Care” ist mittlerweile allgegenwärtig, aber wir nutzen sie allzu weniger, um wirklich offen und ohne Stigma über Mental Health zu sprechen, sondern um egoistisches Verhalten zu rechtfertigen und andere zu verurteilen.</li>
+</ol>
+</div>  
+---
+<p><a href="https://letterbird.co/smoitzheim?subject=Re%3A%20Vom%20Zauber%20des%20Ohne-Grund-Schei%C3%9Fefindens">Per E-Mail antworten</a></p>
+<p><a href="https://smoitzheim.online/posts/vom-zauber-des-ohne-grund-scheissefindens">https://smoitzheim.online/posts/vom-zauber-des-ohne-grund-scheissefindens</a></p>
+
 </div>
-</div>
-<div class="container">
-<div class="row d-flex justify-content-center">
-<div class="col-11 col-lg-10 col-xl-6">
-<div class="row border-bottom">
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="eigentlich-verwirrt-es-mich-ja-ein-bisschen-dass-taylor-swifts-neues-album"><a class="text-decoration-none" href="/blog/eigentlich-verwirrt-es-mich-ja-ein-bisschen-dass-taylor-swifts-neues-album_2025-10-13/">Eigentlich verwirrt es mich ja ein Bisschen, dass Taylor Swifts neues Album...</a></h2></div>
-<time datetime="2025-10-13">13 October 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="podcast-warum-die-obsession-mit-kanon-dem-kino-schadet"><a class="text-decoration-none" href="/blog/podcast-warum-die-obsession-mit-kanon-dem-kino-schadet_2025-10-11/">Podcast: Warum die Obsession mit “Kanon” dem Kino schadet</a></h2></div>
-<time datetime="2025-10-11">11 October 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="ein-paar-gedanken-die-ich-hatte-waehrend-ich-in-unfair-flips-1332-eine-muenze-geworfen-habe"><a class="text-decoration-none" href="/blog/ein-paar-gedanken-die-ich-hatte-waehrend-ich-in-unfair-flips-1332-eine-muenze-geworfen-habe_2025-10-06/">Ein paar Gedanken, die ich hatte, während ich in “Unfair Flips” 1332 eine Münze geworfen habe</a></h2></div>
-<time datetime="2025-10-06">06 October 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="paul-thomas-andersons-one-battle-after-another-ist-ein-virtuos-inszeniertes-actionepos-aber-ich-glaube-irgendwas-hab-ich-verpasst"><a class="text-decoration-none" href="/blog/paul-thomas-andersons-one-battle-after-another-ist-ein-virtuos-inszeniertes-actionepos-aber-ich-glaube-irgendwas-hab-ich-verpasst_2025-09-28/">Paul Thomas Andersons “One Battle After Another” ist ein virtuos inszeniertes Actionepos, aber ich glaube, irgendwas hab ich verpasst</a></h2></div>
-<time datetime="2025-09-28">28 September 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="dieser-lange-text-von-paul-laity-in-der-london-review-of-books-ueber"><a class="text-decoration-none" href="/blog/dieser-lange-text-von-paul-laity-in-der-london-review-of-books-ueber_2025-09-27/">Dieser lange Text von Paul Laity in der London Review of Books über...</a></h2></div>
-<time datetime="2025-09-27">27 September 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="the-office-nachfolger-the-paper-hat-potenzial-aber-gute-sitcoms-zu-schreiben-ist-heute-fast-unmoeglich"><a class="text-decoration-none" href="/blog/the-office-nachfolger-the-paper-hat-potenzial-aber-gute-sitcoms-zu-schreiben-ist-heute-fast-unmoeglich_2025-09-14/">“The Office”-Nachfolger: “The Paper” hat Potenzial, aber gute Sitcoms zu schreiben ist heute fast unmöglich</a></h2></div>
-<time datetime="2025-09-14">14 September 2025</time>
-</article>
-</div>
-</div>
+
 </div>
 </div>
 </heading-anchor></main>
-<div class="container d-flex justify-content-between">
-<div class="col border-top border-end py-vh-3 d-flex align-items-center">
-<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
-<path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"></path></svg>
-<a class="ms-2 display-6" href="/archive/"> Previous</a>
+<div class="container">
+<div class="row">
+<div class="col border-top border-end py-vh-3 col-lg-6 col-xl-6 col-12 align-items-center">  
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+<path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"></path></svg><a class="ms-2 display-6" href="/blog/podcast-eine-wuerdigung-von-rob-reiner-the-secret-agent-megadoc-wicked_2025-12-30/">Podcast: Eine Würdigung von Rob Reiner (+ “The Secret Agent”, “Megadoc”, “Wicked”)</a></div>
+<div class="col border-top text-end py-vh-3 col-lg-6 col-xl-6 ol-12 align-items-center justify-content-end">
 </div>
-<div class="col border-top text-end py-vh-3 d-flex align-items-center justify-content-end">
-<a class="me-2 display-6" href="/archive/page-3/">Next <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
-</svg></a>
 </div>
 </div>
 
