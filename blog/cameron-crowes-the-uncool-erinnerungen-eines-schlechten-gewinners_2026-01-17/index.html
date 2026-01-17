@@ -3,15 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Archiv</title>
-<meta content="Archiv" property="og:title">
-<meta content="Archiv" name="twitter:title">
-<meta content="Archiv" name="title">
-<meta content="Archiv" property="og:site_name">
-<meta content="Update from my blog posts" name="description">
-<meta content="Update from my blog posts" property="facebook:description">
-<meta content="Update from my blog posts" property="og:description">
-<meta content="Update from my blog posts" name="twitter:description">
+<title>Cameron Crowes “The Uncool”: Erinnerungen eines schlechten Gewinners</title>
+<meta content="Cameron Crowes “The Uncool”: Erinnerungen eines schlechten Gewinners" property="og:title">
+<meta content="Cameron Crowes “The Uncool”: Erinnerungen eines schlechten Gewinners" name="twitter:title">
+<meta content="Cameron Crowes “The Uncool”: Erinnerungen eines schlechten Gewinners" name="title">
+<meta content="Cameron Crowes “The Uncool”: Erinnerungen eines schlechten Gewinners" property="og:site_name">
+<meta content="" name="description">
+<meta content="" property="facebook:description">
+<meta content="" property="og:description">
+<meta content="" name="twitter:description">
 <meta property="twitter:card" content="summary_large_image">
 <meta content="" name="twitter:image">
 <meta content="" name="facebook:image">
@@ -28,15 +28,183 @@
 <meta content="" property="twitter:author">
 <meta content="" name="twitter:site">
 <meta property="og:type" content="website">
-<link rel="canonical" href="https://smoitzheim.github.io/archive/">
+<link rel="canonical" href="https://smoitzheim.github.io/blog/cameron-crowes-the-uncool-erinnerungen-eines-schlechten-gewinners_2026-01-17/">
 <link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Sebastian Moitzheim&#39;s Weblog">
 <meta name="language" content="de">
 <meta name="locale" content="de_DE">
 <meta property="og:locale" content="de_DE">
 <meta name="generator" content="Eleventy v3.0.0"> 
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","description":"","headline":"Sebastian Moitzheim&#39;s Weblog - ","name":"Sebastian Moitzheim&#39;s Weblog","url":"https://smoitzheim.github.io/archive/"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","description":"","headline":"Sebastian Moitzheim&#39;s Weblog - ","name":"Sebastian Moitzheim&#39;s Weblog","url":"https://smoitzheim.github.io/blog/cameron-crowes-the-uncool-erinnerungen-eines-schlechten-gewinners_2026-01-17/"}</script>
 <link rel="manifest" href="/manifest.json" crossorigin="use-credentials">
-<style>/*!
+<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+/*!
    * Bootstrap  v5.2.0 (https://getbootstrap.com/)
    * Copyright 2011-2022 The Bootstrap Authors
    * Copyright 2011-2022 Twitter, Inc.
@@ -60,54 +228,61 @@
 </div>
 </nav>
 
-<main><heading-anchor>
-<div class="w-100 overflow-hidden position-relative" id="top">
-<div class="container py-vh-5">
+
+<style>h1,h2,h3,h4,h5{font-family:Sentient,'New York',Georgia,serif!important}body,html{font-family:Sentient,'New York',Georgia,serif!important}.mt-3{margin-top:30px}</style>
+
+<main class="container py-vh-3"><heading-anchor>
 <div class="row d-flex justify-content-center text-center">
-<div class="col-12 col-lg-10">
-<h1 class="display-huge mb-3" id="archiv">Archiv</h1>
+<div class="col-12 col-lg-10 col-xl-6">
+<small class="text-muted">By <a href="https://smoitzheim.omg.lol">Sebastian Moitzheim</a> On <time datetime="2026-01-17">17 January 2026</time></small>
+<h1 class="display-huge" style="margin-top:.2em" id="cameron-crowes-the-uncool-erinnerungen-eines-schlechten-gewinners">Cameron Crowes “The Uncool”: Erinnerungen eines schlechten Gewinners</h1>
+<p class="lead pt-2 py-vh-2"></p>
+<small class="text-muted">
+</small>
+</div>
+<div class="row">
+<div class="col-12">
+
 </div>
 </div>
+<div class="row d-flex justify-content-center text-start">
+<div class="col-12 col-lg-10 col-xl-6 py-vh-2">
+
+<div class="trix-content">Es gibt so Filme, die waren mir mal sehr wichtig, die würde ich eigentlich gerne mal wieder sehen, aber traue mich nicht so richtig, weil ich befürchte, sie heute furchtbar peinlich zu finden. “Almost Famous” steht ziemlich weit oben auf dieser Liste. Cameron Crowes autobiographischer Film über einen Teenager, der für den Rolling Stone eine aufstrebende Rockband auf Tour begleitet und dabei *zum Mann wird* oder so, war für einen heranwachsenden Film- und Musikfan unwiderstehlich: Fan von etwas zu sein, so die Botschaft des Films, bedeutet *Teil* von etwas zu sein, wer Rockstars nur leidenschaftlich genug verehrt, ist *im Prinzip* selber Rockstar.
+<p>Aber zeichnete sich nicht viel von dem, was Crowes Spätwerk oft eher <em>cringe</em> machte, schon in “Almost Famous” ab? Hat etwa Kate Hudsons Groupie Penny Lane in “Almost Famous” wesentlich mehr Tiefe als Kirsten Dunsts Rolle in Crowes späterem “Elizabethtown”, <a href="https://www.avclub.com/the-bataan-death-march-of-whimsy-case-file-1-elizabet-1798210595">die Figur, für die Nathan Rabin den Begriff “Manic Pixie Dream Girl” prägte</a>? Überhaupt, sind nicht <em>alle</em> Charaktere des Films eher mit dem groben Pinsel gemalt – Crowes Film ist ein Rock’n’Roll-Märchen, und seine Figuren sind Märchenfiguren, typenhaft und statisch. Hat es nicht beinahe etwas geschmackloses, wenn Crowe echte Vorbilder zu solchen Abziehbildchen macht, etwa den legendären, kontroversen Rockkritiker Lester Bangs, der in Philip Seymour Hoffmans Darstellung in “Almost Famous” zum traurigen Teddybär wird, der dem jungen Protagonisten yodaähnliche Weisheiten mitgibt.</p>
+<p>In seinem Memoir “The Uncool” (über den Titel sprechen wir noch) erzählt Crowe erneut eine Version der Geschichte von “Almost Famous”. Abgesehen von einer Rahmenhandlung, in der Crowe der Premiere der Musical-Adaption von “Almost Famous” entgegenfiebert, und ein paar kurzen Kapiteln gegen Ende über den Anfang seiner Karriere als Drehbuchautor<sup id="fnref:1"><a href="#fn:1">1</a></sup>, geht es ausschließlich um Crowes Teenagerjahre, seine Zeit als Musikjournalist, in der er vor allem für den “Rolling Stone” Musiker und Bands interviewte und auf Tour begleitete. Aber ist das nur <em>more of the same</em>, oder nutzt Crowe die Chance, den eigenen Mythos etwas zu komplizieren und reflektieren?</p>
+<p>Nun, beim Lesen von “The Uncool” wird ziemlich schnell klar, dass Crowe seinen eigenen Bullshit glaubt. Seine Erinnerungen arrangieren sich in filmreifen Szenen, die Personen – oder besser: <em>Charaktere</em> –, die er beschreibt, sprechen in knackigen Drehbuchdialogen. Konflikte lösen sich für gewöhnlich innerhalb eines Kapitels, für Ambiguität ist wenig Platz – jede Anekdote, jede Begegnung mit diesem oder jenem Rockstar, läuft auf dieselbe, sentimentale Pointe heraus, in etwa: Das Leben ist – Crowes Lieblingsvokabel – “happy/sad”, aber begegnet man auch dem größten Rockstar mit einer naiven Offenherzigkeit – <em>aber immer positiv!</em> –, dann erfüllen sich letztlich alle Fanboyträume.</p>
+<p>Ich hab natürlich grundsätzlich kein Problem damit, dass Crowe hier verdichtet und auch ein Stück weit fiktionalisiert, das ist ja irgendwie auch das Wesen des Genres. Aber Crowe erzählt so formelhaft und überraschungsarm, dass “The Uncool” im Mittelteil einigermaßen ermüdend wird. Jedes Kapitel folgt exakt dem gleichen Muster: Crowe erhält den Auftrag, Rockstar X zu interviewen; der sträubt sich, weil er generell keine Interviews gibt und/oder schlechte Erfahrungen mit dem “Rolling Stone” gemacht hat; Crowe kann sie mit seiner aufrichtigen Begeisterung für ihre Musik dann doch überzeugen, und sie schütten ihm ihr Herz aus. Die resultierenden Profile wurden laut Crowe von den jeweiligen Fans meist begeistert aufgenommen – mag sein, aber in seinem Buch lässt Crowe seine Interviewpartner selten irgendwas interessantes sagen, die Pointe jeder Anekdote steht ja, wie gesagt, eh von vornherein fest.</p>
+<p>Ich fand das einigermaßen unbefriedigend – zumal es Momente in “The Uncool” gibt, die darauf hindeuten, dass Crowes Material für ein anderes, interessanteres Buch getaugt hätte. In den frühen Kapiteln porträtiert Crowe seine Mutter, und gesteht ihr dabei eine Widersprüchlichkeit und Kantigkeit zu, die sie lebendiger wirken lässt als all die schillernden Persönlichkeiten, denen er später begegnet. Eine Passage, in der der junge Cameron mit ihr ein Konzert des in die Jahre gekommenen Elvis Presley besucht, ist das beste Stück Musikkritik in diesem Buch, hier schreibt Crowe mal mit einer gewissen kritischen Distanz, einer Bissigkeit auch, ohne dabei respektlos oder desinteressiert zu wirken. Die Passage hat genau das, was den Anekdoten, die den Großteil des Buchs ausmachen, fehlt: Persönlichkeit, eine Perspektive, die über ehrfürchtige Heldenverehrung hinausgeht.</p>
+<p>Interessanterweise gibt es eine Stelle im Buch, in der der damalige “Rolling Stone”-Chefredakteur Jann Wenner den jungen Crowe auffordert, genau so eine Perspektive zu entwickeln, damit sich seine Profile weniger belanglos lesen. Welche Gedanken oder gar Veränderungen, oder von mir aus auch welche Widersprüche, das in Crowe ausgelöst hat, können wir aber <em>höchstens</em> in Ansätzen zwischen den Zeilen herauslesen. Das ist vielleicht das frustrierendste an “The Uncool”, wenn man es als eigenständiges Werk liest anstatt als <em>novelization</em> von “Almost Famous”: dass Crowe immer mal wieder Angebote zur Reflexion gemacht werden, die er aber nicht annimmt (oder zumindest uns Leser nicht daran teilhaben lässt).</p>
+<p>Der Titel des Buches kommt von einem Zitat von Lester Bangs – eine Variante davon kam auch schon in “Almost Famous” vor –, der auch im Buch als eine Art Mentorfigur für Crowe vorkommt. Der Kontext des Zitats ist interessant:</p>
+<blockquote>
+<p>“You made friends with them,” said Lester Bangs. He sighed loudly and coughed. “That was your mistake. They make you feel cool, and I met you. You are not cool.” He pronounced it with playground derision—<em>kewl</em>. He chalked it all up to the pursuit of idol worship, and he thought that I just might have saved my own life by blowing the story. Getting in bed with the corporate pursuits of Rolling Stone was one of the first mistakes we’d both made, he said. Again, he used the word we, which he had to know was a gift I didn’t deserve. I wasn’t in his league, or his universe, and it was clearly an epic belly flop. He considered it a badge of honor. He left me with a battle cry and a laugh in the middle of the night. “We’re from fucking San Diego,” he said. &quot;We’re uncool!”</p>
+</blockquote>
+<p>Ich finde es faszinierend, dass Crowe sich Bangs’ Einordnung so zu eigen macht.<sup id="fnref:2"><a href="#fn:2">2</a></sup> Denn den Ratschlag, der damit einhergeht – dass man sich als Journalist und Kritiker nicht mit den Künstlern anfreunden sollte, über die man schreibt – ignoriert Crowe ja konsequent. Ja, von coolen Rockstars als cool angesehen zu werden, scheint eine wesentliche Motivation für Crowes Tätigkeit als Musikjournalist gewesen zu sein. Was in gewisser Weise das genaue Gegenteil von Banks’ Ansatz ist: Banks begegnete Interviewpartner – auch und gerade denen, die er verehrte – oft demonstrativ antagonistisch. “A hero is a goddamn stupid thing to have in the first place and a general block to anything you might want to accomplish on your own.”, <a href="https://www.creem.com/archive/article/2023/12/01/let-us-now-praise-famous-death-dwarves">schreibt er in einem berühmt-berüchtigten Profil von Lou Reed</a>. Vom “Rolling Stone” feuerte Wenner ihn nach einer spöttischen Kritik für eine Platte von Canned Heat. Crowe derweil erzählt in “The Uncool”, dass er Joni Mitchell den Entwurf seines Profils lesen lies, bevor er ihn einreichte – sein Bedürfnis, seinen Interviewpartnern zu gefallen, ist so groß, dass er dafür journalistische Standards aufgibt.</p>
+<p>Die Crowes der Welt, deswegen reite ich so auf diesen Unterschieden herum, haben gewonnen: Musikjournalismus – was davon übrig ist – besteht weitestgehend aus der Sorte Hofberichterstattung, die Crowe praktiziert hat. Dass irgendeine Publikation heute noch einen Lester Bangs anstellen würde, kann man sich kaum vorstellen. Es wäre interessant zu erfahren, wie Crowe darüber denkt, ob er es für einen Verlust hält, ob er glaubt, dass die gefälligere Art von Musikjournalismus, die er selbst praktiziert hat, einen Anteil daran hatte, Stimmen wie Banks zu verdrängen.</p>
+<p>Aber “The Uncool” ist nicht diese Art Buch. Crowes Blick ist konsequent auf die Vergangenheit gerichtet, konsequent nostalgisch-verklärend. Wessen Begeisterung für “Almost Famous” bis heute ungebrochen ist, der wird sicher seinen Spaß daran haben. Ich aber finde Crowes Beharren auf seinem angeblichen Underdog-Status, obwohl er allem Anschein nach eher den Weg des geringsten Widerstands gegangen ist und unbestreitbar extrem erfolgreich ist, so langsam ein Bisschen peinlich – man kann sich nicht glaubhaft als “uncool” stilisieren in einem Buch, auf dessen Cover ein Blurb von Stevie Nicks steht. “The Uncool” offenbart Cameron Crowe letztlich vor allem als einen weiteren Vertreter des Figurentyps, den <a href="https://theoutline.com/post/8484/sore-winners-decade">B.D. McClay Ende der letzten Dekade als einen der dominierenden in unserer aktuellen Popkultur ausgemacht hat</a>: ein <em>sore winner</em>, ein schlechter Gewinner.</p>
+<ol>
+<li>Seine Zeit als Regisseur kommt nicht vor, vielleicht erwartet uns also noch ein Sequel.</li>
+<li>Crowes Website ist auch schon seit Jahren unter der Domain <a href="http://theuncool.com">theuncool.com</a> zu finden.</li>
+</ol>
+</div>  
+---
+<p><a href="https://letterbird.co/smoitzheim?subject=Re%3A%20Cameron%20Crowes%20%E2%80%9CThe%20Uncool%E2%80%9D%3A%20Erinnerungen%20eines%20schlechten%20Gewinners">Per E-Mail antworten</a></p>
+<p><a href="https://smoitzheim.online/posts/cameron-crowes-the-uncool-erinnerungen-eines-schlechten-gewinners">https://smoitzheim.online/posts/cameron-crowes-the-uncool-erinnerungen-eines-schlechten-gewinners</a></p>
+
 </div>
-</div>
-<div class="container">
-<div class="row d-flex justify-content-center">
-<div class="col-11 col-lg-10 col-xl-6">
-<div class="row border-bottom">
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="cameron-crowes-the-uncool-erinnerungen-eines-schlechten-gewinners"><a class="text-decoration-none" href="/blog/cameron-crowes-the-uncool-erinnerungen-eines-schlechten-gewinners_2026-01-17/">Cameron Crowes “The Uncool”: Erinnerungen eines schlechten Gewinners</a></h2></div>
-<time datetime="2026-01-17">17 January 2026</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="vom-zauber-des-ohne-grund-scheissefindens"><a class="text-decoration-none" href="/blog/vom-zauber-des-ohne-grund-scheissefindens_2026-01-16/">Vom Zauber des Ohne-Grund-Scheißefindens</a></h2></div>
-<time datetime="2026-01-16">16 January 2026</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="podcast-eine-wuerdigung-von-rob-reiner-the-secret-agent-megadoc-wicked"><a class="text-decoration-none" href="/blog/podcast-eine-wuerdigung-von-rob-reiner-the-secret-agent-megadoc-wicked_2025-12-30/">Podcast: Eine Würdigung von Rob Reiner (+ “The Secret Agent”, “Megadoc”, “Wicked”)</a></h2></div>
-<time datetime="2025-12-30">30 December 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="podcast-das-verborgene-potenzial-von-cgi-wake-up-dead-man-a-knives-out-mystery"><a class="text-decoration-none" href="/blog/podcast-das-verborgene-potenzial-von-cgi-wake-up-dead-man-a-knives-out-mystery_2025-12-12/">Podcast: Das verborgene Potenzial von CGI (+ Wake Up Dead Man: A Knives Out Mystery)</a></h2></div>
-<time datetime="2025-12-12">12 December 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="podcast-warum-langeweile-im-film-auch-ihr-gutes-hat"><a class="text-decoration-none" href="/blog/podcast-warum-langeweile-im-film-auch-ihr-gutes-hat_2025-11-29/">Podcast: Warum Langeweile im Film auch ihr gutes hat</a></h2></div>
-<time datetime="2025-11-29">29 November 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="podcast-was-sind-die-filmischsten-berufe"><a class="text-decoration-none" href="/blog/podcast-was-sind-die-filmischsten-berufe_2025-11-03/">Podcast: Was sind die “filmischsten” Berufe?</a></h2></div>
-<time datetime="2025-11-03">03 November 2025</time>
-</article>
-</div>
-</div>
+
 </div>
 </div>
 </heading-anchor></main>
-<div class="container d-flex justify-content-between">
-<div class="col border-top text-end py-vh-3 d-flex align-items-center justify-content-end">
-<a class="me-2 display-6" href="/archive/page-2/">Next <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
-</svg></a>
+<div class="container">
+<div class="row">
+<div class="col border-top border-end py-vh-3 col-lg-6 col-xl-6 col-12 align-items-center">  
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+<path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"></path></svg><a class="ms-2 display-6" href="/blog/vom-zauber-des-ohne-grund-scheissefindens_2026-01-16/">Vom Zauber des Ohne-Grund-Scheißefindens</a></div>
+<div class="col border-top text-end py-vh-3 col-lg-6 col-xl-6 ol-12 align-items-center justify-content-end">
+</div>
 </div>
 </div>
 
