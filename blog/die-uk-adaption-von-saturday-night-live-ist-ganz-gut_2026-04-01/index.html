@@ -3,15 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Archiv</title>
-<meta content="Archiv" property="og:title">
-<meta content="Archiv" name="twitter:title">
-<meta content="Archiv" name="title">
-<meta content="Archiv" property="og:site_name">
-<meta content="Update from my blog posts" name="description">
-<meta content="Update from my blog posts" property="facebook:description">
-<meta content="Update from my blog posts" property="og:description">
-<meta content="Update from my blog posts" name="twitter:description">
+<title>Die UK-Adaption von “Saturday Night Live” ist…ganz gut?</title>
+<meta content="Die UK-Adaption von “Saturday Night Live” ist…ganz gut?" property="og:title">
+<meta content="Die UK-Adaption von “Saturday Night Live” ist…ganz gut?" name="twitter:title">
+<meta content="Die UK-Adaption von “Saturday Night Live” ist…ganz gut?" name="title">
+<meta content="Die UK-Adaption von “Saturday Night Live” ist…ganz gut?" property="og:site_name">
+<meta content="" name="description">
+<meta content="" property="facebook:description">
+<meta content="" property="og:description">
+<meta content="" name="twitter:description">
 <meta property="twitter:card" content="summary_large_image">
 <meta content="" name="twitter:image">
 <meta content="" name="facebook:image">
@@ -28,15 +28,183 @@
 <meta content="" property="twitter:author">
 <meta content="" name="twitter:site">
 <meta property="og:type" content="website">
-<link rel="canonical" href="https://smoitzheim.github.io/archive/page-2/">
+<link rel="canonical" href="https://smoitzheim.github.io/blog/die-uk-adaption-von-saturday-night-live-ist-ganz-gut_2026-04-01/">
 <link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Sebastian Moitzheim&#39;s Weblog">
 <meta name="language" content="de">
 <meta name="locale" content="de_DE">
 <meta property="og:locale" content="de_DE">
 <meta name="generator" content="Eleventy v3.0.0"> 
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","description":"","headline":"Sebastian Moitzheim&#39;s Weblog - ","name":"Sebastian Moitzheim&#39;s Weblog","url":"https://smoitzheim.github.io/archive/page-2/"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","description":"","headline":"Sebastian Moitzheim&#39;s Weblog - ","name":"Sebastian Moitzheim&#39;s Weblog","url":"https://smoitzheim.github.io/blog/die-uk-adaption-von-saturday-night-live-ist-ganz-gut_2026-04-01/"}</script>
 <link rel="manifest" href="/manifest.json" crossorigin="use-credentials">
-<style>/*!
+<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+/*!
    * Bootstrap  v5.2.0 (https://getbootstrap.com/)
    * Copyright 2011-2022 The Bootstrap Authors
    * Copyright 2011-2022 Twitter, Inc.
@@ -60,59 +228,62 @@
 </div>
 </nav>
 
-<main><heading-anchor>
-<div class="w-100 overflow-hidden position-relative" id="top">
-<div class="container py-vh-5">
+
+<style>h1,h2,h3,h4,h5{font-family:Sentient,'New York',Georgia,serif!important}body,html{font-family:Sentient,'New York',Georgia,serif!important}.mt-3{margin-top:30px}</style>
+
+<main class="container py-vh-3"><heading-anchor>
 <div class="row d-flex justify-content-center text-center">
-<div class="col-12 col-lg-10">
-<h1 class="display-huge mb-3" id="archiv">Archiv</h1>
+<div class="col-12 col-lg-10 col-xl-6">
+<small class="text-muted">By <a href="https://smoitzheim.omg.lol">Sebastian Moitzheim</a> On <time datetime="2026-04-01">01 April 2026</time></small>
+<h1 class="display-huge" style="margin-top:.2em" id="die-uk-adaption-von-saturday-night-live-ist-ganz-gut">Die UK-Adaption von “Saturday Night Live” ist…ganz gut?</h1>
+<p class="lead pt-2 py-vh-2"></p>
+<small class="text-muted">
+</small>
+</div>
+<div class="row">
+<div class="col-12">
+
 </div>
 </div>
+<div class="row d-flex justify-content-center text-start">
+<div class="col-12 col-lg-10 col-xl-6 py-vh-2">
+
+<div class="trix-content">Hätte man mich vorher gefragt, ich hätte nicht gesagt, dass eine britische Adaption von “Saturday Night Live” eine gute Idee wäre. Gar nichtmal so sehr wegen meiner [Kritik an Lorne Michaels und wie er die US-Version führt](https://smoitzheim.online/posts/woruber-the-lonely-island-und-seth-meyers-in-ihrem-podcast-reden-und-woruber-nicht), sondern weil das Konzept “Saturday Night Live” eigentlich schon immer eine Scheißidee war und es wild ist, dass das *einmal* funktioniert hat. Es gibt – heute noch weniger als 1979 – eigentlich kein gutes Argument dafür, dass eine Sketch-Show live übertragen werden, geschweige denn dass sie so *lang* sein sollte. So kann die Show zeitnah auf aktuelle politische Entwicklungen reagieren, mag man einwerfen, aber das politische Material ist konstant das schwächste der Show und in einer Zeit von “Last Week Tonight” braucht doch wirklich niemand mehr die zahnlose Middle-of-the-Road-Satire von “SNL”. Ganz abgesehen davon, dass was Ende der 70er “zeitnah” war heute eher ein gemächliches Tempo ist – wenn “SNL” sich einem politischen Ereignis annimmt, sind oft schon alle erdenklichen Witze auf Bluesky gemacht worden. Und auf der anderen Seite sind viele der besten “SNL”-Sketche besonders dieses Jahrtausends eben keine Live-Sketche, sondern vorproduzierte Videos, die so auch in konventionelleren Sketch-Shows laufen könnten – von The Lonely Island über Julio Torres’ beste Sketche (wie den modernen Klassiker [“Papyrus”](https://www.youtube.com/watch?v=jVhlJNJopOQ)) bis zu Please Don’t Destroy. Auch die epische Länge macht heute, wo Comedy-Shows in erster Linie als Clips auf YouTube und TikTok konsumiert werden, noch weniger Sinn als zu Beginn der Show.
+<p>Als dann allerdings nach und nach der Cast und Autorenstab bekannt wurden, man musste zähneknirschend zugeben, dass da so manche kluge Entscheidung getroffen wurde. Der Cast ist ein guter Mix aus im britischen Fernsehen etablierten komischen Schauspielern wie Emma Sidi, Shooting-Stars wie Ania Magliano, und Wildcards wie TikTok-Comedian Al Nash. Der Autorenstab ist ähnlich gut durchmischt, von etablierten Fernseh- und Radioautoren bis zu Standup-Newcomern und TikTokern.<sup id="fnref:1"><a href="#fn:1">1</a></sup> Die Auswahl war stark genug, dass man als Comedy-Fan zumindest <em>mal reingucken musste</em>, und sei es nur, um aus Überzeugung sagen zu können, dass diese Comedians besseres verdient hätten.</p>
+<p>Aber ganz ehrlich? Der Einstand von “SNL UK” läuft ziemlich okay. Nicht alles funktioniert, aber die ersten beiden Folgen hatten eine ähnliche Hitrate wie die US-Version, und es gab ein paar Standout-Sketche.</p>
+<p>Zugegeben: Es fing nicht gerade stark an. Ich bin kein Fan des Vorspanns und des Sets, die versuchen, London wie New York aussehen zu lassen. Der obligatorische politische Opener der ersten Folge ist so zahnlos wie die US-Pendants – der Take ist im Grunde “Keir Starmer ist ein Feigling, der zu allem bereit ist außer dazu, eine starke Meinung zu irgendwas zu formulieren” und ja, okay, stimmt schon, aber ist halt wirklich der allerkleinste gemeinsame Nenner. Der Monolog von Gast-Host Tina Fey ist einer aus dem Genre “Q&amp;A mit random Celebrities, die ~zufällig~ im Publikum sitzen”, ein Format, das schon nicht mehr bewährt, sondern verbraucht ist, ein transparenter Versuch, dem Publikum “Wooooos” abzuringen, wenn schon keine Lacher drin sind. Man musste sich hier die Frage stellen: Für wen genau ist das hier – für ein UK-Publikum, oder für amerikanische “SNL”-Fans, die später Clips auf YouTube gucken? Der Monolog hat so ein Wir-erklären-UK-Motiv (“Wow, wir dürfen hier ‘fuck’ sagen!”), das ich, wäre ich ein britischer Zuschauer, wohl einigermaßen herablassend fände.</p>
+<p>Fey selbst ist auch so eine Sache – als erster Host ist sie gleichzeitig eine gute und schlechte Wahl. Gut, weil kaum jemand (oder zumindest kaum jemand unter 80) so sehr für “SNL at its best” steht wie Fey – wer irgendwann mal Fan der Show war und noch nicht der werberelevanten Zielgruppe entwachsen ist, ist mit hoher Wahrscheinlichkeit Fan von Tina Fey. Schlecht, weil, nun, Tina Fey US-Amerikanerin ist, was die im Monolog selbst formulierte Frage aufwirft, ob Großbritannien keine eigenen Celebrities von passendem Format hat.</p>
+<p>Auf den Monolog folgt dann allerdings das erste Highlight und vielleicht der stärkste Sketch der ersten Show: ein vorproduzierter <a href="https://www.youtube.com/watch?v=nRMgVgdQQbc">Werbespot für “Underagé”</a>, “the anti-aging creme that works so well, everyone will think your husband is a nonce”. Die Prämisse ist großartig, die Umsetzung ist understated und auf den Punkt – man kann sich eine weniger witzige Version vorstellen, in der die Frauen im Sketch tatsächlich “jung geschminkt” werden und die Männer als bewusste Creeps geschrieben sind. Der Sketch ist das erste starke Argument für die Existenz der UK-Version, denn irgendwie kann man ihn sich, obwohl er universell lustig ist, so nicht in der US-Version vorstellen, und nicht nur wegen dem sehr britischen Wort “nonce”.</p>
+<p>Der Rest der Folge hat unbestreitbare Tiefpunkte: Der Sketch über “David Attenborough’s Last Supper” dient transparent nur dazu, möglichst viele Cast-Mitglieder gleichzeitig vorzustellen, seine Prämisse (Attenborough hat legendäre historische Briten geklont, um sie zu fragen, was Großbritannien “great” macht, aber die interessieren sich nur dafür, was es zu essen gibt) ist dünn und niemand hat so richtig Raum, sein Können als <em>impressionist</em> oder Charakter-Comedian zu beweisen; der Sketch über ein Baby, das sich als zukünftiger “nightmare” herausstellt, ist, man muss es so sagen, <em>cringe</em>.</p>
+<p>Aber es gibt eben auch Highlights. Der <a href="https://www.youtube.com/watch?v=YQYtnkvMtL4">vorproduzierte Sketch “The Budger”</a> etwa, auch wenn er vielleicht nicht <em>alles</em> rausholt aus seiner starken Prämisse – eine Behind-the-Scenes-Doku über die Menschen, die daran arbeiten, das Internet so unbenutzbar wie möglich zu machen. Oder der über die “The Live Paddington Bear Experience” (in der Paddington von einem echten Bären gespielt wird), der vor allem mit grandios-ekligem Makeup glänzt. Besonders positiv stimmte das Debüt der UK-Version von “Weekend Update”: Ania Magliano und Paddy Young sind ein wunderbar eigenartiges Duo und nutzen gekonnt die Gelegenheit, die “Weekend Update” bietet, mit den Reaktionen des Publikums zu spielen. Die Witze sind auf ihre jeweilige Persona zugeschnitten und balancieren politische Gags (die hier zumindest ein <em>Bisschen</em> fieser sein dürfen als im Cold-Open) mit verspielteren wie einem albernen <a href="https://www.youtube.com/watch?v=3GfaNehE_ts">Prop-Comedy-Bit von Young zu Lieferengpässen der Heliumindustrie</a>.</p>
+<p>Die Premiere war also ermutigend, doch es blieben offene Fragen und Anlässe für Bedenken: Da war die Frage, wer hier die primäre Zielgruppe ist – Fans der US-Show oder ein UK-Publikum? Auch war auffällig, wie viel stärker die vorproduzierten Sketche waren im Vergleich zu den Live-Sketchen. Und natürlich blieb abzuwarten, wie Cast und Autoren sich schlagen würden, wenn sie statt mit Tina Fey mit einem weniger sketch- und SNL-erprobten Host arbeiten müssten.</p>
+<p>Die zweite Folge scheint die meisten Fragen einigermaßen befriedigend zu beantworten und behält gleichzeitig die Stärken der ersten. Auch wenn, natürlich, noch immer <em>längst</em> nicht alle Sketche funktionieren.</p>
+<p>Der Cold-Open ist wieder ein politischer Sketch, wieder eher zahnlos, aber gefällt mir trotzdem deutlich besser als der erste, einfach weil er so <em>britisch</em> ist, mit spezifischen Referenzen an Prince Andrews und Duchess Fergies lange Geschichte öffentlicher Peinlichkeiten. Das zieht sich durch die ganze Folge: Viele Sketche sind geradezu demonstrativ britisch, und das ist erfrischend, nachdem die erste Folge sich teils an ein amerikanisches Publikum anzubiedern schien. Tatsächlich scheint die Show besser zu werden, je weniger sie sich dafür interessiert, ein Publikum außerhalb Großbritanniens abzuholen: Ein Song über Briten, die in Spanien Urlaub machen und ihre ganze Zeit im <a href="https://www.youtube.com/watch?v=rY15PLImY3E&amp;list=RDrY15PLImY3E&amp;start_radio=1">“British Themed Pub”</a> verbringen, ist auch ohne Kenntnis britischer Kultur verständlich, und ist insgesamt so “ganz nett” – die Prämisse ist etwas verbraucht, aber der Song ist catchy und der Spaß, den der gesamte Cast und Host Jamie Dornan haben, ist spürbar. Ein <a href="https://www.youtube.com/watch?v=O15l_VAlPZk&amp;t=1s">anderer Sketch</a> allerdings hat die grandios-idiotische Prämisse “wenn ihr die Uhren nicht rechtzeitig umstellt, kommt <a href="https://en.wikipedia.org/wiki/Jools_Holland">Jools Holland</a> und stiehlt eure Seele”, und das versteht man wirklich nur, wenn man genügend britisches Fernsehen geguckt hat (und selbst dann nicht <em>ganz</em>).</p>
+<p>Dornans Monolog ist ein Schritt in die richtige Richtung nach Feys, er fühlt sich, mit seinem Verweis an Dornans offenbar echtes Hobby, Steine zu sammeln, die wie Kartoffeln aussehen, immerhin persönlicher an. So richtig lustig ist er aber auch nicht. Später in der Show gibt es außerdem eine Musical-Nummer über die Mitarbeiter einer Wrap-Fabrik (?), die nicht so richtig irgendwo hinführt, sie wirkt wie ein nicht ganz durchdachter Versuch, der <em>Viralität</em> von John Mulaneys Musicalnummern in der US-Version nachzuhecheln.</p>
+<p>Aber davon abgesehen finde ich die ganze Folge zu unterschiedlichem Grade “gelungen”. Einige Sketche, etwa der, in dem <a href="https://www.youtube.com/watch?v=dxi43l70vyE">Dornan einen Geiselnehmer spielt</a>, der seine Geisel über ihre Situationship berät, lösen eher leises Schmunzeln als schreiendes Gelächter aus, aber hey, immerhin. “Weekend Update” bleibt stark, auch wenn ich Witze über Gefängnisvergewaltigung weniger lustig finde als offenbar die Autoren. Und die Folge endet mit zwei der bisher stärksten Sketche der UK-Version, die an die lange Tradition der US-Version anknüpfen, die letzten Slots der Show mit den absurdesten, albernsten, oft aber auch besten Sketchen zu besetzen. Es bleibt weiterhin auffällig, wie viel stärker im Schnitt die vorproduzierten Sketche sind, aber zumindest wirken die Live-Sketche diesmal weniger unter Waffengewalt produziert, der Cast ist spürbar lockerer und hat mehr Spaß, und das ist schon einiges wert.</p>
+<p>Und was ist jetzt mit dem antiquierten Format der Show? Ganz ehrlich, ich bin mir noch nicht ganz sicher, ob ich es sehr dumm oder irgendwie bewundernswert oder beides finde, dass die UK-Adaption das Format aus den 70ern unverändert übernimmt. Vielleicht, wahrscheinlich, ist es eine verpasste Chance auf Erneuerung, Änderungen am Format auszuprobieren, die man vielleicht später auch in die US-Version hätte übernehmen können.<sup id="fnref:2"><a href="#fn:2">2</a></sup> Aber ich hab jetzt zum ersten Mal seit längerem mal wieder ganze Folgen von “SNL” geguckt anstatt, wie mittlerweile wohl die meisten Zuschauer, die Show nur über Clips auf YouTube zu konsumieren, und so altbacken das Format wirkt: Es tut den Sketchen unbestreitbar gut, sie in diesem Kontext zu erleben, man verzeiht einen holprigen Live-Sketch eher, wenn man sich bewusst ist, wie viel Show die Autoren hier füllen mussten.</p>
+<p>Das Ding ist halt: Was auch immer man von “SNL” hält, es ist mittlerweile fast die einzige Option, die wir noch haben. Sketch-Comedy im Fernsehen – im britischen wie im amerikanischen – ist ansonsten nahezu ausgestorben. “SNL UK” bietet talentierten Sketch-Comedians wie Young und Nash, die bisher nahezu ohne Budget auf YouTube oder TikTok gearbeitet haben, eine Chance, die seltener und seltener wird. Allein deshalb wünsche ich der Show Erfolg und freue mich, dass sie so vielversprechend gestartet ist.</p>
+<ol>
+<li>Als regelmäßiger Zuschauer des Brettspiel-YouTube-Kanals <a href="https://www.youtube.com/@NoRollsBarred">“No Rolls Barred”</a> freue mich besonders für <a href="https://www.instagram.com/instalorns/">Lorna Rose Treen</a>.</li>
+<li>Man wünscht sich besonders, dass die Produzenten etwas am Opening – Cold-Open, Vorspann, Monolog – getan hätten. Ich versteh <em>theoretisch</em> schon die Weisheit dahinter, den politischen Content an den Anfang zu stellen, aber ich weiß nicht, wie gut es der Show tut, zuverlässig fast jede Folge mit den schwächsten Momenten anzufangen.</li>
+</ol>
+</div>  
+---
+<p><a href="https://letterbird.co/smoitzheim?subject=Re%3A%20Die%20UK-Adaption%20von%20%E2%80%9CSaturday%20Night%20Live%E2%80%9D%20ist%E2%80%A6ganz%20gut%3F">Per E-Mail antworten</a></p>
+<p><a href="https://smoitzheim.online/posts/die-uk-adaption-von-saturday-night-live-istganz-gut">https://smoitzheim.online/posts/die-uk-adaption-von-saturday-night-live-istganz-gut</a></p>
+
 </div>
-</div>
-<div class="container">
-<div class="row d-flex justify-content-center">
-<div class="col-11 col-lg-10 col-xl-6">
-<div class="row border-bottom">
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="so-i-matched-with-this-girl-on-hinge"><a class="text-decoration-none" href="/blog/so-i-matched-with-this-girl-on-hinge_2026-02-09/">so i matched with this girl on hinge...</a></h2></div>
-<time datetime="2026-02-09">09 February 2026</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="dos-and-don-ts-for-job-interviews"><a class="text-decoration-none" href="/blog/dos-don-ts-for-job-interviews_2026-02-03/">Dos &amp; Don’ts for job interviews</a></h2></div>
-<time datetime="2026-02-03">03 February 2026</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="cameron-crowes-the-uncool-erinnerungen-eines-schlechten-gewinners"><a class="text-decoration-none" href="/blog/cameron-crowes-the-uncool-erinnerungen-eines-schlechten-gewinners_2026-01-17/">Cameron Crowes “The Uncool”: Erinnerungen eines schlechten Gewinners</a></h2></div>
-<time datetime="2026-01-17">17 January 2026</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="vom-zauber-des-ohne-grund-scheissefindens"><a class="text-decoration-none" href="/blog/vom-zauber-des-ohne-grund-scheissefindens_2026-01-16/">Vom Zauber des Ohne-Grund-Scheißefindens</a></h2></div>
-<time datetime="2026-01-16">16 January 2026</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="podcast-eine-wuerdigung-von-rob-reiner-the-secret-agent-megadoc-wicked"><a class="text-decoration-none" href="/blog/podcast-eine-wuerdigung-von-rob-reiner-the-secret-agent-megadoc-wicked_2025-12-30/">Podcast: Eine Würdigung von Rob Reiner (+ “The Secret Agent”, “Megadoc”, “Wicked”)</a></h2></div>
-<time datetime="2025-12-30">30 December 2025</time>
-</article>
-<article class="col-12 border-top px-0 py-4 d-flex justify-content-between align-items-center">
-<div class="list-left"><h2 class="h4 lh-1 mb-0" id="podcast-das-verborgene-potenzial-von-cgi-wake-up-dead-man-a-knives-out-mystery"><a class="text-decoration-none" href="/blog/podcast-das-verborgene-potenzial-von-cgi-wake-up-dead-man-a-knives-out-mystery_2025-12-12/">Podcast: Das verborgene Potenzial von CGI (+ Wake Up Dead Man: A Knives Out Mystery)</a></h2></div>
-<time datetime="2025-12-12">12 December 2025</time>
-</article>
-</div>
-</div>
+
 </div>
 </div>
 </heading-anchor></main>
-<div class="container d-flex justify-content-between">
-<div class="col border-top border-end py-vh-3 d-flex align-items-center">
-<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
-<path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"></path></svg>
-<a class="ms-2 display-6" href="/archive/"> Previous</a>
+<div class="container">
+<div class="row">
+<div class="col border-top border-end py-vh-3 col-lg-6 col-xl-6 col-12 align-items-center">  
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+<path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"></path></svg><a class="ms-2 display-6" href="/blog/an-apology_2026-03-18/">an apology</a></div>
+<div class="col border-top text-end py-vh-3 col-lg-6 col-xl-6 ol-12 align-items-center justify-content-end">
 </div>
-<div class="col border-top text-end py-vh-3 d-flex align-items-center justify-content-end">
-<a class="me-2 display-6" href="/archive/page-3/">Next <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
-</svg></a>
 </div>
 </div>
 
