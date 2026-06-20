@@ -1,0 +1,21 @@
+---
+title: "R.I.P. James Burrows, der wichtigste Regisseur, den keiner kennt"
+---
+
+<div class="trix-content">[James Burrows ist tot](https://www.bbc.com/news/articles/ce8k07x523eo), und ich glaube, dass die meisten auf diese Nachricht reagieren werden mit: “Wer?”
+
+Burrows war der wichtigste Regisseur der letzten 50 Jahre, von dem kaum jemand je gehört hat. Weil Burrows vornehmlich in einem Medium und Genre gearbeitet hat, das wir selten als “Regiemedium” betrachten und generell wenig ernstnehmen: der Multi-Camera-Sitcom. Ja, die mit der sogenannten “Lachspur” (die in Wahrheit meistens ein live anwesendes Studiopublikum ist), bühnenhaften Sets, überzeichneten Figuren und sentimentalen Geschichten. In diesem Genre allerdings hatte Burrows bei fast allem seine Hand im Spiel, das in den letzten 50+ Jahren irgendwie relevant war. Um nur einige der Serien zu nennen, von denen er mindestens ein paar Folgen inszeniert hat: “The Mary Tyler Moore Show”, “The Bob Newhart Show”, “Laverne &amp; Shirley”, “Taxi”, “Frasier”, “Friends”, “Will &amp; Grace”, “The Big Bang Theory”, “Two Broke Girls”.
+
+Was solche Serien von einem Regisseur verlangen, ist vor allem präzises Gespür für komisches Timing, das Einstimmen des Ensembles auf einen gemeinsamen Rhythmus. Und natürlich die Arbeit mit dem anwesenden Publikum: Man muss das Stilmittel der hörbaren Lacher gezielt einsetzen und gleichzeitig das Live-Feedback des Publikums aufnehmen, bereit sein, spontane Änderungen vorzunehmen, zu improvisieren. Burrows war brilliant in all dem – seine vor ein paar Jahren erschienene Autobiographie “Directed by James Burrows” ist daher Pflichtlektüre für jeden, der Interesse daran hat, ein Publikum – ob vor der Bühne oder dem Fernseher – zum Lachen zu bringen.
+
+Burrows war aber auch ein visuell ambitionierter Regisseur. *Wenn* man seinen Namen kennt, dann wahrscheinlich vor allem als Miterfinder der legendären Kneipensitcom “Cheers”. Den “created by”-Credit erhielt er meines Wissens aber nicht in erster Linie, weil er viel mit der Grundidee der Serie zu tun gehabt hätte, sondern weil seine visuelle Gestaltung von Anfang an Teil des Serienkonzepts war. Das ist recht einzigartig in der Geschichte der Multi-Camera-Sitcom: dass ein Regisseur als Miterfinder aufgeführt und so maßgeblich in die Vorproduktion eingebunden wird. Die Sets von “Cheers” wurden nach Burrows’ Anweisungen gebaut, mit der Vorgabe, dass er seine Kameras auch innerhalb der Sets bewegen konnte, was Einstellungen zuließ, die in vielen Multi-Camera-Sitcoms unmöglich wären. Er bestand darauf, auf Film aufzuzeichnen anstatt, wie damals für Sitcoms üblich, auf Video, und er inszenierte die Serie – 243 von 270 Episoden entstanden unter seiner Regie – mit viel Dynamik, hielt seine Schauspieler und die Kamera in Bewegung. “Cheers” ist so bis heute eine der bestaussehenden Multi-Camera-Sitcoms, mehr als die meisten anderen Sitcom-Sets wirkt die titelgebende Bar wie ein realer, greifbarer Ort.
+
+In Lisa Kudrows kriminell unterschätzter Meta-Comedy-Serie “The Comeback” spielte Burrows sich selbst, als Regisseur der fiktiven Sitcom, mit der Kudrows Valerie Cherish ihr Comeback versucht. Das unterstreicht Burrows Einfluss: Wer eine glaubhafte Geschichte über das Fernsehen, insbesondere die Geschichte der Multi-Camera-Sitcom erzählen will, muss Burrows heranholen. In seiner beispiellosen Karriere inszenierte Burrows mehr als 1000 Sitcom-Episoden, mehr als 50 Pilotfolgen, teils für Konzepte, die nie in Serie gingen, teils eben für Serien, die zu Klassikern wurden. Wer kein Sitcom-Nerd wie ich ist, hat wohl nie von James Burrows gehört – aber so ziemlich jeder, der in den letzten 50 Jahren den Fernseher angemacht hat, ist seinem Werk schonmal begegnet.
+
+</div>  
+---
+
+  
+[Per E-Mail antworten](https://letterbird.co/smoitzheim?subject=Re%3A%20R.I.P.%20James%20Burrows%2C%20der%20wichtigste%20Regisseur%2C%20den%20keiner%20kennt)
+
+https://smoitzheim.online/posts/rip-james-burrows-der-wichtigste-regisseur-den-keiner-kennt
