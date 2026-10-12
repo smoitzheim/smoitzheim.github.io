@@ -1,0 +1,21 @@
+---
+title: "Ich hasse es, dass Pop-Alben mittlerweile “DLCs” haben"
+---
+
+<div class="trix-content">Ich bin ja [erklärter Fan von Carly Rae Jepsen](https://smoitzheim.online/tag/carly-rae-jepsen), und habe grundsätzlich einiges übrig für ihren Hang zum Maximalismus, dazu, alles immer ein bisschen zu intensiv zu fühlen, immer ein bisschen zu viel zu sagen, den sie in zig Songs besungen hat, am expliziten natürlich [“Too Much” vom 2019er “Dedicated”](https://www.youtube.com/watch?v=rJw32FXV97A&list=RDrJw32FXV97A&start_radio=1). Dazu gehörte immer auch, dass Carly für jedes neue Album *viel* zu viele Songs schrieb, sodass es von einer willkommenen Überraschung zu einer liebgewonnenen Tradition wurde, dass auf jedes Album eine B-Seiten-Sammlung folgte, zuerst in Form einer EP (“Emotion – Side B”), bald in Form eines ganzen Albums (“Dedicated – Side B” und der Nachfolger zu “The Loneliest Time” unter dem Titel “The Loveliest Time”).
+
+Diese Nachträge erschienen allerdings bislang immer ein Jahr oder länger nach dem “Hauptalbum”, und ohne dessen Promo-Offensive. Sie fühlten sich entsprechend an wie ein Dankeschön an diejenigen, die im vergangenen Jahr das Hauptwerk gehört und gegebenenfalls auf Tour gefeiert hatten, sie waren bewusst als weniger “essenziell” positioniert, als optionales Angebot für die wirklich begeisterten Fans.
+
+Mit ihrem jüngsten Album, “Day and Night”, folgt Carly allerdings einer Strategie, die mehr und mehr zum Standard im Pop*-Geschäft* wird, und die ich einigermaßen anstrengend finde: “Day and Night (Continued)” erschien weniger als einen Monat nach dem ursprünglichen Release und erweiterte das eh schon ausufernde Doppelalbum nochmal um 8 Tracks. Diese 8 Tracks sind gar nicht unbedingt von geringerer Qualität als die des Ursprungsreleases, aber aufgrund der Releasestrategie haben sie trotzdem vor allem einen verwässernden Effekt, der das Album ein bisschen beliebiger, ein bisschen liebloser zusammengestellt erscheinen lässt.
+
+Man muss hier nicht lange drum herum reden, wir wissen alle, woher diese Strategie kommt: [Taylor Swift](https://smoitzheim.online/tag/taylor-swift) ist mittlerweile berüchtigt dafür, zig verschiedene Versionen ihrer Alben zu veröffentlichen, auch, um ihr Album möglichst lange oben in den Charts zu halten, und natürlich gucken andere Künstler sich das ab, es ist ja äußerst erfolgreich. “Day and Night (Continued)” bietet mit seinen 8 neuen Tracks immerhin mehr als die paar schnell zwischen zwei Privatjet-Flügen hingerotzten Akustik-Versionen, die Swift mittlerweile als Rechtfertigung einer neuen Variante reichen. Aber die grundsätzliche Strategie ist doch transparent dieselbe: der Versuch, das Album künstlich länger im Gespräch zu halten.
+
+Als Videospiel-Fan muss man unweigerlich an die DLCs und “Deluxe-Versionen” denken, die längst schamlos schon bei Erscheinen angekündigt werden: Transparent werden hier Inhalte, die für das Hauptspiel geplant waren, zurückgehalten, um nochmal abzukassieren. Genauso fragt man sich bei einem Release wie “Day and Night (Continued)” halt: Warum war das nicht auf dem ursprünglichen Album? Was ist jetzt der “offizielle” Release? Wenn wir – wie die als “Poptimism” bekannte kritische Strömung attestiert, die über die letzten 20 Jahre zur dominanten Position in der Musikkritik wurde – Pop-Alben als künstlerische Statements ernstnehmen sollen, was sagt es uns dann, wenn ein Album nicht mehr als “fertiges”, in sich geschlossenes Werk existieren, sondern bei Bedarf geändert und erweitert werden kann? Als Hörer finde ich es, wie erwähnt, vor allem anstrengend: Ich bin – und sicher macht mich das altmodisch – nach wie vor Anhänger des Konzepts “Album”, finde, dass Popmusik im Albumkontext ihr größtes Potenzial entfaltet, das beste Bild eines Künstlers zu einem gegebenen Zeitpunkt seiner Karriere gibt. Die Praxis, im Voraus “DLCs” zu einem Album-Zyklus zu planen, verwässert und entwertet dieses Konzept, und macht Musik, finde ich, nur beliebiger, austauschbarer, mehr zu einem “Nebenbeimedium” als einem, das intensive Beschäftigung belohnt.
+
+</div>  
+---
+
+  
+[Per E-Mail antworten](https://letterbird.co/smoitzheim?subject=Re%3A%20Ich%20hasse%20es%2C%20dass%20Pop-Alben%20mittlerweile%20%E2%80%9CDLCs%E2%80%9D%20haben)
+
+https://smoitzheim.online/posts/ich-hasse-es-dass-pop-alben-mittlerweile-dlcs-haben
